@@ -1,0 +1,106 @@
+/* Body */
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+
+
+/* Colors */
+
+
+#bg-color--brand {
+    color: #FFB325;
+}
+
+
+.bg-color--navbar {
+    background-color: rgba(0,0,0,0.9);
+}
+
+
+/* Navigation Bar */
+
+
+.navbar--container {
+  position: fixed;
+  padding-right: 0px;
+  padding-left: 0px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+
+.navbar--menu {
+    padding: 0 10px 0 10px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom: 1px solid #FFB325;
+    font-size: 1rem;
+}
+
+
+
+.nav-item  {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+/*  Navbar Brand  */
+
+
+.navbar-brand {
+    font-family: 'Girassol', sans-serif;
+    font-size: 2.2rem;
+    letter-spacing: 4px;
+    margin-right: 0px;
+}
+
+
+/*  Navbar Dropdown Menu  */
+
+
+.dropdown-menu {
+    background-color: #ffc107;
+}
+
+
+.dropdown-toggle::after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    color: #ffc107;
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}
+
+
+.navbar-dark .navbar-nav .active>.nav-link {
+    color: #FFB325;
+}
+
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #F2D750;
+}
+
+
+/* Buttons */
+
+
+.btn-orange {
+    background-color: #FFB325;
+}
+
+.btn:hover {
+    text-decoration: none;
+    background-color: #F2D750;
+}
