@@ -6,7 +6,7 @@ body {
     background-color: black;
 }
 
-h1, h2 {
+h1, h2, h5 {
     font-family: 'Girassol', sans-serif;
 }
 
@@ -139,7 +139,6 @@ h1, h2 {
 
 .jumbotron-container {
     color: white;
-    letter-spacing: 4px;
     border: 1px solid #FFB325;
     margin-bottom: 0px;
     margin-top: 64px;
@@ -205,5 +204,6 @@ h1, h2 {
 
 .card-title {
     letter-spacing: 1.5px;
+    font-size: 1.7rem;
 }
 
