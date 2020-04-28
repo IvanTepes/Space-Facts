@@ -183,3 +183,27 @@ h1, h2 {
     width: 200px;
     border-top: 3px solid #FFB325 ;
 }
+
+/* Planet Section */
+
+.planets {
+    padding-top: 50px;
+}
+
+
+/* Cards */
+
+
+.card {
+    background-color: black;
+    border: none; 
+}
+
+.card-body {
+    color: white;
+}
+
+.card-title {
+    letter-spacing: 1.5px;
+}
+
