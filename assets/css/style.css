@@ -6,6 +6,9 @@ body {
     background-color: black;
 }
 
+h1, h2 {
+    font-family: 'Girassol', sans-serif;
+}
 
 /* Colors */
 
@@ -16,7 +19,7 @@ body {
 
 
 .bg-color--navbar {
-    background-color: rgba(0,0,0,0.9);
+    background-color: rgba(0,0,0,0.5);
 }
 
 .bg-color--jumbotron {
@@ -51,7 +54,11 @@ body {
     padding-left: 10px;
 }
 
+.navbar-nav {
+    margin: auto;
+    padding-right: 60px;
 
+}
 /*  Navbar Brand  */
 
 
@@ -121,17 +128,43 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
 /* Jumbotron */
 
-.jumbotron--container {
+.jumbotron-container {
     color: white;
     letter-spacing: 4px;
     border: 1px solid #FFB325;
+    margin-bottom: 0px;
+    margin-top: 40px;
+}
+.explore {
+    padding-top: 30px;
+}
+
+.fas {
+    color: #FFB325;
+}
+/* Block Dividers */
+
+
+.blok-divider {
+    border-top: 3px solid #FFB325 ;
+}
+
+
+.blok-divider--short {
+    width: 100px;
+    border-top: 3px solid #FFB325 ;
+}
+
+.blok-divider--medium {
+    width: 200px;
+    border-top: 3px solid #FFB325 ;
 }
