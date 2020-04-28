@@ -19,6 +19,10 @@ body {
     background-color: rgba(0,0,0,0.9);
 }
 
+.bg-color--jumbotron {
+    background-color: rgba(0,0,0,0.5);
+}
+
 
 /* Navigation Bar */
 
@@ -42,7 +46,6 @@ body {
 }
 
 
-
 .nav-item  {
     padding-right: 10px;
     padding-left: 10px;
@@ -64,7 +67,7 @@ body {
 
 
 .dropdown-menu {
-    background-color: #ffc107;
+    background-color: #FFB325;
 }
 
 
@@ -75,11 +78,16 @@ body {
     margin-left: .255em;
     vertical-align: .255em;
     content: "";
-    color: #ffc107;
+    color: #FFB325;
     border-top: .3em solid;
     border-right: .3em solid transparent;
     border-bottom: 0;
     border-left: .3em solid transparent;
+}
+
+
+.navbar-toggler:focus {
+    outline-color: #FFB325;
 }
 
 
@@ -103,4 +111,27 @@ body {
 .btn:hover {
     text-decoration: none;
     background-color: #F2D750;
+}
+
+/* Callout */
+
+.callout-container {
+    height: 100vh;
+    background: url("/assets/images/welcome.jpg") no-repeat top fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+/* Jumbotron */
+
+.jumbotron--container {
+    color: white;
+    letter-spacing: 4px;
+    border: 1px solid #FFB325;
 }
