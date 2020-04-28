@@ -142,7 +142,7 @@ h1, h2 {
     letter-spacing: 4px;
     border: 1px solid #FFB325;
     margin-bottom: 0px;
-    margin-top: 40px;
+    margin-top: 64px;
 }
 .explore {
     padding-top: 30px;
@@ -151,6 +151,21 @@ h1, h2 {
 .fas {
     color: #FFB325;
 }
+
+/* Section Headings */
+
+.section-heading--container {
+    margin-top: 0px;
+}
+
+.section-heading {
+    padding-bottom: 0px;
+    padding-top: 50px;
+    letter-spacing: 4px;
+    color: white;
+}
+
+
 /* Block Dividers */
 
 
