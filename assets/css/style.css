@@ -3,12 +3,14 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: black;
+    background-color: #000000;
 }
+
 
 h1, h2, h5 {
     font-family: 'Girassol', sans-serif;
 }
+
 
 /* Colors */
 
@@ -21,6 +23,7 @@ h1, h2, h5 {
 .bg-color--navbar {
     background-color: rgba(0,0,0,0.7);
 }
+
 
 .bg-color--jumbotron {
     background-color: rgba(0,0,0,0.8);
@@ -54,15 +57,18 @@ h1, h2, h5 {
     padding-left: 10px;
 }
 
+
 .navbar-nav {
     margin: auto;
     padding-right: 60px;
 
 }
+
+
 /*  Navbar Brand  */
 
 
-.navbar-brand {
+.navbar--brand {
     font-family: 'Girassol', sans-serif;
     font-size: 2rem;
     letter-spacing: 2px;
@@ -111,18 +117,21 @@ h1, h2, h5 {
 /* Buttons */
 
 
-.btn-orange {
+.btn--orange {
     background-color: #FFB325;
     width: fit-content;
     align-self: center;
 }
+
 
 .btn:hover {
     text-decoration: none;
     background-color: #F2D750;
 }
 
+
 /* Callout */
+
 
 .callout-container {
     height: 100vh;
@@ -137,55 +146,66 @@ h1, h2, h5 {
     position: relative;
 }
 
+
 /* Jumbotron */
 
-.jumbotron-container {
-    color: white;
+
+.jumbotron--container {
+    color: #f8f9fa;
     border: 1px solid #FFB325;
     margin-bottom: 0px;
     margin-top: 100px;
 }
+
+
 .explore {
     padding-top: 30px;
 }
+
 
 .fas {
     color: #FFB325;
 }
 
+
 /* Section Headings */
+
 
 .section-heading--container {
     margin-top: 0px;
 }
 
+
 .section-heading {
     padding-bottom: 0px;
     padding-top: 50px;
     letter-spacing: 4px;
-    color: white;
+    color: #f8f9fa;
 }
 
 
 /* Block Dividers */
 
 
-.blok-divider {
+.blok--divider {
     border-top: 3px solid #FFB325 ;
 }
 
 
-.blok-divider--short {
+.blok--divider--short {
     width: 100px;
     border-top: 3px solid #FFB325 ;
 }
 
-.blok-divider--medium {
+
+.blok--divider--medium {
     width: 200px;
     border-top: 3px solid #FFB325 ;
 }
 
+
 /* Planet Section */
+
 
 .planets {
     padding-top: 50px;
@@ -196,29 +216,33 @@ h1, h2, h5 {
 
 
 .card {
-    background-color: black;
+    background-color: #000000;
     border: none; 
 }
+
 
 .card-body {
     color: #f8f9fa;
 }
+
 
 .card-title {
     letter-spacing: 1.5px;
     font-size: 1.7rem;
 }
 
+
 /* Footer */
 
-.footer-container {
+
+.footer--container {
     color: #f8f9fa;
-    border-top: 1px solid orange;
+    border-top: 1px solid #FFB325;
     margin-top: 50px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
 
 .list-inline-item a {
-    color: orange;
+    color: #FFB325;
 }
