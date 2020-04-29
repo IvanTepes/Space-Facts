@@ -246,3 +246,29 @@ h1, h2, h5 {
 .list-inline-item a {
     color: #FFB325;
 }
+
+
+/* earth.html */
+
+.earth--container {
+    height: 100vh;
+    background: url("/assets/images/planets-background.jpg") no-repeat top fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+/* Carousel */
+
+
+/* .earth--container {
+    margin-top: 80px;
+}
+ */
+
