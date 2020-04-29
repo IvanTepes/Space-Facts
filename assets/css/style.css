@@ -23,7 +23,7 @@ h1, h2, h5 {
 }
 
 .bg-color--jumbotron {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.8);
 }
 
 
@@ -64,8 +64,8 @@ h1, h2, h5 {
 
 .navbar-brand {
     font-family: 'Girassol', sans-serif;
-    font-size: 2.2rem;
-    letter-spacing: 4px;
+    font-size: 2rem;
+    letter-spacing: 2px;
     margin-right: 0px;
 }
 
@@ -113,6 +113,8 @@ h1, h2, h5 {
 
 .btn-orange {
     background-color: #FFB325;
+    width: fit-content;
+    align-self: center;
 }
 
 .btn:hover {
@@ -141,7 +143,7 @@ h1, h2, h5 {
     color: white;
     border: 1px solid #FFB325;
     margin-bottom: 0px;
-    margin-top: 64px;
+    margin-top: 100px;
 }
 .explore {
     padding-top: 30px;
