@@ -250,7 +250,7 @@ h1, h2, h5 {
 
 /* earth.html */
 
-.earth--container {
+.planets--container {
     height: 100vh;
     background: url("/assets/images/planets-background.jpg") no-repeat top fixed; 
   -webkit-background-size: cover;
