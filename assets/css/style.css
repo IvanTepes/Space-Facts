@@ -178,7 +178,7 @@ h1, h2, h5 {
 
 .section-heading {
     padding-bottom: 0px;
-    padding-top: 50px;
+    padding-top: 80px;
     letter-spacing: 4px;
     color: #f8f9fa;
 }
@@ -263,12 +263,7 @@ h1, h2, h5 {
     position: relative;
 }
 
-
-/* Carousel */
-
-
-/* .earth--container {
-    margin-top: 80px;
+.table {
+    color: #FFB325;
 }
- */
 
