@@ -164,8 +164,14 @@ h1, h2, h3, h5 {
 }
 
 
-.fas {
+/* Font-Awesome icons */
+
+
+.fas,
+.fab,
+.fa {
     color: #FFB325;
+    font-size: 25px;
 }
 
 
@@ -289,3 +295,10 @@ h1, h2, h3, h5 {
     color: orange;
 }
 
+/* Contact Us */
+
+.contact--items {
+    color: #f8f9fa;
+    border: 1px solid orange;
+    border-radius: 30px;
+}
