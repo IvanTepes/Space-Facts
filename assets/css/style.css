@@ -243,12 +243,14 @@ h1, h2, h3, h5 {
     border-top-right-radius: 30px;
 }
 
+
 .list-inline-item a {
     color: #FFB325;
 }
 
 
 /* Planets */
+
 
 .planets--container {
     height: 100vh;
@@ -263,24 +265,25 @@ h1, h2, h3, h5 {
     position: relative;
 }
 
+
 .table {
     color: #FFB325;
 }
+
 
 .facts--text li {
     color: #f8f9fa;
 }
 
+
 /* About.html */
+
 
 .about--section {
     padding-top: 80px;
     height: 100vh;
 }
-.about--section {
-    padding-top: 80px;
-    height: 100vh;
-}
+
 
 .about--text p {
     color: orange;
