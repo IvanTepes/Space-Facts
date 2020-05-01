@@ -137,7 +137,7 @@ h1, h2, h3, h5 {
 
 .callout-container {
     height: 100vh;
-    background: url("assets/images/welcome.jpg") no-repeat top fixed; 
+    background: url("../images/welcome.jpg") no-repeat top fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -254,7 +254,7 @@ h1, h2, h3, h5 {
 
 .planets--container {
     height: 100vh;
-    background: url("assets/images/planets-background.jpg") no-repeat top fixed; 
+    background: url("../images/planets-background.jpg") no-repeat top fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
