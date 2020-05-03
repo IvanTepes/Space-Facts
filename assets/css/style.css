@@ -13,7 +13,7 @@ h1, h2, h3, h5 {
 }
 
 
-/* Colors */
+/* bg Colors */
 
 
 #bg-color--brand {
@@ -122,7 +122,7 @@ h1, h2, h3, h5 {
     background-color: #FFB325;
     width: fit-content;
     align-self: center;
-    color: black;
+    color: #000000;
 }
 
 
@@ -210,14 +210,6 @@ h1, h2, h3, h5 {
 }
 
 
-/* Planet Section */
-
-
-.planets {
-    padding-top: 50px;
-}
-
-
 /* Cards */
 
 
@@ -255,21 +247,22 @@ h1, h2, h3, h5 {
 }
 
 
-/* Planets */
+/* Planets Section*/
 
 
 .planets--container {
-    height: 100vh;
     background: url("../images/planets-background.jpg") no-repeat top fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
     background-size: cover;
     display: flex;
-    align-items: center;
     justify-content: center;
     position: relative;
 }
+
+
+/* Facts Section */
 
 
 .table {
@@ -277,7 +270,7 @@ h1, h2, h3, h5 {
 }
 
 
-.facts--text li {
+.facts--text {
     color: #f8f9fa;
 }
 
@@ -294,7 +287,9 @@ h1, h2, h3, h5 {
     color: orange;
 }
 
+
 /* Contact Us */
+
 
 .contact--items {
     color: #f8f9fa;
