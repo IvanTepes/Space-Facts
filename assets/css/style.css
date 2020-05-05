@@ -1,73 +1,58 @@
 /* Body */
 
-
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #000000;
 }
-
 
 h1, h2, h3, h5 {
     font-family: 'Girassol', sans-serif;
     color:  #f8f9fa;
 }
 
-
 /* bg Colors */
-
 
 #bg-color--brand {
     color: #FFB325;
 }
 
-
 .bg-color--navbar {
     background-color: rgba(0,0,0,0.7);
 }
-
 
 .bg-color--jumbotron {
     background-color: rgba(0,0,0,0.8);
 }
 
-
 /* Navigation Bar */
 
-
 .navbar--container {
-  position: fixed;
-  padding-right: 0px;
-  padding-left: 0px;
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
-
+    position: fixed;
+    padding-right: 0px;
+    padding-left: 0px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    }
 
 .navbar--menu {
-    padding: 0 10px 0 10px;
+    padding: 0 20px 0 20px;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
     border-bottom: 1px solid #FFB325;
     font-size: 1rem;
 }
 
-
 .nav-item  {
     padding-right: 10px;
     padding-left: 10px;
 }
 
-
 .navbar-nav {
-    margin: auto;
-    padding-right: 60px;
-
+    padding-right: 170px;
 }
 
-
 /*  Navbar Brand  */
-
 
 .navbar--brand {
     font-family: 'Girassol', sans-serif;
@@ -76,14 +61,11 @@ h1, h2, h3, h5 {
     margin-right: 0px;
 }
 
-
 /*  Navbar Dropdown Menu  */
-
 
 .dropdown-menu {
     background-color: #FFB325;
 }
-
 
 .dropdown-toggle::after {
     display: inline-block;
@@ -99,24 +81,19 @@ h1, h2, h3, h5 {
     border-left: .3em solid transparent;
 }
 
-
 .navbar-toggler:focus {
     outline-color: #FFB325;
 }
-
 
 .navbar-dark .navbar-nav .active>.nav-link {
     color: #FFB325;
 }
 
-
 .navbar-dark .navbar-nav .nav-link:hover {
     color: #F2D750;
 }
 
-
 /* Buttons */
-
 
 .btn--orange {
     background-color: #FFB325;
@@ -125,20 +102,17 @@ h1, h2, h3, h5 {
     color: #000000;
 }
 
-
 .btn:hover {
     text-decoration: none;
     background-color: #F2D750;
 }
 
-
-.a:hover {
+a:hover {
     color: #000000;
+    text-decoration: none;
 }
 
-
 /* Callout */
-
 
 .callout-container {
     height: 100vh;
@@ -153,9 +127,7 @@ h1, h2, h3, h5 {
     position: relative;
 }
 
-
 /* Jumbotron */
-
 
 .jumbotron--container {
     color: #f8f9fa;
@@ -163,14 +135,11 @@ h1, h2, h3, h5 {
     margin-bottom: 0px;
 }
 
-
 .explore {
     padding-top: 30px;
 }
 
-
 /* Font-Awesome icons */
-
 
 .fas,
 .fab,
@@ -179,14 +148,11 @@ h1, h2, h3, h5 {
     font-size: 25px;
 }
 
-
 /* Section Headings */
-
 
 .section-heading--container {
     margin-top: 0px;
 }
-
 
 .section-heading {
     padding-bottom: 0px;
@@ -194,46 +160,37 @@ h1, h2, h3, h5 {
     color: #f8f9fa;
 }
 
-
 /* Block Dividers */
-
 
 .blok--divider {
     border-top: 3px solid #FFB325 ;
 }
-
 
 .blok--divider--short {
     width: 100px;
     border-top: 3px solid #FFB325 ;
 }
 
-
 .blok--divider--medium {
     width: 200px;
     border-top: 3px solid #FFB325 ;
 }
 
-
 /* Cards */
-
 
 .card {
     background-color: #000000;
     border: none; 
 }
 
-
 .card-body {
     color: #f8f9fa;
 }
-
 
 .card-title {
     letter-spacing: 1.5px;
     font-size: 1.7rem;
 }
-
 
 /* Footer */
 
@@ -246,16 +203,13 @@ h1, h2, h3, h5 {
     border-top-right-radius: 30px;
 }
 
-
 .list-inline-item a {
     color: #FFB325;
 }
 
-
 /* Planets Section*/
 
-
-.planets--container {
+.planets--section {
     background: url("../images/planets-background.jpg") no-repeat top fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -263,38 +217,31 @@ h1, h2, h3, h5 {
     background-size: cover;
     display: flex;
     justify-content: center;
+    align-items: flex-end;
     position: relative;
 }
 
-
 /* Facts Section */
-
 
 .table {
     color: #FFB325;
 }
 
-
 .facts--text {
     color: #f8f9fa;
 }
 
-
 /* About.html */
-
 
 .about--section {
     padding-top: 80px;
 }
 
-
 .about--text p {
     color: orange;
 }
 
-
 /* Contact Us */
-
 
 .contact--items {
     color: #f8f9fa;
