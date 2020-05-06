@@ -8,6 +8,7 @@ body {
 h1, h2, h3, h5 {
     font-family: 'Girassol', sans-serif;
     color:  #f8f9fa;
+    letter-spacing: 4px;
 }
 
 /* bg Colors */
@@ -156,6 +157,16 @@ a:hover {
     font-size: 25px;
 }
 
+/* Icon zoom */
+
+.zoom {
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  transform: scale(2.0); 
+}
+
 /* Section Headings */
 
 .section-heading--container {
@@ -202,7 +213,6 @@ a:hover {
 
 /* Footer */
 
-
 .footer--container {
     color: #f8f9fa;
     border-top: 1px solid #FFB325;
@@ -213,6 +223,10 @@ a:hover {
 
 .list-inline-item a {
     color: #FFB325;
+}
+
+.list-inline-item a:hover {
+    text-decoration: underline;
 }
 
 /* Planets Section*/
@@ -255,4 +269,10 @@ a:hover {
     color: #f8f9fa;
     border: 1px solid orange;
     border-radius: 30px;
+}
+
+/* Social Links */
+
+.social-links {
+    letter-spacing: 4px;
 }
