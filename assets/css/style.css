@@ -81,6 +81,8 @@ h1, h2, h3, h5 {
     border-left: .3em solid transparent;
 }
 
+/* Navbar Active page */
+
 .navbar-toggler:focus {
     outline-color: #FFB325;
 }
@@ -91,6 +93,12 @@ h1, h2, h3, h5 {
 
 .navbar-dark .navbar-nav .nav-link:hover {
     color: #F2D750;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #000;
+    text-decoration: none;
+    background-color: #fff;
 }
 
 /* Buttons */
