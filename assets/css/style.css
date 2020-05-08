@@ -260,7 +260,13 @@ a:hover {
 }
 
 .about--text p {
-    color: orange;
+    color: #f8f9fa;
+    font-size: 22px;
+}
+
+p strong {
+    color: #FFB325;
+    font-size: 35px;
 }
 
 /* Contact Us */
