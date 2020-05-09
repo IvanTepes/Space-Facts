@@ -142,10 +142,8 @@ a:hover {
     color: #f8f9fa;
     border: 1px solid #FFB325;
     margin-bottom: 0px;
-}
-
-.explore {
-    padding-top: 30px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 /* Font-Awesome icons */
@@ -273,6 +271,7 @@ p strong {
     color: #ffb325;
     text-decoration: none;
 }
+
 /* Contact Us */
 
 .contact--items {
@@ -285,4 +284,30 @@ p strong {
 
 .social-links {
     letter-spacing: 4px;
+}
+
+/* Bounce Arrow */
+
+.arrow {
+  text-align: center;
+  margin: 8% 0;
+}
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+  display: inline-flex;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
 }
