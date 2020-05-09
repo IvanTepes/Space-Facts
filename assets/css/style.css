@@ -266,9 +266,13 @@ a:hover {
 
 p strong {
     color: #FFB325;
-    font-size: 35px;
+    font-size: 1.875rem;
 }
 
+.about--section a:hover {
+    color: #ffb325;
+    text-decoration: none;
+}
 /* Contact Us */
 
 .contact--items {
