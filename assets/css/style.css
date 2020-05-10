@@ -148,13 +148,22 @@ a:hover {
 
 /* Call to action  */
 
-.explore a:hover {
+.call--action--container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.call--action--container a:hover {
     color: #ffb325;
     text-decoration: none;
 }
 
+.explore {
+    align-self: center;
+}
+
 .call--out--button {
-    color: white;
+    color: #fff;
 }
 
 /* Bounce Arrow */
