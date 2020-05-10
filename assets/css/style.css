@@ -301,6 +301,8 @@ a:hover {
 
 .facts--text {
     color: #fff;
+    list-style: none;
+    padding-left: 0px;
 }
 
 /* About.html */
