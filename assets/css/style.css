@@ -7,7 +7,7 @@ body {
 
 h1, h2, h3, h5 {
     font-family: 'Girassol', sans-serif;
-    color:  #f8f9fa;
+    color:  #fff;
     letter-spacing: 4px;
 }
 
@@ -117,7 +117,7 @@ h1, h2, h3, h5 {
 }
 
 a:hover {
-    color: #000000;
+    color: #000;
     text-decoration: none;
 }
 
@@ -139,11 +139,48 @@ a:hover {
 /* Jumbotron */
 
 .jumbotron--container {
-    color: #f8f9fa;
+    color: #fff;
     border: 1px solid #FFB325;
     margin-bottom: 0px;
     padding-top: 32px;
     padding-bottom: 32px;
+}
+
+/* Call to action  */
+
+.explore a:hover {
+    color: #ffb325;
+    text-decoration: none;
+}
+
+.call--out--button {
+    color: white;
+}
+
+/* Bounce Arrow */
+
+.arrow {
+  text-align: center;
+  margin: 8% 0;
+}
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+  display: inline-flex;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
 }
 
 /* Font-Awesome icons */
@@ -155,7 +192,7 @@ a:hover {
     font-size: 25px;
 }
 
-/* Icon zoom */
+/* Social links icon zoom */
 
 .zoom {
   transition: transform .2s;
@@ -163,6 +200,12 @@ a:hover {
 
 .zoom:hover {
   transform: scale(2.0); 
+}
+
+/* Social icons */
+
+.social-links {
+    letter-spacing: 4px;
 }
 
 /* Section Headings */
@@ -174,7 +217,7 @@ a:hover {
 .section-heading {
     padding-bottom: 0px;
     letter-spacing: 4px;
-    color: #f8f9fa;
+    color: #fff;
 }
 
 /* Block Dividers */
@@ -201,7 +244,7 @@ a:hover {
 }
 
 .card-body {
-    color: #f8f9fa;
+    color: #fff;
 }
 
 .card-title {
@@ -212,7 +255,7 @@ a:hover {
 /* Footer */
 
 .footer--container {
-    color: #f8f9fa;
+    color: #fff;
     border-top: 1px solid #FFB325;
     margin-top: 50px;
     border-top-left-radius: 30px;
@@ -248,7 +291,7 @@ a:hover {
 }
 
 .facts--text {
-    color: #f8f9fa;
+    color: #fff;
 }
 
 /* About.html */
@@ -258,7 +301,7 @@ a:hover {
 }
 
 .about--text p {
-    color: #f8f9fa;
+    color: #fff;
     font-size: 22px;
 }
 
@@ -275,39 +318,12 @@ p strong {
 /* Contact Us */
 
 .contact--items {
-    color: #f8f9fa;
+    color: #fff;
     border: 1px solid orange;
     border-radius: 30px;
 }
 
-/* Social Links */
 
-.social-links {
-    letter-spacing: 4px;
-}
 
-/* Bounce Arrow */
 
-.arrow {
-  text-align: center;
-  margin: 8% 0;
-}
 
-.bounce {
-  -moz-animation: bounce 2s infinite;
-  -webkit-animation: bounce 2s infinite;
-  animation: bounce 2s infinite;
-  display: inline-flex;
-}
-
-@keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    transform: translateY(0);
-  }
-  40% {
-    transform: translateY(-30px);
-  }
-  60% {
-    transform: translateY(-15px);
-  }
-}
