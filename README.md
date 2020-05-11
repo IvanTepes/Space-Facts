@@ -14,6 +14,31 @@
 
 #### You can access the application [here.](https://ivantepes.github.io/Space-Facts/)
 
+# UX
+
+## User Stories
+
+### As a user of this application, I will be able to:
+
+- Access the application from your favourite equipment, such as smartphones, tablets, laptops or PCs, without loss of content.
+
+- Easily navigate the site across all pages.
+
+- Enjoy viewing high quality pictures of space and objects.
+
+- To see simple, clear design, which cleary shows what the user can do.
+
+- Want to see what different category are included in content.
+
+- Expect to know from where the content of the site came from.
+
+- Be able to contact somebody about content,prise,critics,mistakes or any other topic.
+
+## Design
+This project was developed with a focus on a mobile approach first. However, with full responsiveness on other screen sizes.
+I used the grids, nav, carousel and bootstrap colours in this project.
+The main idea for the design of this project was to have a serious and professional appearance, transparent navbar, black background to highlight images of space objects, which convey sophistication and provide a pleasant user experience.
+
 
  
 
