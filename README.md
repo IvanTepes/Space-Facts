@@ -88,10 +88,11 @@ Two fonts used are a google fonts, called **Robotto** and **Girassol**.
 
 ## Existing Features
 
-* Navigation Bar -  is on the top of all the pages on the site and is fixed, with rounded on edge and transparent to give user sense where is when scroll. The left hand side has the logo of the page being "Sp@ce F@cts", and when clicked, will return the user to the home page. The rest of the navigation items are centred to middle of the Navigation bar and they are: **Home**, **About us** and **Planets** which is also a drop down menu and change shape to three lines called "Burger" for mobile screens.
-Navigation item **Planets** have orange down indicator and is drop down menu on larger screens.
-Navigation bar have thick orange border on bottom side to separate navigation bar from rest of page because is rounded and only on bottom side give pleasant and interesant ux.
-The Navigation bar gives the user information about where he is on the site by changing the color of the active page also change color on hover provide user information what action he can make.
+### Navigation Bar 
+  Is on the top of all the pages on the site and is fixed, with rounded on edge and transparent to give user sense where is when scroll. The left hand side has the logo of the page being "Sp@ce F@cts", and when clicked, will return the user to the home page. The rest of the navigation items are centred to middle of the Navigation bar and they are: **Home**, **About us** and **Planets** which is also a drop down menu and change shape to three lines called "Burger" for mobile screens.
+  Navigation item **Planets** have orange down indicator and is drop down menu on larger screens.
+  Navigation bar have thick orange border on bottom side to separate navigation bar from rest of page because is rounded and only on bottom side give pleasant and interesant ux.
+  The Navigation bar gives the user information about where he is on the site by changing the color of the active page also change color on hover provide user information what action he can make.
 
 * **Navigation bar with active home page**
 
@@ -123,4 +124,20 @@ The Navigation bar gives the user information about where he is on the site by c
 
 <div align="center">
 <img src="/assets/images/readme/features/navbar/nav_mobile.jpg" target="_blank" rel="noopener" width="300" alt="Nav bar about">
+</div>
+
+### Landing page and jumbotron
+* Background for landing page i chosen dark black-blue image with orange center of galaxy and slightly transparent jumboton in middle give nice sight in that image.
+
+* Jumbotron contains a question that immediately catches the eye and prompts the user to ask for a second what the universe is, the second thing that distracts him are two bouncing icons around the message **Explore** to interest him and encourage him to explore the site.
+
+* **Explore** message are clicable and on detsktop screens change color from white to orange giving user information that he can make some action whit it.
+
+* **Bouncing icon** are designed to let the user know that he should scroll the page, but if he did not understand the first idea and clicks on the icon or on **Explore** the page will automatically move to the section with planets.
+
+* **Jumbotron, Bouncing icons and Explore**
+
+<div align="center">
+
+![nav](/assets/images/readme/features/jumbotron/jumbotron.gif)
 </div>
