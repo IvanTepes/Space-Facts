@@ -38,6 +38,7 @@
 This project was developed with a focus on a mobile approach first. However, with full responsiveness on other screen sizes.
 I used the grids, nav, cards, forms,table, carousel and bootstrap  in this project.
 The main idea for the design of this project was to have a serious and professional appearance, transparent navbar, black background to highlight images of space objects, which convey sophistication and provide a pleasant user experience.
+I used the two icons on the home page to clarify what the user should do when they first come to the page, I made them clicable so that the user is taken to the content by pressing at the same time by moving the mouse over the text "Explore" text changes color to orange letting the user know that the action can achieve something.
 
 ### Typography
 The main font used in this project is **Robotto**. I think that's a well designed and easy to read font. An extra reason for using this font is the excellent display on small screens.
@@ -55,16 +56,19 @@ In the main titles of the site, the font **Girassol** was used, which also has a
 
 - The orange buttons continue and blend in with the black-and-orange design, changing the color to a lighter shade on hover.
 
+
+#### Colors used on site can see [here.](/assets/images/readme/colors.png)
+
 ### Icons
 
 The icons used in this project are provided by [Font Awesome 5.12.1](https://fontawesome.com/).
-They were used as social media icons in the footer and on contact page as adress,comment and map.
+They were used as social media icons in the footer and on contact page as address,comment and map.
 
 ## Wireframes
 
 These wireframes were designed with Balsamiq Mockups 3. These were the first version of scope and some  things have changed during the development for the final version.
 * Mobile displays [here](/assets/images/readme/wireframes/mobile.png)
-
+* Detskop display [here] ()
 
 
 
