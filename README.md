@@ -61,7 +61,7 @@ In the main titles of the site and logo the font **Girassol** was used, which al
 
 ### Icons
 
-The icons used in this project are provided by [Font Awesome 5.12.1](https://fontawesome.com/).
+The icons used in this project are provided by [Font Awesome 5.13.0](https://fontawesome.com/).
 They were used as social media icons in the footer and on contact page as address,comment and map.
 
 ## Wireframes
@@ -94,7 +94,7 @@ Two fonts used are a google fonts, called **Robotto** and **Girassol**.
 
 * Small screens, medium screens,large screens.
 <div align="center">
-  <img src = "/assets/images/readme/features/responsiveness/small.jpg" width ="200" alt="small screens"/>              <img src = "/assets/images/readme/features/responsiveness/medium.jpg" width ="200" alt="medium screens"/> 
+  <img src = "/assets/images/readme/features/responsiveness/small.jpg" width ="200" alt="small screens"/>                                   <img src = "/assets/images/readme/features/responsiveness/medium.jpg" width ="200" alt="medium screens"/> 
   <img src = "/assets/images/readme/features/responsiveness/large.jpg" width ="200" alt="large screens"/>
 </div>
 
@@ -140,7 +140,7 @@ Two fonts used are a google fonts, called **Robotto** and **Girassol**.
 
 * Background for landing page i chosen dark black-blue image with orange center of galaxy and slightly transparent jumboton in middle give nice sight in that image.
 
-* Jumbotron contains a question that immediately catches the eye and prompts the user to ask for a second what the universe is, the second thing that distracts him are two bouncing icons around the message **Explore** to interest him and encourage him to explore the site.
+* **Jumbotron** contains a question that immediately catches the eye and prompts the user to ask for a second what the universe is, the second thing that distracts him are two bouncing icons around the message **Explore** to interest him and encourage him to explore the site.
 
 * **Explore** is designed as call-to-action button and are clickable and on desktop screens change color from white to orange giving user information that he can make action whit it.
 
@@ -158,7 +158,7 @@ Two fonts used are a google fonts, called **Robotto** and **Girassol**.
 * **The Explore** section contains pictures of all the planets offered on the site and one fact about each planet, it also contains a button with the message **Read more** that changes color when hover over it and clicking on it leads the user to a page about the planet he is interested in.
 
 * **Buttons**
-with the **Read more** message are designed using a **Bootstrap 4**, are orange in color and change slightly to a lighter shade of orange on detskop screens when hover over it, giving user information he can make action whit it.
+with the **Read more** message are designed using a **[Bootstrap 4.4.1](https://getbootstrap.com/)**, are orange in color and change slightly to a lighter shade of orange on detskop screens when hover over it, giving user information he can make action whit it.
 
 * **Explore section with  one facts and button Read More**
 
@@ -175,6 +175,7 @@ with the **Read more** message are designed using a **Bootstrap 4**, are orange 
 * Each **planet** has a separate page with more information about the same.
 
 * **Home page and planets together**
+
 <div align="center">
 <img src="/assets/images/readme/layout.png" target="_blank" rel="noopener" width="500" alt="Nav bar about">
 </div>
@@ -187,17 +188,53 @@ with the **Read more** message are designed using a **Bootstrap 4**, are orange 
 
 * **Images of the planets** have a transparent background leaving only the planet visible to the user as the image of the universe is behind the planets we get the floating effect I mentioned earlier.
 
-* **[Carousel](https://getbootstrap.com/docs/4.5/components/carousel/)** is taken from [Bootstrap 4.4.1](https://getbootstrap.com/) and contain 4 image of each planet how i say before all images have transparent background for float effect.
+* **[Carousel](https://getbootstrap.com/docs/4.5/components/carousel/)** is taken from **[Bootstrap 4.4.1](https://getbootstrap.com/)** and contain 4 image of each planet how i say before all images have transparent background for float effect.
 
-* **[Table](https://getbootstrap.com/docs/4.5/content/tables/)** used in page are same from [Bootstrap 4.4.1](https://getbootstrap.com/) and they contain information about each **Planet** in some column comparing it to earth to be able to imagine their size, if that is even possible.. They are orange color to separate them from facts and to get pleasant visual effect.
+* **[Table](https://getbootstrap.com/docs/4.5/content/tables/)** used in page are same from **[Bootstrap 4.4.1](https://getbootstrap.com/)** and they contain information about each **Planet** in some column comparing it to earth to be able to imagine their size, if that is even possible.. They are orange color to separate them from facts and to get pleasant visual effect.
 
-* **Facts** Each planet page contain couple interesting facts planet.
+* **Facts** are on each planet page. Contain couple interesting facts about planet and they are in white color.
 
-* Carousel with planet Uranus and float effect
+* **Carousel with planet Uranus and float effect**
 
 <div align="center">
 
 ![carousel](/assets/images/readme/features/carousel/float_effect.gif)
 </div>
     
+### About
 
+* About page contains a short motivation message, information about the author, the page and information about the content. Each of the   sectors contains a link for further action. Such as the contact of the author, the font used on the page and the source of the information.
+
+### Countact Us
+
+* **Contact us** is divided into two items. The first item gives the user contact information such as address, phone number and email address.
+While the second item allows the user to have direct contact with the author and requests from the user: name, email address and comment.
+
+* **Contact us** page can be reached through the about page and through the footer.
+
+* An **[Font Awesome 5.13.0](https://fontawesome.com/)** was used to mark the information given to the user.
+**[Bootstrap 4.4.1](https://getbootstrap.com/docs/4.5/components/forms/)** was used to create the contact form.
+
+### Footer
+
+* **Footer** is located at the bottom of each page on this site.
+* It is the same on each page and uses the orange rounded edge that we also saw on the navigation bar only this time from the top to    separate it from the rest of the content.
+
+* **Footer** is divided into **About** i **Social**.
+* **About** contains links for **About** page and **Contact** page which at the hover on detskop screens get a horizontal orange line below the link. 
+* While **Social** contains social network icons that animate icons by zooming. Social icons used here are from **[Font Awesome 5.13.0](https://fontawesome.com/)**
+
+* Animated Zoom used here are from **[w3schools.com](https://www.w3schools.com/howto/howto_css_zoom_hover.asp)**.
+
+* Footer with **About** and **Social**
+
+<div align="center">
+<img src="/assets/images/readme/features/footer/footer.jpg" target="_blank" rel="noopener" width="800" alt="footer with about and social network icons">
+</div>
+
+* **About** and **Social** on hover
+
+<div align="center">
+  
+  ![about](/assets/images/readme/features/footer/about.gif)![social](/assets/images/readme/features/footer/social_zoom.gif)
+</div>
