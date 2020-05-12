@@ -66,7 +66,7 @@ They were used as social media icons in the footer and on contact page as addres
 
 ## Wireframes
 
-These wireframes were designed with Balsamiq Mockups 3. These were the first version of scope and some things have changed,removed or leave for later development.
+Wireframes were designed with [Balsamiq Wireframes 4.0.28](https://balsamiq.com/wireframes/). These were the first version of scope and some things have changed,removed or leave for later development.
 * Mobile  [here](/assets/images/readme/wireframes/mobile.png)
 * Detskop home [here](/assets/images/readme/wireframes/index.png)
 * Detskop planets [here](/assets/images/readme/wireframes/planets.png)
@@ -81,12 +81,22 @@ These wireframes were designed with Balsamiq Mockups 3. These were the first ver
 This is a multi-page layout, but designed with simplicity in mind. The home page displays the main river database information, below the header text which allows the user to find information very quickly without the need to have to search for it.
 
 ### Buttons
-Buttons on this application are made with Bootstrap 4. Big, and easy to use.
+Buttons on this application are made with **Bootstrap 4**. Big, and easy to use.
 
 ### Font
 Two fonts used are a google fonts, called **Robotto** and **Girassol**.
 
 ## Existing Features
+
+### Responsiveness
+  The biggest feature of this site is the responsiveness across devices and screen sizes that we have achieved using [Bootstrap 4.4.1](https://getbootstrap.com/docs/4.4/layout/overview/) layout. 
+  So with small screens or mobile phones we have one planet per column on medium screens as tablets we have two planets per column while on desktop and larger screens we have four planets per column which led to better visibility, organization, readability and better visual presentation.
+
+* Small screens, medium screens,large screens.
+<div align="center">
+  <img src = "/assets/images/readme/features/responsiveness/small.jpg" width ="200" alt="small screens"/>              <img src = "/assets/images/readme/features/responsiveness/medium.jpg" width ="200" alt="medium screens"/> 
+  <img src = "/assets/images/readme/features/responsiveness/large.jpg" width ="200" alt="large screens"/>
+</div>
 
 ### Navigation Bar 
   Is on the top of all the pages on the site and is fixed, with rounded on edge and transparent to give user sense where is when scroll. The left hand side has the logo of the page being "Sp@ce F@cts", and when clicked, will return the user to the home page. The rest of the navigation items are centred to middle of the Navigation bar and they are: **Home**, **About us** and **Planets** which is also a drop down menu and change shape to three lines called "Burger" for mobile screens.
@@ -127,11 +137,12 @@ Two fonts used are a google fonts, called **Robotto** and **Girassol**.
 </div>
 
 ### Landing page and jumbotron
+
 * Background for landing page i chosen dark black-blue image with orange center of galaxy and slightly transparent jumboton in middle give nice sight in that image.
 
 * Jumbotron contains a question that immediately catches the eye and prompts the user to ask for a second what the universe is, the second thing that distracts him are two bouncing icons around the message **Explore** to interest him and encourage him to explore the site.
 
-* **Explore** message are clicable and on detsktop screens change color from white to orange giving user information that he can make some action whit it.
+* **Explore** is designed as call-to-action button and are clickable and on desktop screens change color from white to orange giving user information that he can make action whit it.
 
 * **Bouncing icon** are designed to let the user know that he should scroll the page, but if he did not understand the first idea and clicks on the icon or on **Explore** the page will automatically move to the section with planets.
 
@@ -141,3 +152,30 @@ Two fonts used are a google fonts, called **Robotto** and **Girassol**.
 
 ![nav](/assets/images/readme/features/jumbotron/jumbotron.gif)
 </div>
+
+###  Explore section and Buttons
+
+* **The Explore** section contains pictures of all the planets offered on the site and one fact about each planet, it also contains a button with the message **Read more** that changes color when hover over it and clicking on it leads the user to a page about the planet he is interested in.
+
+* **Buttons**
+with the **Read more** message are designed using a **Bootstrap 4**, are orange in color and change slightly to a lighter shade of orange on detskop screens when hover over it, giving user information he can make action whit it.
+
+* **Explore section with  one facts and button Read More**
+
+<div align="center">
+
+![nav](/assets/images/readme/features/button/buttons.gif)
+</div>
+
+### Multi-page layout
+
+* This is a multi-page layout, but designed with simplicity in mind.
+
+* Each **planet** has a separate page with more information about the same.
+
+* **Home page with all planets together**
+<div align="center">
+<img src="/assets/images/readme/layout.png" target="_blank" rel="noopener" width="500" alt="Nav bar about">
+</div>
+
+### Planets 
