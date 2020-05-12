@@ -169,7 +169,7 @@ with the **Read more** message are designed using a **[Bootstrap 4.4.1](https://
 
 ### Multi-page layout
 
-* This page has had several separate pages in total 11 at the moment. The **Home** page we went through in the text above, **About us**, **Contact** and 8 **Planets**.
+* This page has had several separate pages in total 11 at the moment. The **Home** page we went through in the text above, **About us**, **Contact** and 8 **Planets** from our solar system.
   Multi-page layout, but designed with simplicity in mind.
 
 * Each **planet** has a separate page with more information about the same.
@@ -182,7 +182,7 @@ with the **Read more** message are designed using a **[Bootstrap 4.4.1](https://
 
 ### Planets 
 
-* **Planet** page is designed with a dark background image a carousal that rotate the images of the planet, a table with information about the planet and a couple of interesting facts.
+* **Planet** page is designed with dark background image, carousal that rotate the images of the planet, table with information about the planet and a couple of interesting facts.
 
 * **Background** image is a dark photograph of the universe. Which serves as a space for the carousel and images of planets to "float" in that universe.
 
@@ -192,7 +192,7 @@ with the **Read more** message are designed using a **[Bootstrap 4.4.1](https://
 
 * **[Table](https://getbootstrap.com/docs/4.5/content/tables/)** used in page are same from **[Bootstrap 4.4.1](https://getbootstrap.com/)** and they contain information about each **Planet** in some column comparing it to earth to be able to imagine their size, if that is even possible.. They are orange color to separate them from facts and to get pleasant visual effect.
 
-* **Facts** are on each planet page. Contain couple interesting facts about planet and they are in white color.
+* **Facts** are on each **Planet** page. Contain couple interesting facts about planet and they are in white color.
 
 * **Carousel with planet Uranus and float effect**
 
@@ -205,15 +205,20 @@ with the **Read more** message are designed using a **[Bootstrap 4.4.1](https://
 
 * About page contains a short motivation message, information about the author, the page and information about the content. Each of the   sectors contains a link for further action. Such as the contact of the author, the font used on the page and the source of the information.
 
-### Countact Us
+### Contact Us
 
 * **Contact us** is divided into two items. The first item gives the user contact information such as address, phone number and email address.
 While the second item allows the user to have direct contact with the author and requests from the user: name, email address and comment.
 
-* **Contact us** page can be reached through the about page and through the footer.
-
+* **Contact us** page can be reached through the **About** page and through the **Footer**.
 * An **[Font Awesome 5.13.0](https://fontawesome.com/)** was used to mark the information given to the user.
 **[Bootstrap 4.4.1](https://getbootstrap.com/docs/4.5/components/forms/)** was used to create the contact form.
+
+* **Address** and **Form** 
+
+<div align="center">
+<img src="/assets/images/readme/features/contact.jpg" target="_blank" rel="noopener" width="800" alt="contact page whit form and contact information">
+</div>
 
 ### Footer
 
