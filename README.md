@@ -36,13 +36,13 @@
 
 ## Design
 This project was developed with a focus on a mobile approach first. However, with full responsiveness on other screen sizes.
-I used the grids, nav, cards, forms,table, carousel and bootstrap  in this project.
+I used the jumbotron, grids, nav, cards, forms, table, carousel and bootstrap  in this project.
 The main idea for the design of this project was to have a serious and professional appearance, transparent navbar, black background to highlight images of space objects, which convey sophistication and provide a pleasant user experience.
 I used the two icons on the home page to clarify what the user should do when they first come to the page, I made them clicable so that the user is taken to the content by pressing at the same time by moving the mouse over the text "Explore" text changes color to orange letting the user know that the action can achieve something.
 
 ### Typography
 The main font used in this project is **Robotto**. I think that's a well designed and easy to read font. An extra reason for using this font is the excellent display on small screens.
-In the main titles of the site, the font **Girassol** was used, which also has a good design and combines nicely with the main font.
+In the main titles of the site and logo the font **Girassol** was used, which also has a good design and combines nicely with the main font.
 
 ### Colours
 
@@ -66,11 +66,61 @@ They were used as social media icons in the footer and on contact page as addres
 
 ## Wireframes
 
-These wireframes were designed with Balsamiq Mockups 3. These were the first version of scope and some  things have changed during the development for the final version.
-* Mobile displays [here](/assets/images/readme/wireframes/mobile.png)
-* Detskop display [here] ()
+These wireframes were designed with Balsamiq Mockups 3. These were the first version of scope and some things have changed,removed or leave for later development.
+* Mobile  [here](/assets/images/readme/wireframes/mobile.png)
+* Detskop home [here](/assets/images/readme/wireframes/index.png)
+* Detskop planets [here](/assets/images/readme/wireframes/planets.png)
+* Detskop contact [here](/assets/images/readme/wireframes/contact.png)
+* Detskop login [here](/assets/images/readme/wireframes/login.png)
+* Call to action button [here](/assets/images/readme/wireframes/call_to_action.png)
+* Site map [here](/assets/images/readme/wireframes/site_map.png)
 
+# Features
 
+### Layout
+This is a multi-page layout, but designed with simplicity in mind. The home page displays the main river database information, below the header text which allows the user to find information very quickly without the need to have to search for it.
 
+### Buttons
+Buttons on this application are made with Bootstrap 4. Big, and easy to use.
 
+### Font
+Two fonts used are a google fonts, called **Robotto** and **Girassol**.
 
+## Existing Features
+
+* Navigation Bar -  is on the top of all the pages on the site and is fixed, with rounded on edge and transparent to give user sense where is when scroll. The left hand side has the logo of the page being "Sp@ce F@cts", and when clicked, will return the user to the home page. The rest of the navigation items are centred to middle of the Navigation bar and they are: **Home**, **About us** and **Planets** which is also a drop down menu and change shape to three lines called "Burger" for mobile screens.
+Navigation item **Planets** have orange down indicator and is drop down menu on larger screens.
+Navigation bar have thick orange border on bottom side to separate navigation bar from rest of page because is rounded and only on bottom side give pleasant and interesant ux.
+The Navigation bar gives the user information about where he is on the site by changing the color of the active page also change color on hover provide user information what action he can make.
+
+* **Navigation bar with active home page**
+
+<div align="center">
+<img src="/assets/images/readme/features/navbar/navbar.jpg" target="_blank" rel="noopener" width="800" alt="Nav bar home">
+</div>
+
+* **Navigation bar with active about**
+
+<div align="center">
+<img src="/assets/images/readme/features/navbar/navbar_about.jpg" target="_blank" rel="noopener" width="800" alt="Nav bar about">
+</div>
+
+* **Navigation bar items on hover**
+
+<div align="center">
+
+![nav](/assets/images/readme/features/navbar/nav.gif)
+</div>
+
+* **Navigation bar with active planet mars and dropdown menu**
+
+<div align="center">
+
+![nav](/assets/images/readme/features/navbar/planets_dropdown.gif)
+</div>
+
+* **Navigation bar on mobile screens**
+
+<div align="center">
+<img src="/assets/images/readme/features/navbar/nav_mobile.jpg" target="_blank" rel="noopener" width="300" alt="Nav bar about">
+</div>
