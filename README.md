@@ -150,7 +150,7 @@ Two fonts used are a google fonts, called **Robotto** and **Girassol**.
 
 <div align="center">
 
-![nav](/assets/images/readme/features/jumbotron/jumbotron.gif)
+![jumbotron](/assets/images/readme/features/jumbotron/jumbotron.gif)
 </div>
 
 ###  Explore section and Buttons
@@ -164,18 +164,40 @@ with the **Read more** message are designed using a **Bootstrap 4**, are orange 
 
 <div align="center">
 
-![nav](/assets/images/readme/features/button/buttons.gif)
+![buttons](/assets/images/readme/features/button/buttons.gif)
 </div>
 
 ### Multi-page layout
 
-* This is a multi-page layout, but designed with simplicity in mind.
+* This page has had several separate pages in total 11 at the moment. The **Home** page we went through in the text above, **About us**, **Contact** and 8 **Planets**.
+  Multi-page layout, but designed with simplicity in mind.
 
 * Each **planet** has a separate page with more information about the same.
 
-* **Home page with all planets together**
+* **Home page and planets together**
 <div align="center">
 <img src="/assets/images/readme/layout.png" target="_blank" rel="noopener" width="500" alt="Nav bar about">
 </div>
 
 ### Planets 
+
+* **Planet** page is designed with a dark background image a carousal that rotate the images of the planet, a table with information about the planet and a couple of interesting facts.
+
+* **Background** image is a dark photograph of the universe. Which serves as a space for the carousel and images of planets to "float" in that universe.
+
+* **Images of the planets** have a transparent background leaving only the planet visible to the user as the image of the universe is behind the planets we get the floating effect I mentioned earlier.
+
+* **[Carousel](https://getbootstrap.com/docs/4.5/components/carousel/)** is taken from [Bootstrap 4.4.1](https://getbootstrap.com/) and contain 4 image of each planet how i say before all images have transparent background for float effect.
+
+* **[Table](https://getbootstrap.com/docs/4.5/content/tables/)** used in page are same from [Bootstrap 4.4.1](https://getbootstrap.com/) and they contain information about each **Planet** in some column comparing it to earth to be able to imagine their size, if that is even possible.. They are orange color to separate them from facts and to get pleasant visual effect.
+
+* **Facts** Each planet page contain couple interesting facts planet.
+
+* Carousel with planet Uranus and float effect
+
+<div align="center">
+
+![carousel](/assets/images/readme/features/carousel/float_effect.gif)
+</div>
+    
+
