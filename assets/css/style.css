@@ -282,7 +282,7 @@ a:hover {
 /* Planets Section*/
 
 .planets--section {
-    background: url("../images/planets-background.jpg") no-repeat top fixed; 
+    background: url("../images/planet_background.jpg") no-repeat top fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
