@@ -237,9 +237,35 @@ While the second item allows the user to have direct contact with the author and
 <img src="/assets/images/readme/features/footer/footer.jpg" target="_blank" rel="noopener" width="800" alt="footer with about and social network icons">
 </div>
 
-* **About** and **Social** on hover
+* **About** links and **Social** icons on hover
 
 <div align="center">
   
   ![about](/assets/images/readme/features/footer/about.gif)![social](/assets/images/readme/features/footer/social_zoom.gif)
 </div>
+
+### Note
+
+* The form on the **Contact** page as well as the submit button are currently not in function due to lack of skills to embed them in the code.
+
+* Footer **Social** network icons when clicked will take the user to the home page of the target platform Sp@ce F@cts does not currently have any profiles on the social network and they are there for visual appearance.
+
+### Features Left to Implement
+
+ * More content to site such as Galaxys, Solar System, Comets etc. Can se some projections from scope [here](/assets/images/readme/wireframes/site_map.png).
+
+ * Login feature to site with addition ideas such as disscusions about space.
+
+ * News banner with latest news research or news about space general.
+
+ * Subscribe feature.
+
+ * Share button to share site or particular parts of site.  
+
+ * Comparation chart, diagrams or images to compare other objects in space with something more familiar to human.
+
+ * Animation of planets, galaxies, comets etc.
+
+
+
+
