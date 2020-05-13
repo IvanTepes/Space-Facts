@@ -106,8 +106,12 @@ h1, h2, h3, h5 {
 
 .btn--orange {
     background-color: #FFB325;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
-    align-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
     color: #000000;
 }
 
@@ -125,14 +129,17 @@ a:hover {
 
 .callout-container {
     height: 100vh;
-    background: url("../images/welcome.jpg") no-repeat top fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-    background-size: cover;
+    background: url("../images/welcome.jpg") no-repeat top fixed;
+  background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     position: relative;
 }
 
@@ -149,8 +156,12 @@ a:hover {
 /* Call to action  */
 
 .call--action--container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-evenly;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
 }
 
 .call--action--container a:hover {
@@ -159,7 +170,9 @@ a:hover {
 }
 
 .explore {
-    align-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
 }
 
 .call--out--button {
@@ -174,21 +187,40 @@ a:hover {
 }
 
 .bounce {
-  -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
   animation: bounce 2s infinite;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
+}
+
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+  }
 }
 
 @keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
-    transform: translateY(0);
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
   }
   40% {
-    transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
   }
   60% {
-    transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
   }
 }
 
@@ -204,11 +236,16 @@ a:hover {
 /* Social links icon zoom */
 
 .zoom {
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  -o-transition: transform .2s;
   transition: transform .2s;
 }
 
 .zoom:hover {
-  transform: scale(2.0); 
+  -webkit-transform: scale(2.0);
+      -ms-transform: scale(2.0);
+          transform: scale(2.0); 
 }
 
 /* Social icons */
@@ -282,14 +319,17 @@ a:hover {
 /* Planets Section*/
 
 .planets--section {
-    background: url("../images/planet_background.jpg") no-repeat top fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-    background-size: cover;
+    background: url("../images/planet_background.jpg") no-repeat top fixed;
+  background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
     position: relative;
 }
 
@@ -333,7 +373,6 @@ p strong {
     border: 1px solid orange;
     border-radius: 30px;
 }
-
 
 
 
