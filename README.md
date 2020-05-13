@@ -266,6 +266,60 @@ While the second item allows the user to have direct contact with the author and
 
  * Animation of planets, galaxies, comets etc.
 
+ # Technologies Used
+
+ ## Languages
+
+ ### Hyper Text Markup Language or HTML 
+* **[HTML](https://www.w3.org/TR/html52/)** is the standard markup language for creating Web pages.
+* I used this programming language to provide structure and presenting content of site.
+
+### Cascading Style Sheets or CSS 
+* **[CSS](https://www.w3.org/Style/CSS/Overview.en.html)** is a style sheet language used for describing the presentation of a document written in a markup language like **HTML**.
+* In this project i used **CSS** to describes and style **HTML** document such as layout, colors, font and animation.
+
+## Tools Used
+
+* **[Balsamiq Wireframes](https://balsamiq.com/wireframes/)** 
+    - Used to create the wireframes and planning this project.
+* **[Gitpod](https://www.gitpod.io/)**
+    - Used as development environment for building the application.
+* **[GitHub](https://github.com/)**
+    - Used to store and share all project code remotely.
+* **[Photoshop](https://www.adobe.com/ie/products/photoshop.html)**
+    - Used to edit all pictures on site and creating some presentation images for README.
+* **[Dev Tools](https://developers.google.com/web/tools/chrome-devtools)**
+    - Used to keep track and test the code during the development.
+* **[Tinypng](https://tinypng.com/)**
+    - Used to compress the size of images.
+* **[HTML Formatter](https://www.freeformatter.com/html-formatter.html)**
+    - Used to formating code.
+* **[Trello](https://trello.com/)**
+    - Used for organize and track progress of development.
+* **[HTML Color Codes](https://htmlcolorcodes.com/)**
+    - Used for creating color.
+* **[ScreenToGif](https://www.screentogif.com/)**
+    - Used for creating gif for README.
+* **[Paint 3D](https://www.microsoft.com/en-us/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab)**
+    - Used for creating color patters presentation.
+
+## Libraries
+
+* **[Bootstrap](https://www.bootstrapcdn.com/)**
+    - Is uses for better responsiveness and organization.
+* **[FontAwesome](https://fontawesome.com/)**
+    - Is uses to provide icons.
+* **[Google Fonts](https://fonts.google.com/)**
+    - Is uses to provide 'Roboto' ans 'Girassol' font.
+* **[JQuery](https://jquery.com)** 
+    - Is used to simplify DOM manipulation.
+
+# Testing
+
+
+
+
+
 
 
 
