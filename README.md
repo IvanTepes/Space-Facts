@@ -294,8 +294,12 @@ While the second item allows the user to have direct contact with the author and
     - Used to compress the size of images.
 * **[HTML Formatter](https://www.freeformatter.com/html-formatter.html)**
     - Used to formating code.
+* **[Autoprefixer](https://autoprefixer.github.io/)**
+    - Used to valid code for all browsers.
 * **[Trello](https://trello.com/)**
-    - Used for organize and track progress of development.
+    - Used for organize user stories and determination of sprints.
+* **[Favicon & App Icon Generator](https://www.favicon-generator.org/)**
+    - Used for creating favicon for site.
 * **[HTML Color Codes](https://htmlcolorcodes.com/)**
     - Used for creating color.
 * **[ScreenToGif](https://www.screentogif.com/)**
@@ -315,6 +319,137 @@ While the second item allows the user to have direct contact with the author and
     - Is used to simplify DOM manipulation.
 
 # Testing
+
+During the development of this project, I had the experience of facing some problems. Browser used for testing application during development was **[Google Chrome](https://www.google.com/chrome/)** and **[Dev Tools](https://developers.google.com/web/tools/chrome-devtools)** from same browser. For audit the site i use **[Lighthouse](https://developers.google.com/web/tools/lighthouse/)** from **Chrome DevTools**. Exhaustively testing the functionality of each part of the application and managed to solve most of the problems that across before writing this document. However how process of testing is being expanding on different browsers and different devices some problems are found and noticed. Some I solved and corrected, some remained uncorrected until the end of the test, and as my skills and knowledge develop, so they will be eliminated.
+
+I received help from some family members and friends to do the tests on application.
+
+Testing is conduct by sharing application to them and have conversation about application.
+
+This was the primary method of testing the application. People were asked to visit the website on a variety of devices. This feedback was very uselful to determine any bugs that may have been present. I also tested the app manually myself on a varietly of browsers and tools. 
+
+## Manual Testing
+
+### Browser used in testing 
+
+* **[Google Chrome 81.0.4044.138](https://www.google.com/chrome/)**
+    - Is uses for testing site through all developing process and DevTools for responsiveness and scaling issues on different screen sizes.
+* **[Mozilla Firefox 76.0.1](https://www.mozilla.org/en-US/exp/)**
+    - Is uses for testing site and responsiveness and scaling.
+* **[Opera Web Browser 68.0.3618.104](https://www.opera.com)**
+    - Is uses for testing site and responsiveness and scaling.
+* **[Microsoft Edge 44.18362.449.0](https://www.windowscentral.com/microsoft-edge)**
+    - Is uses for testing site and responsiveness and scaling.
+
+
+* Testing was conducted on the browsers above on the first three browsers such as **Google Crome**, **Mozilla Firefox** and **Opera Web Browser** no problems or bugs were noticed. 
+* But on the **Microsoft Edge** we encounter a bug at the beginning of the site and that is the only bug noticed on that browser.
+
+    - Bug on **Microsoft Edge** web browser. ( bug was attempted to be corrected through the **Autoprefixer** but bug is still remained visible.)
+
+<div align="center">
+<img src="/assets/images/readme/testing/bug/edge_bug.png" target="_blank" rel="noopener" width="300" alt="microsoft edge bug">
+</div>
+
+
+* Testing functionality of site on varied browsers
+    - Navigation Bar testing
+
+<center>
+
+|   Action	|   Expetation	|   Chrome	|   Firefox	|   Opera	|   Edge	|
+|---	|:-:	|:-:	|:-:	|:-:	|:-:	|
+|   Clicked **Logo** on Home page	|   Refresh **Home** page	|   PASS	|   PASS	|   PASS	|   PASS	|
+|   Clicked **Logo** on any other page on site	|   Return to **Home** page	|   PASS	|   PASS	|   PASS	|   PASS	|
+|   Clicked **Home** on Home page 	|   Refresh **Home** page	|   PASS	|   PASS	|   PASS	|   PASS	|
+|   Clicked **Home** on any other page on site	|   Return to **Home** page	|   PASS	|   PASS	|   PASS	|   PASS	|
+|   Clicked **About** on any page on site	|   Open **About** page	|   PASS	|   PASS	|  PASS 	|   PASS	|
+|   Clicked **Planets** on any page on site	|   Open drop-down menu	|   PASS	|   PASS	|   PASS	|   PASS	|
+|   Clicked Planet **Mercury** on any page on site	|   Open page with planet **Mercury**	|   PASS	|   PASS	|   PASS	|   PASS	|
+|   Clicked Planet **Venus** on any page on site	|   Open page with planet **Venus**	|   PASS	|   PASS	|   PASS	|  PASS 	|
+|   Clicked Planet **Earth** on any page on site	|   Open page with planet **Earth**	|   PASS	|   PASS	|   PASS	|   PASS	|
+|   Clicked Planet **Mars** on any page on site	|   Open page with planet **Mars**	|   PASS	|   PASS	|   PASS	|   PASS	|
+|   Clicked Planet **Jupiter** on any page on site	|   Open page with planet **Jupiter**	|   PASS	|  PASS 	|  PASS 	|   PASS	|
+|   Clicked Planet **Saturn** on any page on site	|   Open page with planet **Saturn**	|   PASS	|   PASS	|   PASS	|   PASS	|
+|   Clicked Planet **Uranus** on any page on site	|   Open page with planet **Uranus**	|   PASS	|   PASS	|   PASS	|   PASS	|
+|   Clicked Planet **Neptune** on any page on site	|   Open page with planet **Neptune**	|   PASS	|   PASS	|   PASS	|   PASS	|
+    -if user clicked on same page where he is page will be refreshed
+    -Example: If user is on planet **Earth** and choose from drop-down menu planet **Earth** again page **Earth** will be refreshed.
+</center>
+
+- Testing **Call-to-action** button, **Explore section** and **Footer** 
+
+<center>
+
+|   Action	|   Expetation	|   Chrome	|   Firefox	|   Opera	|   Edge	|
+|---	|:-:	|:-:	|:-:	|:-:	|:-:	|
+|   Clicked **Explore** on Home page	|   Slide to **Explore** section	|   PASS	|   PASS	|   PASS	|   PASS	|
+|   Clicked **Read More** button under planet **Mercury**	|   Open planet **Mercury** page	|   PASS	|   PASS	|   PASS	|   PASS	|
+|   Clicked **Read More** button under planet **Venus** 	|   Open planet **Venus** page	|   PASS	|   PASS	|   PASS	|   PASS	|
+|   Clicked **Read More** button under planet **Earth**	|   Open planet **Earth** page	|   PASS	|   PASS	|   PASS	|   PASS	|
+|   Clicked **Read More** button under planet **Mars**	|   Open planet **Mars** page	|   PASS	|   PASS	|  PASS 	|   PASS	|
+|   Clicked **Read More** button under planet **Jupiter**	|   Open planet **Jupiter** page	|   PASS	|   PASS	|   PASS	|   PASS	|
+|   Clicked **Read More** button under planet **Saturn**	|   Open planet **Saturn** page	|   PASS	|   PASS	|   PASS	|   PASS	|
+|   Clicked **Read More** button under planet **Uranus**	|   Open planet **Uranus** page	|   PASS	|   PASS	|   PASS	|  PASS 	|
+|   Clicked **Read More** button under planet **Neptune**	|   Open planet **Neptune** page	|   PASS	|   PASS	|   PASS	|   PASS	|
+|   Clicked **About** in footer on any page on site	|   Open **About** page	|   PASS	|   PASS	|   PASS	|   PASS	|
+|   Clicked **Contact Us** in footer on any page on site	|   Open **Contact Us** page	|   PASS	|   PASS	|   PASS	|   PASS	|
+|   Clicked any **Social** network icon in footer on any page on site	|   Open desired social network platform	|   PASS	|   PASS	|   PASS	|   PASS	|
+    - forms on **Contact Us** page are not in function due to lack of skills and current position in the course.
+    - on **About** page there are three links that lead to **Contact Us** page, **Google Fonts** and **NASA** page all three links have been tested and are operational.
+
+</center>
+
+
+### Lighthouse from Chrome DevTools
+
+* Lighthouse from Chrome DevTools is used to audit site for performance, accessibility, progressivnes and SEO.
+
+* Results varied from trial to trial.
+    - Here are some of the results.  
+
+<div align="center">
+<img src="/assets/images/readme/testing/try1.png" target="_blank" rel="noopener" width="800" alt="crome lighthouse try 1">
+</div>
+<div align="center">
+<img src="/assets/images/readme/testing/try2.png" target="_blank" rel="noopener" width="800" alt="crome lighthouse try 2">
+</div>
+<div align="center">
+<img src="/assets/images/readme/testing/try3.png" target="_blank" rel="noopener" width="800" alt="crome lighthouse try 3">
+</div>
+
+#### Validators used for valid code
+
+* **[W3C HTML Validator](https://validator.w3.org/)** 
+    * This is online HTML code validator
+    - all pages from site was tested and all ressults was come back with no error.
+<div align="center">
+<img src="/assets/images/readme/testing/html_validator.png" target="_blank" rel="noopener" width="800" alt="html validator results">
+</div>
+
+* **[W3C CSS Validator](https://jigsaw.w3.org/css-validator/)** 
+    * This is online CSS code validator
+    - CSS was tested and come back with no error and 34 warnings all warnings was **an unknown vendor extension** as i try to site be compatibility and support various browser.
+<div align="center">
+<img src="/assets/images/readme/testing/css_validator.png" target="_blank" rel="noopener" width="800" alt="css validator results">
+</div>
+<div align="center">
+<img src="/assets/images/readme/testing/css_validator1.png" target="_blank" rel="noopener" width="800" alt="css validator results">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
