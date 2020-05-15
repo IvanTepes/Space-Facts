@@ -328,9 +328,7 @@ Testing is conduct by sharing application to them and have conversation about ap
 
 This was the primary method of testing the application. People were asked to visit the website on a variety of devices. This feedback was very uselful to determine any bugs that may have been present. I also tested the app manually myself on a varietly of browsers and tools. 
 
-## Manual Testing
-
-### Browser used in testing 
+## Browser used in testing 
 
 * **[Google Chrome 81.0.4044.138](https://www.google.com/chrome/)**
     - Is uses for testing site through all developing process and DevTools for responsiveness and scaling issues on different screen sizes.
@@ -352,7 +350,7 @@ This was the primary method of testing the application. People were asked to vis
 </div>
 
 
-* Testing functionality of site on varied browsers
+* Testing functionality of site on varied browsers and devices.
     - Navigation Bar testing
 
 <center>
@@ -401,9 +399,62 @@ This was the primary method of testing the application. People were asked to vis
 </center>
 
 
-### Lighthouse from Chrome DevTools
+## Responsiveness
+I also tested the responsiveness site through **[Troy](http://troy.labs.daum.net/)** web page that has different devices in its database as well as different screen sizes.
 
-* Lighthouse from Chrome DevTools is used to audit site for performance, accessibility, progressivnes and SEO.
+<center>
+
+|   Brand / Tipe	|   Screen Size	|   Screen Resolution	|   Css Pixel Ratio	|   Notable display Issues	|
+|:-:	|:-:	|:-:	|:-:	|:-:	|
+|   **Samsung**	|   	|   	|   	|   	|
+|   Galaxy S8, S8+, Note 8	|   360 x 640	|   1440 x 2560	|   4	|   NONE	|
+|   Galaxy S6, S7 	|   360 x 640	|   1440 x 2560	|   4	|   NONE	|
+|   Note 4, Note 5	|   360 x 640	|   1440 x 2560	|   4	|   NONE	|
+|   Galaxy S5, Note3	|   360 x 640	|   1080 x 1920	|   3	|   NONE	|
+|   Galaxy S3, Note2	|   360 x 640	|   720 x 1280	|   2	|   NONE	|
+|   Galaxy Note1	|   400 x 640	|   800 x 1280	|   2	|   NONE	|
+|   Galaxy S2, S1	|   320 x 533	|   480 x 800	|   1.5	|   <img src="/assets/images/readme/testing/display_issues/s2s1.png" target="_blank" rel="noopener" width="200" alt="Samsung Galaxy s2, s1 display issues">	|
+|   Galaxy Tab S	|   800 x 1280	|  1600 x 2560 	|   2	|   NONE	|
+|   **Apple**	|   	|   	|   	|   	|
+|   iPhone 6 (s), 7, 8,	|   375 x 667	|   750 x 1334	|   2	|   NONE	|
+|   iPhone 6 (s)+, 7+, 8+	|   414 x 736	|   1242 x 2208	|   3	|  NONE 	|
+|   iPhone 5, SE	|   320 x 568	|   640 x 1136	|   2	|   NONE	|
+|   iPhone 4	|   320 x 480	|   640 x 960	|   2	|   <img src="/assets/images/readme/testing/display_issues/iphone4.png" target="_blank" rel="noopener" width="200" alt="iphone 4 display issues">	|
+|   iPhone 3GS	|   320 x 480	|   320 x 480	|   1	|   <img src="/assets/images/readme/testing/display_issues/iphone3gs.png" target="_blank" rel="noopener" width="200" alt="iphone 3GS display issues">	|
+|   iPad Retina 	|   768 x 1024	|   1536 x 2048	|   2	|   NONE	|
+|   **LG**	|   	|   	|   	|   	|
+|   G5	|   360 x 640	|   1440 x 2560	|   4	|   NONE	|
+|   G4	|   360 x 640	|   1440 x 2560	|   4	|   NONE	|
+|   G3	|   360 x 640	|   1440 x 2560	|   4	|   NONE	|
+|   G2	|   360 x 640	|   1080 x 1920	|   3	|   NONE	|
+|   Optimus G Pro	|   360 x 640	|   1080 x 1920	|   3	|   NONE	|
+|   Optimus G 	|   384 x 640	|   768 x 1280	|   2	|   NONE	|
+|   Optimus View	|   384 x 512	|   768 x 1024	|   2	|   NONE	|
+|   G Pad 8.3	|   600 x 960	|   1200 x 1920	|   2	|   <img src="/assets/images/readme/testing/display_issues/g_pad8.3.png" target="_blank" rel="noopener" width="200" alt="G pad 8.3 display issues">	|
+|   **Google**	|   	|   	|   	|   	|
+|   Nexus 5	|  360 x 640 	|   1080 x 1920	|   3	|   NONE	|
+|   Nexus 4	|   384 x 640	|   768 x 1280	|   2	|   NONE	|
+|   Galaxy Nexus	|   360 x 640 	|   768 x 1280	|   2	|   NONE	|
+|   Nexus S	|   320 x 533	|   480 x 800	|    1.5	|  <img src="/assets/images/readme/testing/display_issues/nexus_s.png" target="_blank" rel="noopener" width="200" alt="Nexus S display issues">	|
+|   Nexus 10	|   800 x 1280	|  1600 x 2560	|   2	|   NONE	|
+|   Nexus 7 (2013)|  600 x 960 	|   1200 x 1920	|   2	|   <img src="/assets/images/readme/testing/display_issues/nexus7.png" target="_blank" rel="noopener" width="200" alt="Nexus 7 display issues">	|
+|   **Pc Screens**	|   	|   	|   	|   	|
+|   800 px	|   800 x 600	|   800 x 600	|   1	|   NONE	|
+|   970 px	|   970 x 600	|   970 x 600	|   1	|   NONE	|
+|   1024 px	|   1024 x 768	|   1024 x 768	|   1	|   NONE	|
+|   1280 px	|   1280 x 800	|   1280 x 800	|   1	|   NONE	|
+|   1366 px	|   1366 x 768	|   1366 x 768	|   1	|   NONE	|
+|   1440 px	|   1440 x 900	|   1440 x 900	|   1	|   NONE	|
+|   1600 px	|   1600 x 900	|   1600 x 900	|   1	|   NONE	|
+|   1920 px	|   1920 x 1080	|   1920 x 1080	|   1	|   NONE	|
+
+    - I found some display issues with some smaller screens and some medium screens.
+</center>
+
+
+## Lighthouse from Chrome DevTools
+
+* **[Lighthouse](https://developers.google.com/web/tools/lighthouse/)** from **Chrome DevTools** is used to audit site for performance, accessibility, progressivnes and SEO.
 
 * Results varied from trial to trial.
     - Here are some of the results.  
@@ -418,7 +469,7 @@ This was the primary method of testing the application. People were asked to vis
 <img src="/assets/images/readme/testing/try3.png" target="_blank" rel="noopener" width="800" alt="crome lighthouse try 3">
 </div>
 
-#### Validators used for valid code
+## Validators used for valid code
 
 * **[W3C HTML Validator](https://validator.w3.org/)** 
     * This is online HTML code validator
@@ -436,6 +487,65 @@ This was the primary method of testing the application. People were asked to vis
 <div align="center">
 <img src="/assets/images/readme/testing/css_validator1.png" target="_blank" rel="noopener" width="800" alt="css validator results">
 </div>
+
+## Users Testing 
+
+* Users who tested this site mostly came back with the same comments that were addressed to the design of the site. 
+* All links were rated to work and met their expectations as confirmed by my testing which can be viewed in table above.
+
+* Some useful feedbacks from mobile testers.
+    - When you enter the planet and scroll all the way, the back button is missing.
+    - On the carousel the icons for the next picture are not seen enough especially lost on some planets that are lighter in color.
+    - There are three indicators and four pictures on the carousel.
+    - Carousel indicators are not visible enough.
+    - The Call-to-action button with two arrows does not tell me what I should do I pressed explore.
+    - The images on the explore sections are not clickable I had to click on read more.
+    - When I click Explore "Jump" "is too strong it would be better to scroll it slightly.
+
+    Feedbacks was very useful and point to some things that i missed during development or just forget to change.
+
+### Meeting the needs of the user stories (as described in the UX section of this README file)
+
+* **Access the application from your favourite equipment, such as smartphones, tablets, laptops or PCs, without loss of content.**
+    - The site has been tested through a variety of devices from mobile devices, tablets and desktops as well as laptops. The site has gone through and met the user's needs as well as ressposivnes through different screen sizes.
+
+* **Easily navigate the site across all pages.**
+    - The site met the expectations of users and the test of navigation through the page was rated as simple and easy.
+
+* **Enjoy viewing high quality pictures of space and objects.**
+    - The images on the page met the expectations of the users and were rated as pleasant and of high quality.
+
+* **To see simple, clear design, which cleary shows what the user can do.**
+    - In general, the design of the site met all the expectations of users, although there were some comments and suggestions on how to improve certain parts.
+
+* **Want to see what different category are included in content.**
+    - The content of the site was assessed as satisfactory for now and the current phase of project development.
+
+* **Expect to know from where the content of the site came from.**
+    - User expectations were met and users were able to find information about the content they were interested in.
+
+* **Be able to contact somebody about content,prise,critics,mistakes or any other topic.**
+    - User expectations have been met although contact forms are not operational for now. All testers were familiar with the fact that contact forms are not working.
+
+* **User testing devices**
+ * **Mobile devices**
+    - Samsung Note 8
+    - Huawei P10
+    - Sony Xperia x2
+    - Sony Xperia xA2
+    - Samsung A30s
+    - Samsung S7
+ * **Tablets** 
+    - Lenovo Tab2 A10-30
+ * **Laptops**
+    - Hp Pavilion
+    - Hp Ultrabook
+
+ 
+
+
+
+
 
 
 
