@@ -542,13 +542,52 @@ I also tested the responsiveness site through **[Troy](http://troy.labs.daum.net
     - Hp Ultrabook
 
  
+# Deployment
+This project was developed using the **[Gitpod](https://www.gitpod.io/)** Integrated development environment, version controlled by committing to git and pushing to **[GitHub](https://github.com/)** via the **GitPod** IDE.
 
+To deploy this page to **GitHub** pages from its specific **GitHub** repository the steps followed were;
 
+* Scroll to the top of this **GitHub** page or press **[here](https://github.com/IvanTepes/Space-Facts)**.
 
+* From the horizontal menu select **Settings**
+    
+* The page should be open on **Options** if is not select **Options** from left menu.
+    
+* Scroll down to the **GitHub Pages section**
+    
+* Under **Source** select **Master branch**
+    
+* On selecting **Master branch** the page is automatically refreshed, the website is now delployed.
 
+* The link to the webpage can be found at the top of the **GitHub Pages section**
 
+How to run this project locally?
 
+To clone this project from GitHub:
 
+* Follow this link to the Project GitHub repository.
+
+* Under the repository name, click **Clone or download**
+
+* In the Clone with HTTPs section, copy the clone URL for the repository
+
+* In your local IDE open the terminal
+
+* Change the current working directory to the location where you want the cloned directory to be made.
+
+* Type **git clone**, and then paste the URL you copied from repository.
+
+* Press Enter. Your local clone will be created
+
+# Credits
+
+## Content
+* All content on site is copied from Wikipedia.
+## Media
+* All images on site are copied from Wikipedia and Nasa
+
+## Acknowledgements
+* Thank
 
 
 
