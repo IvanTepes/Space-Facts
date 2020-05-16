@@ -13,6 +13,46 @@
   I am thrilled that I can turn my passion and hobby into my own website. I hope you enjoy my web page as much as I enjoy presenting space facts to you all.
 
 #### You can access the application [here.](https://ivantepes.github.io/Space-Facts/)
+# Table of Content
+- [UX](#ux)
+  * [User Stories](#user-stories)
+  * [Design](#design)
+    + [Typography](#typography)
+    + [Colours](#colours)
+    + [Icons](#icons)
+  * [Wireframes](#wireframes)
+- [Features](#features)
+    + [Layout](#layout)
+    + [Buttons](#buttons)
+    + [Font](#font)
+  * [Existing Features](#existing-features)
+    + [Responsiveness](#responsiveness)
+    + [Navigation Bar](#navigation-bar)
+    + [Landing page and jumbotron](#landing-page-and-jumbotron)
+    + [Explore section and Buttons](#explore-section-and-buttons)
+    + [Multi-page layout](#multi-page-layout)
+    + [Planets](#planets)
+    + [About](#about)
+    + [Contact Us](#contact-us)
+    + [Footer](#footer)
+    + [Features Left to Implement](#features-left-to-implement)
+- [Technologies Used](#technologies-used)
+  * [Languages](#languages)
+  * [Tools Used](#tools-used)
+  * [Libraries](#libraries)
+- [Testing](#testing)
+  * [Browser used in testing](#browser-used-in-testing)
+  * [Responsiveness](#responsiveness-test)
+  * [Lighthouse](#lighthouse)
+  * [Validators](#validators)
+  * [Users Testing](#users-testing)
+    + [Meeting the needs of the user stories (as described in the UX section of this README file)](#meeting-the-needs-of-the-user-stories--as-described-in-the-ux-section-of-this-readme-file-)
+- [Deployment](#deployment)
+- [Credits](#credits)
+  * [Content](#content)
+  * [Media](#media)
+  * [Inspiration](#inspiration)
+  * [Acknowledgements](#acknowledgements)
 
 # UX
 
@@ -89,7 +129,7 @@ Two fonts used are a google fonts, called **Robotto** and **Girassol**.
 ## Existing Features
 
 ### Responsiveness
-  The biggest feature of this site is the responsiveness across devices and screen sizes that we have achieved using [Bootstrap 4.4.1](https://getbootstrap.com/docs/4.4/layout/overview/) layout. 
+  The biggest feature of this site is the responsiveness across devices and screen sizes that we have achieved using [Bootstrap 4](https://getbootstrap.com/docs/4.4/layout/overview/) layout. 
   So with small screens or mobile phones we have one planet per column on medium screens as tablets we have two planets per column while on desktop and larger screens we have four planets per column which led to better visibility, organization, readability and better visual presentation.
 
 * Small screens, medium screens,large screens.
@@ -401,7 +441,7 @@ This was the primary method of testing the application. People were asked to vis
 </center>
 
 
-## Responsiveness
+## Responsiveness Test
 I also tested the responsiveness site through **[Troy](http://troy.labs.daum.net/)** web page that has different devices in its database as well as different screen sizes.
 
 <center>
@@ -454,7 +494,7 @@ I also tested the responsiveness site through **[Troy](http://troy.labs.daum.net
 </center>
 
 
-## Lighthouse from Chrome DevTools
+## Lighthouse
 
 * **[Lighthouse](https://developers.google.com/web/tools/lighthouse/)** from **Chrome DevTools** is used to audit site for performance, accessibility, progressivnes and SEO.
 
@@ -471,7 +511,7 @@ I also tested the responsiveness site through **[Troy](http://troy.labs.daum.net
 <img src="/assets/images/readme/testing/try3.png" target="_blank" rel="noopener" width="800" alt="crome lighthouse try 3">
 </div>
 
-## Validators used for valid code
+## Validators
 
 * **[W3C HTML Validator](https://validator.w3.org/)** 
     * This is online HTML code validator
@@ -610,24 +650,3 @@ To clone this project from GitHub:
 
 ### The content of this website is for educational purposes only. 
 ### Thank you.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
