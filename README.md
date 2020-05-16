@@ -302,6 +302,8 @@ While the second item allows the user to have direct contact with the author and
     - Used for creating favicon for site.
 * **[HTML Color Codes](https://htmlcolorcodes.com/)**
     - Used for creating color.
+* **[Adobe Color](https://color.adobe.com)**
+    - Used for creating color.
 * **[ScreenToGif](https://www.screentogif.com/)**
     - Used for creating gif for README.
 * **[Paint 3D](https://www.microsoft.com/en-us/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab)**
@@ -582,12 +584,34 @@ To clone this project from GitHub:
 # Credits
 
 ## Content
-* All content on site is copied from Wikipedia.
+* All content on site is copied from **[Wikipedia](https://en.wikipedia.org/wiki/Solar_System)**.
 ## Media
-* All images on site are copied from Wikipedia and Nasa
+* All images on site are copied from **[Wikipedia](https://en.wikipedia.org/wiki/Solar_System)** and **[NASA](https://www.nasa.gov/)**.
+
+## Inspiration 
+
+* Color Patterns from **[Adobe Color](https://color.adobe.com/search?q=earth%20space)**.
+
+* Font Inspiration from **[Reliable](https://www.reliablepsd.com/ultimate-google-font-pairings/)**.
+
+* Inspiration, ideas , problems solutions from **[Free Front End](https://freefrontend.com/)**, **[Codepen](https://codepen.io/)**, **[w3schools.com](https://www.w3schools.com/)**, **[Stack Overflow](https://stackoverflow.com/)**, **[Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/)**, **[Behance](https://www.behance.net/onboarding/adobe)**
+
+* And some more but i lost track of all articles readed and web pages visited.
 
 ## Acknowledgements
-* Thank
+
+* I'd like to thank my mentor in Code Institute **Precious Ijege** who had all the patience to explain and make me understand certain concepts and peculiarities of the project. And also for useful and constructive feedback through this project.
+
+* To my girlfriend who was my biggest helper, the biggest critic, the voice of common sense in some difficult moments during the making of this project.
+
+* All people, including family, friends, and colleagues who have tested the application on their real devices, reporting to me about any usability issues and giving improvement tips to improve the usability.
+
+* To all of the Code Institute Slack community for the help in my issues and review to my project.
+
+### The content of this website is for educational purposes only. 
+### Thank you.
+
+
 
 
 
