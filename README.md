@@ -361,6 +361,8 @@ While the second item allows the user to have direct contact with the author and
     - Is used to simplify DOM manipulation.
 
 # Testing
+<details>
+    <summary>Click to expand!</summary>
 
 During the development of this project, I had the experience of facing some problems. Browser used for testing application during development was **[Google Chrome](https://www.google.com/chrome/)** and **[Dev Tools](https://developers.google.com/web/tools/chrome-devtools)** from same browser. For audit the site i use **[Lighthouse](https://developers.google.com/web/tools/lighthouse/)** from **Chrome DevTools**. Exhaustively testing the functionality of each part of the application and managed to solve most of the problems that across before writing this document. However how process of testing is being expanding on different browsers and different devices some problems are found and noticed. Some I solved and corrected, some remained uncorrected until the end of the test, and as my skills and knowledge develop, so they will be eliminated.
 
@@ -583,7 +585,8 @@ I also tested the responsiveness site through **[Troy](http://troy.labs.daum.net
     - Hp Pavilion
     - Hp Ultrabook
 
- 
+ </details>
+
 # Deployment
 This project was developed using the **[Gitpod](https://www.gitpod.io/)** Integrated development environment, version controlled by committing to git and pushing to **[GitHub](https://github.com/)** via the **GitPod** IDE.
 
