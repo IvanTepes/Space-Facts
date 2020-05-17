@@ -151,11 +151,7 @@ a:hover {
 /* Jumbotron */
 
 .jumbotron {
-<<<<<<< HEAD
     margin-top: 10vmin;
-=======
-    margin-top: 15vh;
->>>>>>> 7bb3fdbdec8d8847d5bb08362417d0498b17c9dd
     padding-top: 32px;
     padding-bottom: 32px;
     border-radius: 30px;
