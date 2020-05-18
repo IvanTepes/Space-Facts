@@ -83,6 +83,7 @@ h1, h2, h3, h5 {
     font-size: 4vh;
     letter-spacing: 2px;
     margin-right: -155px;
+    z-index: 1;
 }
 
 /*  Navbar Dropdown Menu  */
