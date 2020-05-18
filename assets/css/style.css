@@ -339,7 +339,7 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Planets Section*/
+/* Planets Section */
 
 .planets--section {
     background: url("../images/planet_background.jpg") no-repeat top fixed;
@@ -355,6 +355,30 @@ a:hover {
             align-items: flex-end;
     position: relative;
 }
+
+/* Carousel */
+
+.carousel-indicators {
+    margin-bottom: 0px;
+}
+
+.carousel-indicators li {
+    width: 40px;
+    height: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    transition: none;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+    background-color: #FFB325;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    align-items: flex-end;
+}
+
 
 /* Facts Section */
 
