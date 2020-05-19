@@ -80,7 +80,7 @@ h1, h2, h3, h5 {
 
 .navbar--brand {
     font-family: 'Girassol', sans-serif;
-    font-size: 4vh;
+    font-size: 5vmin;
     letter-spacing: 2px;
     margin-right: -155px;
     z-index: 1;
