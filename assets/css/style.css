@@ -133,6 +133,10 @@ h1, h2, h3, h5 {
     background-color: #fff;
 }
 
+.navbar-dark .navbar-nav .show>.nav-link {
+    color: #F2D750;
+}
+
 /* Buttons */
 
 .btn--orange {
@@ -154,6 +158,11 @@ h1, h2, h3, h5 {
 a:hover {
     color: #000;
     text-decoration: none;
+}
+
+.btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(255, 188, 0, 0.25);
 }
 
 /* Landing */
