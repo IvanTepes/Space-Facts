@@ -1,3 +1,9 @@
+/* Html */
+
+html {
+    scroll-behavior: smooth;
+}
+
 /* Body */
 
 body {
@@ -24,6 +30,7 @@ h1, h2, h3, h5 {
 .bg-color--jumbotron {
     background-color: rgba(0,0,0,0.7);
 }
+
 /* Colors */
 
 /* Social network icons */
@@ -44,7 +51,7 @@ h1, h2, h3, h5 {
     top: 0;
     left: 0;
     z-index: 1;
-    }
+}
 
 .navbar-collapse {
     justify-content: space-evenly;
@@ -80,7 +87,7 @@ h1, h2, h3, h5 {
 
 .navbar--brand {
     font-family: 'Girassol', sans-serif;
-    font-size: 5vmin;
+    font-size: 1.5em;
     letter-spacing: 2px;
     margin-right: -155px;
     z-index: 1;
@@ -160,6 +167,19 @@ a:hover {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+/* Call to action button */
+
+.call--button {
+    color:#FFB325;
+    font-family: 'Girassol', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 4px;
+}
+
+.jumbotron a:hover {
+    color: #fff;
 }
 
 /* Jumbotron */
