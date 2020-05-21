@@ -89,7 +89,7 @@ h1, h2, h3, h5 {
     font-family: 'Girassol', sans-serif;
     font-size: 1.5em;
     letter-spacing: 2px;
-    margin-right: -155px;
+    margin-right: -130px;
     z-index: 1;
 }
 
@@ -413,6 +413,8 @@ a:hover {
     color: #fff;
     list-style: none;
     padding-left: 0px;
+    text-align: center;
+    letter-spacing: 0.8px;
 }
 
 /* About.html */
