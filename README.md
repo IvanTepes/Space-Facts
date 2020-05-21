@@ -54,6 +54,10 @@
   * [Inspiration](#inspiration)
   * [Acknowledgements](#acknowledgements)
 
+```diff
+- After first testing and testers feedback i changed and added some fature to page and explanation of changes will be orange color in this document.
+```
+
 # UX
 
 ## User Stories
@@ -78,7 +82,7 @@
 This project was developed with a focus on a mobile approach first. However, with full responsiveness on other screen sizes.
 I used the jumbotron, grids, nav, cards, forms, table, carousel and bootstrap  in this project.
 The main idea for the design of this project was to have a serious and professional appearance, transparent navbar, black background to highlight images of space objects, which convey sophistication and provide a pleasant user experience.
-I used the two icons on the home page to clarify what the user should do when they first come to the page, I made them clicable so that the user is taken to the content by pressing at the same time by moving the mouse over the text "Explore" text changes color to orange letting the user know that the action can achieve something.
+~~I used the two icons on the home page to clarify what the user should do when they first come to the page, I made them clicable so that the user is taken to the content by pressing~~ at the same time by moving the mouse over the text "Explore" text changes color to orange letting the user know that the action can achieve something.
 
 ### Typography
 The main font used in this project is **Robotto**. I think that's a well designed and easy to read font. An extra reason for using this font is the excellent display on small screens.
