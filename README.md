@@ -56,7 +56,7 @@
   * [Acknowledgements](#acknowledgements)
 
 ```diff
-- After first testing and testers feedback i changed and added some fature to page and explanation of changes will be red colored text.
+- After first testing and testers feedback i changed and added some features to page and explanation of changes will be highlight futher in text.
 ``` 
 
 # UX
@@ -84,7 +84,8 @@ This project was developed with a focus on a mobile approach first. However, wit
 I used the jumbotron, grids, nav, cards, forms, table, carousel and bootstrap  in this project.
 The main idea for the design of this project was to have a serious and professional appearance, transparent navbar, black background to highlight images of space objects, which convey sophistication and provide a pleasant user experience.
 ~~I used the two icons on the home page to clarify what the user should do when they first come to the page, I made them clicable so that the user is taken to the content by pressing~~.
-<span style="color:red">For better clarifycation bouncing icons are replaced with **Scroll Down** text and three **Arrows** on bottom of landing page, **Explore** message/button is changed in color from white to orange. At the same time by moving the mouse over the text **Explore** text changes color to from orange to white letting the user know that the action can achieve something.</span>
+
+`For better clarifycation bouncing icons are replaced with Scroll Down text and three Arrows on bottom of landing page, Explore message/button is changed in color from white to orange. At the same time by moving the mouse over the text Explore text changes color to from orange to white letting the user know that the action can achieve something.`
 
 ### Typography
 The main font used in this project is **Robotto**. I think that's a well designed and easy to read font. An extra reason for using this font is the excellent display on small screens.
@@ -145,9 +146,9 @@ Two fonts used are a google fonts, called **Robotto** and **Girassol**.
 </div>
 
 ### Navigation Bar 
-  Is on the top of all the pages on the site and is fixed, with rounded on edge and transparent to give user sense where is when scroll. The left hand side has the logo of the page being **Sp@ce F@cts**, and when clicked, will return the user to the home page. The rest of the navigation items are centred to middle of the Navigation bar and they are: **Home**, **About us** and **Planets** which is also a drop down menu and change shape to three lines called "Burger" for mobile screens <span style="color:red">and tablets screens</span>.
-
-``Navigation bar is now centered middle on mobile screens to before was lined to left side when is in drop down shape.``
+  Is on the top of all the pages on the site and is fixed, with rounded on edge and transparent to give user sense where is when scroll. The left hand side has the logo of the page being **Sp@ce F@cts**, and when clicked, will return the user to the home page. The rest of the navigation items are centred to middle of the Navigation bar and they are: **Home**, **About us** and **Planets** which is also a drop down menu and change shape to three lines called "Burger" for mobile screens `and tablets screens`. 
+    
+`Navigation bar is now centered middle on mobile screens too, before was lined to left side when is in drop down shape.`
 
   Navigation item **Planets** have orange down indicator and is drop down menu on larger screens.
   Navigation bar have thick orange border on bottom side to separate navigation bar from rest of page because is rounded and only on bottom side give pleasant and interesant ux.
