@@ -1,6 +1,7 @@
 <div align="center">
 <img src="/assets/images/readme/alldevices.png" target="_blank" rel="noopener" alt="Space Facts">
 <h1>Sp@ce F@cts</h1>
+    - First version can be see here
 </div>
 
 
@@ -56,7 +57,7 @@
 
 ```diff
 - After first testing and testers feedback i changed and added some fature to page and explanation of changes will be orange color in this document.
-```
+``` 
 
 # UX
 
@@ -76,13 +77,13 @@
 
 - Expect to know from where the content of the site came from.
 
-- Be able to contact somebody about content,prise,critics,mistakes or any other topic.
+- Be able to contact somebody about content, prise, critics, mistakes or any other topic.
 
 ## Design
 This project was developed with a focus on a mobile approach first. However, with full responsiveness on other screen sizes.
 I used the jumbotron, grids, nav, cards, forms, table, carousel and bootstrap  in this project.
 The main idea for the design of this project was to have a serious and professional appearance, transparent navbar, black background to highlight images of space objects, which convey sophistication and provide a pleasant user experience.
-~~I used the two icons on the home page to clarify what the user should do when they first come to the page, I made them clicable so that the user is taken to the content by pressing~~ at the same time by moving the mouse over the text "Explore" text changes color to orange letting the user know that the action can achieve something.
+~~I used the two icons on the home page to clarify what the user should do when they first come to the page, I made them clicable so that the user is taken to the content by pressing~~ . For better clarifycation bouncing icons are replaced with Scroll Down text and three icons on bottom of landing page, at the same time by moving the mouse over the text **Explore** text changes color to orange letting the user know that the action can achieve something.
 
 ### Typography
 The main font used in this project is **Robotto**. I think that's a well designed and easy to read font. An extra reason for using this font is the excellent display on small screens.
@@ -105,12 +106,12 @@ In the main titles of the site and logo the font **Girassol** was used, which al
 
 ### Icons
 
-The icons used in this project are provided by [Font Awesome 5.13.0](https://fontawesome.com/).
-They were used as social media icons in the footer and on contact page as address,comment and map.
+The icons used in this project are provided by [Font Awesome](https://fontawesome.com/).
+They were used as social media icons in the footer and on contact page as address, comment and map.
 
 ## Wireframes
 
-Wireframes were designed with [Balsamiq Wireframes 4.0.28](https://balsamiq.com/wireframes/). These were the first version of scope and some things have changed,removed or leave for later development.
+Wireframes were designed with [Balsamiq Wireframes](https://balsamiq.com/wireframes/). These were the first version of scope and some things have changed, removed or leave for later development.
 * Mobile  [here](/assets/images/readme/wireframes/mobile.png)
 * Detskop home [here](/assets/images/readme/wireframes/index.png)
 * Detskop planets [here](/assets/images/readme/wireframes/planets.png)
@@ -122,10 +123,10 @@ Wireframes were designed with [Balsamiq Wireframes 4.0.28](https://balsamiq.com/
 # Features
 
 ### Layout
-This is a multi-page layout, but designed with simplicity in mind. The home page displays the main river database information, below the header text which allows the user to find information very quickly without the need to have to search for it.
+This is a multi-page layout, but designed with simplicity in mind. The home page displays the navbar with dropdown menu and jumbotron in middle, below the header text is Explore message/button which allows the user to find information very quickly without the need to have to search for it.
 
 ### Buttons
-Buttons on this application are made with **Bootstrap 4**. Big, and easy to use.
+Buttons on this application are made with **Bootstrap**. Big, and easy to use.
 
 ### Font
 Two fonts used are a google fonts, called **Robotto** and **Girassol**.
@@ -133,17 +134,20 @@ Two fonts used are a google fonts, called **Robotto** and **Girassol**.
 ## Existing Features
 
 ### Responsiveness
-  The biggest feature of this site is the responsiveness across devices and screen sizes that we have achieved using [Bootstrap 4](https://getbootstrap.com/docs/4.4/layout/overview/) layout. 
-  So with small screens or mobile phones we have one planet per column on medium screens as tablets we have two planets per column while on desktop and larger screens we have four planets per column which led to better visibility, organization, readability and better visual presentation.
+  The biggest feature of this site is the responsiveness across devices and screen sizes that we have achieved using [Bootstrap](https://getbootstrap.com/docs/4.4/layout/overview/) layout. 
+  So with small screens or mobile phones we have one planet per row, on medium screens as tablets we have two planets per row, while on desktop and larger screens we have four planets per row which led to better visibility, organization, readability and better visual presentation.
 
-* Small screens, medium screens,large screens.
+* **Small screens, medium screens,large screens.**
 <div align="center">
   <img src = "/assets/images/readme/features/responsiveness/small.jpg" width ="200" alt="small screens"/>                                   <img src = "/assets/images/readme/features/responsiveness/medium.jpg" width ="200" alt="medium screens"/> 
   <img src = "/assets/images/readme/features/responsiveness/large.jpg" width ="200" alt="large screens"/>
 </div>
 
 ### Navigation Bar 
-  Is on the top of all the pages on the site and is fixed, with rounded on edge and transparent to give user sense where is when scroll. The left hand side has the logo of the page being "Sp@ce F@cts", and when clicked, will return the user to the home page. The rest of the navigation items are centred to middle of the Navigation bar and they are: **Home**, **About us** and **Planets** which is also a drop down menu and change shape to three lines called "Burger" for mobile screens.
+  Is on the top of all the pages on the site and is fixed, with rounded on edge and transparent to give user sense where is when scroll. The left hand side has the logo of the page being **Sp@ce F@cts**, and when clicked, will return the user to the home page. The rest of the navigation items are centred to middle of the Navigation bar and they are: **Home**, **About us** and **Planets** which is also a drop down menu and change shape to three lines called "Burger" for mobile screens ``and tablets screens``.
+
+``Navigation bar is now centered middle on mobile screens to before was lined to left side when is in drop down shape.``
+
   Navigation item **Planets** have orange down indicator and is drop down menu on larger screens.
   Navigation bar have thick orange border on bottom side to separate navigation bar from rest of page because is rounded and only on bottom side give pleasant and interesant ux.
   The Navigation bar gives the user information about where he is on the site by changing the color of the active page also change color on hover provide user information what action he can make.
@@ -184,11 +188,13 @@ Two fonts used are a google fonts, called **Robotto** and **Girassol**.
 
 * Background for landing page i chosen dark black-blue image with orange center of galaxy and slightly transparent jumboton in middle give nice sight in that image.
 
-* **Jumbotron** contains a question that immediately catches the eye and prompts the user to ask for a second what the universe is, the second thing that distracts him are two bouncing icons around the message **Explore** to interest him and encourage him to explore the site.
+* **Jumbotron** contains a question that immediately catches the eye and prompts the user to ask for a second what the universe is, the second thing is ~~that distracts him are two bouncing icons around the message~~ **Explore** message/button in orange color to interest him and encourage him to explore the site the third thing is the **Scroll Down** text and the three **Arrows** that point down and have an animation of disappearing and reappearing over a period of time.
 
-* **Explore** is designed as call-to-action button and are clickable and on desktop screens change color from white to orange giving user information that he can make action whit it.
+* **Explore** is designed as call-to-action button and are clickable and on desktop screens when hover over it with mouse change color from orange to white giving user information that he can make action whit it.
 
-* **Bouncing icon** are designed to let the user know that he should scroll the page, but if he did not understand the first idea and clicks on the icon or on **Explore** the page will automatically move to the section with planets.
+* ~~**Bouncing icon** are designed to let the user know that he should scroll the page, but if he did not understand the first idea and clicks on the icon or on **Explore** the page will automatically move to the section with planets.~~
+
+* **Scroll down and Arrows** ``are one of changes that i make after first testing of application. They try to clarify what user need to do when land for first time on page. With first design **Bouncing icon** around text **Explore** testers had the impression that it was not clear enough what to do on the first visit to the site.`` 
 
 * **Jumbotron, Bouncing icons and Explore**
 
@@ -202,7 +208,7 @@ Two fonts used are a google fonts, called **Robotto** and **Girassol**.
 * **The Explore** section contains pictures of all the planets offered on the site and one fact about each planet, it also contains a button with the message **Read more** that changes color when hover over it and clicking on it leads the user to a page about the planet he is interested in.
 
 * **Buttons**
-with the **Read more** message are designed using a **[Bootstrap 4.4.1](https://getbootstrap.com/)**, are orange in color and change slightly to a lighter shade of orange on detskop screens when hover over it, giving user information he can make action whit it.
+with the **Read more** message are designed using a **[Bootstrap](https://getbootstrap.com/)**, are orange in color and change slightly to a lighter shade of orange on detskop screens when hover over it, giving user information he can make action whit it.
 
 * **Explore section with  one facts and button Read More**
 
@@ -216,7 +222,7 @@ with the **Read more** message are designed using a **[Bootstrap 4.4.1](https://
 * This page has had several separate pages in total 11 at the moment. The **Home** page we went through in the text above, **About us**, **Contact** and 8 **Planets** from our solar system.
   Multi-page layout, but designed with simplicity in mind.
 
-* Each **planet** has a separate page with more information about the same.
+* Each **Planet** has a separate page with more information about the same.
 
 * **Home page and planets together**
 
