@@ -256,6 +256,8 @@ with the **Read more** message are designed using a **[Bootstrap](https://getboo
 * `** Buttons for small and medium screens ** are added with update because feedback from testers.`
     - `On small and medium screens, after the facts and the read text, the user is offered quick navigation with three buttons. Return to the **Explore** section on the **Home** page which would happen by pressing the **Planets** button positioned in the middle or selecting the next / previous planet displayed through the planet name. The first and last planets have an activated page where we are letting us know that we are at the beginning or the end.`
 
+* `Quick navigation when we are on planet ** Mercury **, planet ** Earth ** and planet ** Neptune **`
+
 <div align="center">
 <img src="/assets/images/readme/features/navbar/quick_nav_first_active.jpg" target="_blank" rel="noopener" width="300" alt="Quick navigation with first page actived">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/assets/images/readme/features/navbar/quick_nav.jpg" target="_blank" rel="noopener" width="300" alt="Quick navigation with three button">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/assets/images/readme/features/navbar/quick_nav_last_active.jpg" target="_blank" rel="noopener" width="300" alt="Quick navigation with last page actived">
 </div>
