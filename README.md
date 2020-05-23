@@ -85,7 +85,7 @@ I used the jumbotron, grids, nav, cards, forms, table, carousel and bootstrap  i
 The main idea for the design of this project was to have a serious and professional appearance, transparent navbar, black background to highlight images of space objects, which convey sophistication and provide a pleasant user experience.
 ~~I used the two icons on the home page to clarify what the user should do when they first come to the page, I made them clicable so that the user is taken to the content by pressing~~.
 
-`For better clarifycation bouncing icons are replaced with Scroll Down text and three Arrows on bottom of landing page, Explore message/button is changed in color from white to orange. At the same time by moving the mouse over the text Explore text changes color to from orange to white letting the user know that the action can achieve something.`
+`For better clarifycation bouncing icons are replaced with **Scroll Down** text and three **Arrows** on bottom of landing page, **Explore** message/button is changed in color from white to orange. At the same time by moving the mouse over the text **Explore** text changes color to from orange to white letting the user know that the action can achieve something.`
 
 ### Typography
 The main font used in this project is **Robotto**. I think that's a well designed and easy to read font. An extra reason for using this font is the excellent display on small screens.
@@ -101,7 +101,7 @@ In the main titles of the site and logo the font **Girassol** was used, which al
 
 - In the background, I used an black-blue image of the galaxy for callout section and black universe image for planet section which provide me great ground for planets to "float".
 
-- The orange buttons continue and blend in with the black-and-orange design, changing the color to a lighter shade on hover.
+- The orange buttons continue and blend in with the black-and-orange design, changing the color on hover.
 
 
 #### Colors used on site can see [here.](/assets/images/readme/colors.png)
@@ -173,36 +173,39 @@ Two fonts used are a google fonts, called **Robotto** and **Girassol**.
 ![nav](/assets/images/readme/features/navbar/nav.gif)
 </div>
 
-* **Navigation bar with active planet mars and dropdown menu**
+* **Navigation bar with active planet mars and dropdown menu old and new**
+* `Navigation bar was changed with last update. The functionality remained the same only the style was changed to fit into whole page.`
 
 <div align="center">
 
-![nav](/assets/images/readme/features/navbar/planets_dropdown.gif)
+![nav](/assets/images/readme/features/navbar/dropdown_old.gif)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![nav](/assets/images/readme/features/navbar/new_dropdown.gif)
 </div>
 
-* **Navigation bar on mobile screens**
+* **Navigation bar on mobile screens old and new**
 
 <div align="center">
-<img src="/assets/images/readme/features/navbar/nav_mobile.jpg" target="_blank" rel="noopener" width="300" alt="Nav bar about">
+<img src="/assets/images/readme/features/navbar/nav_mobile.jpg" target="_blank" rel="noopener" width="300" alt="Nav bar mobile">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="/assets/images/readme/features/navbar/nav_mobile_new.png" target="_blank" rel="noopener" width="300" alt="Nav bar mobile">
 </div>
 
 ### Landing page and jumbotron
 
 * Background for landing page i chosen dark black-blue image with orange center of galaxy and slightly transparent jumboton in middle give nice sight in that image.
 
-* **Jumbotron** contains a question that immediately catches the eye and prompts the user to ask for a second what the universe is, the second thing is ~~that distracts him are two bouncing icons around the message~~ **Explore** message/button in orange color to interest him and encourage him to explore the site the third thing is the **Scroll Down** text and the three **Arrows** that point down and have an animation of disappearing and reappearing over a period of time.
+* **Jumbotron** contains a question that immediately catches the eye and prompts the user to ask for a second what the universe is, the second thing is ~~that distracts him are two bouncing icons around the message~~**Explore** message/button in orange colour to interest him and encourage him to explore the site the third thing is the `**Scroll Down** text and the three **Arrows** that point down and have an animation of disappearing and reappearing over a period of time.`
 
-* **Explore** is designed as call-to-action button and are clickable and on desktop screens when hover over it with mouse change color from orange to white giving user information that he can make action whit it.
+* **Explore** is designed as call-to-action button and are clickable and on desktop screens when hover over it with mouse change colour from orange to white giving user information that he can make action whit it.
 
 * ~~**Bouncing icon** are designed to let the user know that he should scroll the page, but if he did not understand the first idea and clicks on the icon or on **Explore** the page will automatically move to the section with planets.~~
 
 * **Scroll down and Arrows** ``are one of changes that i make after first testing of application. They try to clarify what user need to do when land for first time on page. With first design **Bouncing icon** around text **Explore** testers had the impression that it was not clear enough what to do on the first visit to the site.`` 
 
-* **Jumbotron, Bouncing icons and Explore**
+* **Jumbotron, Bouncing icons and Explore old.**
+* `Jumbotron, Scroll Down Text and Explore new.`
 
 <div align="center">
 
-![jumbotron](/assets/images/readme/features/jumbotron/jumbotron.gif)
+![jumbotron](/assets/images/readme/features/jumbotron/jumbotron.gif)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![jumbotron](/assets/images/readme/features/jumbotron/jumbotron_new.gif)
 </div>
 
 ###  Explore section and Buttons
