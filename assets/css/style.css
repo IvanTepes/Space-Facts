@@ -42,6 +42,12 @@ h1, h2, h3, h5 {
     font-size: 25px;
 }
 
+/* Shadow */
+
+.around-shadow {
+    box-shadow: 1px 0px 11px 3px #000;
+}
+
 /* Navigation Bar */
 
 .navbar--container {
@@ -63,6 +69,7 @@ h1, h2, h3, h5 {
     border-bottom-right-radius: 30px;
     border-bottom: 1px solid #FFB325;
     font-size: 1rem;
+
 }
 
 .nav-item  {
@@ -83,6 +90,13 @@ h1, h2, h3, h5 {
     float: none;
 }
 
+.dropdown-item:hover {
+    color: #ffb325;
+    text-decoration: none;
+    background-color: #000000;
+    border-radius: 10px;
+}
+
 /*  Navbar Brand  */
 
 .navbar--brand {
@@ -97,6 +111,12 @@ h1, h2, h3, h5 {
 
 .dropdown-menu {
     background-color: #FFB325;
+    text-align: center;
+    border-radius: .80rem;
+    padding-right: 5px;
+    padding-left: 5px;
+    min-width: 8rem;
+    letter-spacing: 1.5px;
 }
 
 .dropdown-toggle::after {
@@ -128,9 +148,13 @@ h1, h2, h3, h5 {
 }
 
 .dropdown-item.active, .dropdown-item:active {
-    color: #000;
+    color: #FFB325;
     text-decoration: none;
-    background-color: #fff;
+    background-color: #000;
+    border-radius: 10px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+
 }
 
 .navbar-dark .navbar-nav .show>.nav-link {
@@ -141,6 +165,8 @@ h1, h2, h3, h5 {
 
 .btn--orange {
     background-color: #FFB325;
+    box-shadow: inset 1px 0px 13px 0px #000;
+    border-radius: .80rem;
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
@@ -151,8 +177,10 @@ h1, h2, h3, h5 {
 }
 
 .btn:hover {
+    color: #ffb325;
     text-decoration: none;
-    background-color: #F2D750;
+    box-shadow: 1px 0px 11px 3px #ffb325;
+    background: #000;
 }
 
 a:hover {
@@ -376,7 +404,7 @@ a:hover {
 
 .planets--section {
     background: url("../images/planet_background.jpg") no-repeat top fixed;
-  background-size: cover;
+    background-size: cover;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
