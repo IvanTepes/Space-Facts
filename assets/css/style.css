@@ -163,6 +163,10 @@ h1, h2, h3, h5 {
 
 /* Buttons */
 
+.btn {
+    border: none;
+}
+
 .btn--orange {
     background-color: #FFB325;
     box-shadow: inset 1px 0px 13px 0px #000;
@@ -190,7 +194,7 @@ a:hover {
 
 .btn:focus {
     outline: 0;
-    box-shadow: 0 0 0 0.2rem rgba(255, 188, 0, 0.25);
+    box-shadow: 1px 0px 11px 3px #ffb325;
 }
 
 /* Landing */
@@ -213,10 +217,17 @@ a:hover {
     font-family: 'Girassol', sans-serif;
     font-size: 2rem;
     letter-spacing: 4px;
+    border-radius: 15px;
+    padding: 8px;
 }
 
 .jumbotron a:hover {
-    color: #fff;
+    color: #000000;
+    text-shadow: rgb(0, 0, 0) 1px 0px 11px 3px;
+    padding: 8px;
+    box-shadow: inset 0px 0px 10px 0px #000000;
+    border-radius: 15px;
+    background-color: #FFB325;
 }
 
 /* Jumbotron */
