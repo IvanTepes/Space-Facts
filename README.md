@@ -253,6 +253,13 @@ with the **Read more** message are designed using a **[Bootstrap](https://getboo
 
 * **Background** image is a dark photograph of the universe. Which serves as a space for the carousel and images of planets to "float" in that universe.
 
+* `** Buttons for small and medium screens ** are added with update because feedback from testers.`
+    - `On small and medium screens, after the facts and the read text, the user is offered quick navigation with three buttons. Return to the **Explore** section on the **Home** page which would happen by pressing the **Planets** button positioned in the middle or selecting the next / previous planet displayed through the planet name. The first and last planets have an activated page where we are letting us know that we are at the beginning or the end.`
+
+<div align="center">
+<img src="/assets/images/readme/features/navbar/quick_nav_first_active.jpg" target="_blank" rel="noopener" width="300" alt="Quick navigation with first page actived">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/assets/images/readme/features/navbar/quick_nav.jpg" target="_blank" rel="noopener" width="300" alt="Quick navigation with three button">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/assets/images/readme/features/navbar/quick_nav_last_active.jpg" target="_blank" rel="noopener" width="300" alt="Quick navigation with last page actived">
+</div>
+
 * **Images of the planets** have a transparent background leaving only the planet visible to the user as the image of the universe is behind the planets we get the floating effect I mentioned earlier.
 
 * **[Carousel](https://getbootstrap.com/docs/4.5/components/carousel/)** is taken from **[Bootstrap](https://getbootstrap.com/)** and contain 4 image of each planet all images have transparent background for float effect.
@@ -261,8 +268,6 @@ with the **Read more** message are designed using a **[Bootstrap](https://getboo
 * **[Table](https://getbootstrap.com/docs/4.5/content/tables/)** used in page are same from **[Bootstrap](https://getbootstrap.com/)** and they contain information about each **Planet** in some column comparing it to earth to be able to imagine their size, if that is even possible.. They are orange color to separate them from facts and to get pleasant visual effect.
 
 * **Facts** are on each **Planet** page. Contain couple interesting facts about planet and they are in white color.
-
-
 
 * **Carousel with planet Uranus and float effect with indicators before and after**
 
