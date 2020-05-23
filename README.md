@@ -9,7 +9,7 @@
  
   Sp@ce F@cts was started in April 2020 as educational school project.
  
-  The site itself is educational and was created out of love  and hobbies. Its purpose is to share information about the universe. Site will be updated over time and i would like to keep the design as much as possible as it is right now. Nice simple black background with high resolution pictures to highlight all the beauty, intrigue and incredible appearance of some objects in space.
+  The site itself is educational and was created out of love and hobbies. Its purpose is to share information about the universe. Site will be updated over time and i would like to keep the design as much as possible as it is right now. Nice simple black background with high resolution pictures to highlight all the beauty, intrigue and incredible appearance of some objects in space.
 
   I am thrilled that I can turn my passion and hobby into my own website. I hope you enjoy my web page as much as I enjoy presenting space facts to you all.
 
@@ -81,11 +81,11 @@
 
 ## Design
 This project was developed with a focus on a mobile approach first. However, with full responsiveness on other screen sizes.
-I used the jumbotron, grids, nav, cards, forms, table, carousel and bootstrap  in this project.
+I used the jumbotron, grids, nav, cards, forms, table, carousel and bootstrap in this project.
 The main idea for the design of this project was to have a serious and professional appearance, transparent navbar, black background to highlight images of space objects, which convey sophistication and provide a pleasant user experience.
 ~~I used the two icons on the home page to clarify what the user should do when they first come to the page, I made them clicable so that the user is taken to the content by pressing~~.
 
-`For better clarifycation bouncing icons are replaced with **Scroll Down** text and three **Arrows** on bottom of landing page, **Explore** message/button is changed in color from white to orange. At the same time by moving the mouse over the text **Explore** text changes color to from orange to white letting the user know that the action can achieve something.`
+`For better clarifycation bouncing icons are replaced with **Scroll Down** text and three **Arrows** on bottom of landing page, **Explore** message/button is changed in color from white to orange. At the same time by hover over text **Explore** explore message transform to button, text and background changes color letting the user know that the action can achieve something.`
 
 ### Typography
 The main font used in this project is **Robotto**. I think that's a well designed and easy to read font. An extra reason for using this font is the excellent display on small screens.
@@ -133,13 +133,17 @@ Buttons on this application are made with **Bootstrap**. Big, and easy to use.
 ### Font
 Two fonts used are a google fonts, called **Robotto** and **Girassol**.
 
+`**Smooth Scroll**`
+
+`On whole site is added **Smooth Scroll**. One of testers say that scroll is too strong when **Explore** message/button is pressed.`
+
 ## Existing Features
 
 ### Responsiveness
   The biggest feature of this site is the responsiveness across devices and screen sizes that we have achieved using [Bootstrap](https://getbootstrap.com/docs/4.4/layout/overview/) layout. 
   So with small screens or mobile phones we have one planet per row, on medium screens as tablets we have two planets per row, while on desktop and larger screens we have four planets per row which led to better visibility, organization, readability and better visual presentation.
 
-* **Small screens, medium screens,large screens.**
+* **Small screen, medium screen,large screen.**
 <div align="center">
   <img src = "/assets/images/readme/features/responsiveness/small.jpg" width ="200" alt="small screens"/>                                   <img src = "/assets/images/readme/features/responsiveness/medium.jpg" width ="200" alt="medium screens"/> 
   <img src = "/assets/images/readme/features/responsiveness/large.jpg" width ="200" alt="large screens"/>
@@ -173,15 +177,15 @@ Two fonts used are a google fonts, called **Robotto** and **Girassol**.
 ![nav](/assets/images/readme/features/navbar/nav.gif)
 </div>
 
-* **Navigation bar with active planet mars and dropdown menu old and new**
-* `Navigation bar was changed with last update. The functionality remained the same only the style was changed to fit into whole page.`
+* **Navigation bar with active planet mars and dropdown menu before and after update**
+* `Navigation bar was changed with last update. The functionality remained the same only the style was changed to fit into whole design.`
 
 <div align="center">
 
 ![nav](/assets/images/readme/features/navbar/dropdown_old.gif)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![nav](/assets/images/readme/features/navbar/new_dropdown.gif)
 </div>
 
-* **Navigation bar on mobile screens old and new**
+* **Navigation bar with active planet mars on small and medium screens before and after update**
 
 <div align="center">
 <img src="/assets/images/readme/features/navbar/nav_mobile.jpg" target="_blank" rel="noopener" width="300" alt="Nav bar mobile">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -194,14 +198,14 @@ Two fonts used are a google fonts, called **Robotto** and **Girassol**.
 
 * **Jumbotron** contains a question that immediately catches the eye and prompts the user to ask for a second what the universe is, the second thing is ~~that distracts him are two bouncing icons around the message~~**Explore** message/button in orange colour to interest him and encourage him to explore the site the third thing is the `**Scroll Down** text and the three **Arrows** that point down and have an animation of disappearing and reappearing over a period of time.`
 
-* **Explore** is designed as call-to-action button and are clickable and on desktop screens when hover over it with mouse change colour from orange to white giving user information that he can make action whit it.
+* **Explore** is designed as call-to-action button and are clickable and on desktop screens when hover over it with mouse change colours giving user information that he can make action whit it.
 
 * ~~**Bouncing icon** are designed to let the user know that he should scroll the page, but if he did not understand the first idea and clicks on the icon or on **Explore** the page will automatically move to the section with planets.~~
 
 * **Scroll down and Arrows** ``are one of changes that i make after first testing of application. They try to clarify what user need to do when land for first time on page. With first design **Bouncing icon** around text **Explore** testers had the impression that it was not clear enough what to do on the first visit to the site.`` 
 
-* **Jumbotron, Bouncing icons and Explore old.**
-* `Jumbotron, Scroll Down Text and Explore new.`
+* **Jumbotron, Bouncing icons and Explore before update.**
+* `Jumbotron, Scroll Down Text and Explore after update.`
 
 <div align="center">
 
@@ -213,18 +217,20 @@ Two fonts used are a google fonts, called **Robotto** and **Girassol**.
 * **The Explore** section contains pictures of all the planets offered on the site and one fact about each planet, it also contains a button with the message **Read more** that changes color when hover over it and clicking on it leads the user to a page about the planet he is interested in.
 
 * **Buttons**
-with the **Read more** message are designed using a **[Bootstrap](https://getbootstrap.com/)**, are orange in color and change slightly to a lighter shade of orange on detskop screens when hover over it, giving user information he can make action whit it.
+with the **Read more** message are designed using a **[Bootstrap](https://getbootstrap.com/)**, are orange in color ~~and change slightly to a lighter shade of orange~~  when hover over it on detskop screens changes color providing user information that he can make action whit it.
 
-* **Explore section with  one facts and button Read More**
+* `The buttons are styled with an update for a better visual impression and to follow the design of the site.`
+
+* **Explore section with one facts and button Read More before and after update.**
 
 <div align="center">
 
-![buttons](/assets/images/readme/features/button/buttons.gif)
+![buttons](/assets/images/readme/features/button/buttons.gif)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![buttons](/assets/images/readme/features/button/buttons_new2.gif)
 </div>
 
 ### Multi-page layout
 
-* This page has had several separate pages in total 11 at the moment. The **Home** page we went through in the text above, **About us**, **Contact** and 8 **Planets** from our solar system.
+* This site has several separate pages in total 11 at the moment. The **Home** page we went through in the text above, **About us**, **Contact** and 8 **Planets** from our solar system.
   Multi-page layout, but designed with simplicity in mind.
 
 * Each **Planet** has a separate page with more information about the same.
@@ -232,30 +238,40 @@ with the **Read more** message are designed using a **[Bootstrap](https://getboo
 * **Home page and planets together**
 
 <div align="center">
-<img src="/assets/images/readme/layout.png" target="_blank" rel="noopener" width="500" alt="Nav bar about">
+<img src="/assets/images/readme/layout.png" target="_blank" rel="noopener" width="700" alt="Nav bar about">
 </div>
 
 ### Planets 
 
 * **Planet** page is designed with dark background image, carousal that rotate the images of the planet, table with information about the planet and a couple of interesting facts.
 
+* **Responsiveness** of all planet pages can be seen on different screen sizes. **Table** and **Facts** sections on small and medium screen sizes will be stack verticly and on larger size screens will be next to each other. With this we get better readability of facts and tables.
+
+<div align="center">
+<img src="/assets/images/readme/features/responsiveness/planet_ress.png" target="_blank" rel="noopener" width="700" alt="Planet page ressposivnes">
+</div>
+
 * **Background** image is a dark photograph of the universe. Which serves as a space for the carousel and images of planets to "float" in that universe.
 
 * **Images of the planets** have a transparent background leaving only the planet visible to the user as the image of the universe is behind the planets we get the floating effect I mentioned earlier.
 
-* **[Carousel](https://getbootstrap.com/docs/4.5/components/carousel/)** is taken from **[Bootstrap 4.4.1](https://getbootstrap.com/)** and contain 4 image of each planet how i say before all images have transparent background for float effect.
+* **[Carousel](https://getbootstrap.com/docs/4.5/components/carousel/)** is taken from **[Bootstrap](https://getbootstrap.com/)** and contain 4 image of each planet all images have transparent background for float effect.
+* `Carousel indicators are changed with update. Styled and positioned on bottom of carousel for easier navigation and visability`
 
-* **[Table](https://getbootstrap.com/docs/4.5/content/tables/)** used in page are same from **[Bootstrap 4.4.1](https://getbootstrap.com/)** and they contain information about each **Planet** in some column comparing it to earth to be able to imagine their size, if that is even possible.. They are orange color to separate them from facts and to get pleasant visual effect.
+* **[Table](https://getbootstrap.com/docs/4.5/content/tables/)** used in page are same from **[Bootstrap](https://getbootstrap.com/)** and they contain information about each **Planet** in some column comparing it to earth to be able to imagine their size, if that is even possible.. They are orange color to separate them from facts and to get pleasant visual effect.
 
 * **Facts** are on each **Planet** page. Contain couple interesting facts about planet and they are in white color.
 
-* **Carousel with planet Uranus and float effect**
+
+
+* **Carousel with planet Uranus and float effect with indicators before and after**
 
 <div align="center">
 
-![carousel](/assets/images/readme/features/carousel/float_effect.gif)
+![carousel](/assets/images/readme/features/carousel/float_effect.gif)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![carousel](/assets/images/readme/features/carousel/float_new.gif)
 </div>
     
+
 ### About
 
 * About page contains a short motivation message, information about the author, the page and information about the content. Each of the   sectors contains a link for further action. Such as the contact of the author, the font used on the page and the source of the information.
@@ -266,8 +282,8 @@ with the **Read more** message are designed using a **[Bootstrap](https://getboo
 While the second item allows the user to have direct contact with the author and requests from the user: name, email address and comment.
 
 * **Contact us** page can be reached through the **About** page and through the **Footer**.
-* An **[Font Awesome 5.13.0](https://fontawesome.com/)** was used to mark the information given to the user.
-**[Bootstrap 4.4.1](https://getbootstrap.com/docs/4.5/components/forms/)** was used to create the contact form.
+* An **[Font Awesome](https://fontawesome.com/)** was used to mark the information given to the user.
+**[Bootstrap](https://getbootstrap.com/docs/4.5/components/forms/)** was used to create the contact form.
 
 * **Address** and **Form** 
 
@@ -282,7 +298,7 @@ While the second item allows the user to have direct contact with the author and
 
 * **Footer** is divided into **About** i **Social**.
 * **About** contains links for **About** page and **Contact** page which at the hover on detskop screens get a horizontal orange line below the link. 
-* While **Social** contains social network icons that animate icons by zooming. Social icons used here are from **[Font Awesome 5.13.0](https://fontawesome.com/)**
+* While **Social** contains social network icons that animate icons by zooming. Social icons used here are from **[Font Awesome](https://fontawesome.com/)**
 
 * Animated Zoom used here are from **[w3schools.com](https://www.w3schools.com/howto/howto_css_zoom_hover.asp)**.
 
