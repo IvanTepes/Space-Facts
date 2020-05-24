@@ -225,7 +225,7 @@ with the **Read more** message are designed using a **[Bootstrap](https://getboo
 
 <div align="center">
 
-![buttons](/assets/images/readme/features/button/buttons.gif)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![buttons](/assets/images/readme/features/button/buttons_new2.gif)
+![Read More buttons](/assets/images/readme/features/button/buttons.gif)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![ Read More buttons](/assets/images/readme/features/button/buttons_new2.gif)
 </div>
 
 ### Multi-page layout
@@ -254,12 +254,12 @@ with the **Read more** message are designed using a **[Bootstrap](https://getboo
 * **Background** image is a dark photograph of the universe. Which serves as a space for the carousel and images of planets to "float" in that universe.
 
 * `** Buttons for small and medium screens ** are added with update because feedback from testers.`
-    - `On small and medium screens, after the facts and the read text, the user is offered quick navigation with three buttons. Return to the **Explore** section on the **Home** page which would happen by pressing the **Planets** button positioned in the middle or selecting the next / previous planet displayed through the planet name. The first and last planets have an activated page where we are letting us know that we are at the beginning or the end.`
+    - `On small and medium screens, after the facts and the read text, the user is offered quick navigation with three buttons. Return to the **Explore** section on the **Home** page which would happen by pressing the **Planets** button positioned in the middle or selecting the next / previous planet displayed through the planet name. The first and last planets have an activated page where we are letting us know that we are at the beginning or the end. When button with active planet is pressed page will scroll to te top of selected page.`
 
 * `Quick navigation when we are on planet ** Mercury **, planet ** Earth ** and planet ** Neptune **`
 
 <div align="center">
-<img src="/assets/images/readme/features/navbar/quick_nav_first_active.jpg" target="_blank" rel="noopener" width="300" alt="Quick navigation with first page actived">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/assets/images/readme/features/navbar/quick_nav.jpg" target="_blank" rel="noopener" width="300" alt="Quick navigation with three button">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/assets/images/readme/features/navbar/quick_nav_last_active.jpg" target="_blank" rel="noopener" width="300" alt="Quick navigation with last page actived">
+<img src="/assets/images/readme/features/navbar/quick_nav_first_active.jpg" target="_blank" rel="noopener" width="200" alt="Quick navigation with first page actived">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/assets/images/readme/features/navbar/quick_nav.jpg" target="_blank" rel="noopener" width="200" alt="Quick navigation with three button">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/assets/images/readme/features/navbar/quick_nav_last_active.jpg" target="_blank" rel="noopener" width="200" alt="Quick navigation with last page actived">
 </div>
 
 * **Images of the planets** have a transparent background leaving only the planet visible to the user as the image of the universe is behind the planets we get the floating effect I mentioned earlier.
@@ -425,11 +425,18 @@ This was the primary method of testing the application. People were asked to vis
 * Testing was conducted on the browsers above on the first three browsers such as **Google Crome**, **Mozilla Firefox** and **Opera Web Browser** no problems or bugs were noticed. 
 * But on the **Microsoft Edge** we encounter a bug at the beginning of the site and that is the only bug noticed on that browser.
 
-    - Bug on **Microsoft Edge** web browser `before update`. ( bug was attempted to be corrected through the **Autoprefixer** but bug is still remained visible.)
-    - `After the update, the first bug was removed, but a new one appeared on navigation bar`
-    
+    - ~~Bug on **Microsoft Edge** web browser `before update`. ( bug was attempted to be corrected through the **Autoprefixer** but bug is still remained visible.)~~ Picture 1
+    - `After the update, the first bug was removed, but a new one appeared on navigation bar. Picture 2`
+    - `**Bug Fix** Bug was fixed by overrides Bootstrap default !important display attribute from ** display: -ms-flexbox!important; ** to ** display: -ms-inline-grid !important; ** in css.stlye calling element by ID and giving element important rule. Picture 3`
+    - Snip code from css.style
+    ```
+    #navbarNavDropdown {
+    display: -ms-inline-grid !important;
+    }
+    ```
+
 <div align="center">
-<img src="/assets/images/readme/testing/bug/edge_bug.png" target="_blank" rel="noopener" width="300" alt="microsoft edge bug">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/assets/images/readme/testing/bug/bug_edge_new.png" target="_blank" rel="noopener" width="300" alt="microsoft edge bug">
+<img src="/assets/images/readme/testing/bug/edge_bug.png" target="_blank" rel="noopener" width="200" alt="microsoft edge bug">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/assets/images/readme/testing/bug/bug_edge_new.png" target="_blank" rel="noopener" width="200" alt="microsoft edge bug">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/assets/images/readme/testing/bug/edge_bug_fix_display.png" target="_blank" rel="noopener" width="200" alt="microsoft edge bug fix">
 </div>
 
 - `Also ** Smooth Scroll ** feature does not work on Microsoft Edge.`
@@ -465,6 +472,7 @@ This was the primary method of testing the application. People were asked to vis
 |   Clicked Planet **Neptune** from drop-down menu on any page on site	|   Open page with planet **Neptune**	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|
     -if user clicked on same page where he is page will be refreshed
     -Example: If user is on planet **Earth** and choose from drop-down menu planet **Earth** again page **Earth** will be refreshed.
+
 </center>
 
 * Testing functionality of **Call-to-action** button, **Explore section** and **Footer** 
@@ -487,6 +495,7 @@ This was the primary method of testing the application. People were asked to vis
 |   Clicked any **Social** network icon in footer on any page on site	|   Open desired social network platform	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|
     - forms on **Contact Us** page are not in function due to lack of skills and current position in the course.
     - on **About** page there are three links that lead to **Contact Us** page, **Google Fonts** and **NASA** page all three links have been tested and are operational.
+
 </center>
 
 * Testing functionality of **Quick navigation** buttons for small (mobile) and medium screens (tablets).
@@ -501,57 +510,58 @@ This was the primary method of testing the application. People were asked to vis
 
 </center>
 
-
 ## Responsiveness Test
 I also tested the responsiveness site through **[Troy](http://troy.labs.daum.net/)** web page that has different devices in its database as well as different screen sizes.
 
 <center>
 
-|   Brand / Tipe	|   Screen Size	|   Screen Resolution	|   Css Pixel Ratio	|   Notable display Issues	|
-|:-:	|:-:	|:-:	|:-:	|:-:	|
+|   Brand / Tipe	|   Screen Size	|   Screen Resolution	|   Css Pixel Ratio	|   Notable display Issues	|   `Notable display Issues after update`	|
+|:-:	|:-:	|:-:	|:-:	|:-:	|:-:	|
 |   **Samsung**	|   	|   	|   	|   	|
-|   Galaxy S8, S8+, Note 8	|   360 x 640	|   1440 x 2560	|   4	|   NONE	|
-|   Galaxy S6, S7 	|   360 x 640	|   1440 x 2560	|   4	|   NONE	|
-|   Note 4, Note 5	|   360 x 640	|   1440 x 2560	|   4	|   NONE	|
-|   Galaxy S5, Note3	|   360 x 640	|   1080 x 1920	|   3	|   NONE	|
-|   Galaxy S3, Note2	|   360 x 640	|   720 x 1280	|   2	|   NONE	|
-|   Galaxy Note1	|   400 x 640	|   800 x 1280	|   2	|   NONE	|
-|   Galaxy S2, S1	|   320 x 533	|   480 x 800	|   1.5	|   <img src="/assets/images/readme/testing/display_issues/s2s1.png" target="_blank" rel="noopener" width="200" alt="Samsung Galaxy s2, s1 display issues">	|
-|   Galaxy Tab S	|   800 x 1280	|  1600 x 2560 	|   2	|   NONE	|
+|   Galaxy S8, S8+, Note 8	|   360 x 640	|   1440 x 2560	|   4	|   NONE	|   NONE	|	
+|   Galaxy S6, S7 	|   360 x 640	|   1440 x 2560	|   4	|   NONE	|   NONE	|
+|   Note 4, Note 5	|   360 x 640	|   1440 x 2560	|   4	|   NONE	|   NONE	|
+|   Galaxy S5, Note3	|   360 x 640	|   1080 x 1920	|   3	|   NONE	|   NONE	|
+|   Galaxy S3, Note2	|   360 x 640	|   720 x 1280	|   2	|   NONE	|   NONE	|
+|   Galaxy Note1	|   400 x 640	|   800 x 1280	|   2	|   NONE	|   NONE	|
+|   Galaxy S2, S1	|   320 x 533	|   480 x 800	|   1.5	|   <img src="/assets/images/readme/testing/display_issues/s2s1.png" target="_blank" rel="noopener" width="150" alt="Samsung Galaxy s2, s1 display issues">	|   NONE	|
+|   Galaxy Tab S	|   800 x 1280	|  1600 x 2560 	|   2	|   NONE	|   NONE	|
 |   **Apple**	|   	|   	|   	|   	|
-|   iPhone 6 (s), 7, 8,	|   375 x 667	|   750 x 1334	|   2	|   NONE	|
-|   iPhone 6 (s)+, 7+, 8+	|   414 x 736	|   1242 x 2208	|   3	|  NONE 	|
-|   iPhone 5, SE	|   320 x 568	|   640 x 1136	|   2	|   NONE	|
-|   iPhone 4	|   320 x 480	|   640 x 960	|   2	|   <img src="/assets/images/readme/testing/display_issues/iphone4.png" target="_blank" rel="noopener" width="200" alt="iphone 4 display issues">	|
-|   iPhone 3GS	|   320 x 480	|   320 x 480	|   1	|   <img src="/assets/images/readme/testing/display_issues/iphone3gs.png" target="_blank" rel="noopener" width="200" alt="iphone 3GS display issues">	|
-|   iPad Retina 	|   768 x 1024	|   1536 x 2048	|   2	|   NONE	|
+|   iPhone 6 (s), 7, 8,	|   375 x 667	|   750 x 1334	|   2	|   NONE	|   NONE	|
+|   iPhone 6 (s)+, 7+, 8+	|   414 x 736	|   1242 x 2208	|   3	|  NONE 	|   NONE	|
+|   iPhone 5, SE	|   320 x 568	|   640 x 1136	|   2	|   NONE	|   NONE	|
+|   iPhone 4	|   320 x 480	|   640 x 960	|   2	|   <img src="/assets/images/readme/testing/display_issues/iphone4.png" target="_blank" rel="noopener" width="150" alt="iphone 4 display issues">	|   <img src="/assets/images/readme/testing/display_issues/iphone4_display_issues.jpg" target="_blank" rel="noopener" width="150" alt="iphone 4 display issues">	|
+|   iPhone 3GS	|   320 x 480	|   320 x 480	|   1	|   <img src="/assets/images/readme/testing/display_issues/iphone3gs.png" target="_blank" rel="noopener" width="150" alt="iphone 3GS display issues">	|   <img src="/assets/images/readme/testing/display_issues/iphone_3gs_display_issues.jpg" target="_blank" rel="noopener" width="150" alt="iphone 4 display issues">	|
+|   iPad Retina 	|   768 x 1024	|   1536 x 2048	|   2	|   NONE	|   NONE	|
 |   **LG**	|   	|   	|   	|   	|
-|   G5	|   360 x 640	|   1440 x 2560	|   4	|   NONE	|
-|   G4	|   360 x 640	|   1440 x 2560	|   4	|   NONE	|
-|   G3	|   360 x 640	|   1440 x 2560	|   4	|   NONE	|
-|   G2	|   360 x 640	|   1080 x 1920	|   3	|   NONE	|
-|   Optimus G Pro	|   360 x 640	|   1080 x 1920	|   3	|   NONE	|
-|   Optimus G 	|   384 x 640	|   768 x 1280	|   2	|   NONE	|
-|   Optimus View	|   384 x 512	|   768 x 1024	|   2	|   NONE	|
-|   G Pad 8.3	|   600 x 960	|   1200 x 1920	|   2	|   <img src="/assets/images/readme/testing/display_issues/g_pad8.3.png" target="_blank" rel="noopener" width="200" alt="G pad 8.3 display issues">	|
+|   G5	|   360 x 640	|   1440 x 2560	|   4	|   NONE	|   NONE	|
+|   G4	|   360 x 640	|   1440 x 2560	|   4	|   NONE	|   NONE	|
+|   G3	|   360 x 640	|   1440 x 2560	|   4	|   NONE	|   NONE	|
+|   G2	|   360 x 640	|   1080 x 1920	|   3	|   NONE	|   NONE	|
+|   Optimus G Pro	|   360 x 640	|   1080 x 1920	|   3	|   NONE	|   NONE	|
+|   Optimus G 	|   384 x 640	|   768 x 1280	|   2	|   NONE	|   NONE	|
+|   Optimus View	|   384 x 512	|   768 x 1024	|   2	|   NONE	|   NONE	|
+|   G Pad 8.3	|   600 x 960	|   1200 x 1920	|   2	|   <img src="/assets/images/readme/testing/display_issues/g_pad8.3.png" target="_blank" rel="noopener" width="150" alt="G pad 8.3 display issues">	|   NONE	|
 |   **Google**	|   	|   	|   	|   	|
-|   Nexus 5	|  360 x 640 	|   1080 x 1920	|   3	|   NONE	|
-|   Nexus 4	|   384 x 640	|   768 x 1280	|   2	|   NONE	|
-|   Galaxy Nexus	|   360 x 640 	|   768 x 1280	|   2	|   NONE	|
-|   Nexus S	|   320 x 533	|   480 x 800	|    1.5	|  <img src="/assets/images/readme/testing/display_issues/nexus_s.png" target="_blank" rel="noopener" width="200" alt="Nexus S display issues">	|
-|   Nexus 10	|   800 x 1280	|  1600 x 2560	|   2	|   NONE	|
-|   Nexus 7 (2013)|  600 x 960 	|   1200 x 1920	|   2	|   <img src="/assets/images/readme/testing/display_issues/nexus7.png" target="_blank" rel="noopener" width="200" alt="Nexus 7 display issues">	|
+|   Nexus 5	|  360 x 640 	|   1080 x 1920	|   3	|   NONE	|   NONE	|
+|   Nexus 4	|   384 x 640	|   768 x 1280	|   2	|   NONE	|   NONE	|
+|   Galaxy Nexus	|   360 x 640 	|   768 x 1280	|   2	|   NONE	|   NONE	|
+|   Nexus S	|   320 x 533	|   480 x 800	|    1.5	|  <img src="/assets/images/readme/testing/display_issues/nexus_s.png" target="_blank" rel="noopener" width="150" alt="Nexus S display issues">	|   NONE	|
+|   Nexus 10	|   800 x 1280	|  1600 x 2560	|   2	|   NONE	|   NONE	|
+|   Nexus 7 (2013)|  600 x 960 	|   1200 x 1920	|   2	|   <img src="/assets/images/readme/testing/display_issues/nexus7.png" target="_blank" rel="noopener" width="150" alt="Nexus 7 display issues">	|   NONE	|
 |   **Pc Screens**	|   	|   	|   	|   	|
-|   800 px	|   800 x 600	|   800 x 600	|   1	|   NONE	|
-|   970 px	|   970 x 600	|   970 x 600	|   1	|   NONE	|
-|   1024 px	|   1024 x 768	|   1024 x 768	|   1	|   NONE	|
-|   1280 px	|   1280 x 800	|   1280 x 800	|   1	|   NONE	|
-|   1366 px	|   1366 x 768	|   1366 x 768	|   1	|   NONE	|
-|   1440 px	|   1440 x 900	|   1440 x 900	|   1	|   NONE	|
-|   1600 px	|   1600 x 900	|   1600 x 900	|   1	|   NONE	|
-|   1920 px	|   1920 x 1080	|   1920 x 1080	|   1	|   NONE	|
+|   800 px	|   800 x 600	|   800 x 600	|   1	|   NONE	|   NONE	|
+|   970 px	|   970 x 600	|   970 x 600	|   1	|   NONE	|   NONE	|
+|   1024 px	|   1024 x 768	|   1024 x 768	|   1	|   NONE	|   NONE	|
+|   1280 px	|   1280 x 800	|   1280 x 800	|   1	|   NONE	|   NONE	|
+|   1366 px	|   1366 x 768	|   1366 x 768	|   1	|   NONE	|   NONE	|
+|   1440 px	|   1440 x 900	|   1440 x 900	|   1	|   NONE	|   NONE	|
+|   1600 px	|   1600 x 900	|   1600 x 900	|   1	|   NONE	|   NONE	|
+|   1920 px	|   1920 x 1080	|   1920 x 1080	|   1	|   NONE	|   NONE	|
 
     - I found some display issues with some smaller screens and some medium screens.
+    - `After update all notible display issues for medium screens was resolved when on small mobile screens still some was visible.`
+    
 </center>
 
 
