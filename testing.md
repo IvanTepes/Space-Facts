@@ -201,13 +201,16 @@ I also tested the responsiveness site through **[Troy](http://troy.labs.daum.net
 * **[W3C HTML Validator](https://validator.w3.org/)** 
     * This is online HTML code validator
     - all the pages from the site where tested and all the results came back with no error.
+    - After the update all the pages from the site where tested and all the results came back with no error.
 <div align="center">
 <img src="/assets/images/readme/testing/html_validator.png" target="_blank" rel="noopener" width="800" alt="html validator results">
 </div>
 
 * **[W3C CSS Validator](https://jigsaw.w3.org/css-validator/)** 
     * This is online CSS code validator
-    - CSS was tested and came back with no error and 34 warnings. All the warnings where **an unknown vendor extension**. The reason i recived the warnings was because i have tryed to achive  that the site supports various browsers.
+    - CSS was tested and came back with no error and 34 warnings. All the warnings where **an unknown vendor extension**. The reason i recived the warnings was because i have tryed to achive that the site supports various browsers.
+    - `After the update of site css is tested again and test are came back with no error and 19 warnings. All the warnings where **an unknown vendor extension**`
+    
 <div align="center">
 <img src="/assets/images/readme/testing/css_validator.png" target="_blank" rel="noopener" width="800" alt="css validator results">
 </div>
