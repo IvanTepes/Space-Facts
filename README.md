@@ -1,9 +1,7 @@
 <div align="center">
 <img src="/assets/images/readme/all_devices.png" target="_blank" rel="noopener" alt="Space Facts">
 <h1>Sp@ce F@cts</h1>
-    - First version can be see here
 </div>
-
 
   Hello everyone welcome to Sp@ce F@cts your new favorite space app.
  
@@ -14,7 +12,9 @@
   I am thrilled that I can turn my passion and hobby into my own website. I hope you enjoy my web page as much as I enjoy presenting space facts to you all.
 
 #### You can access the application [here.](https://ivantepes.github.io/Space-Facts/)
+
 # Table of Content
+
 - [UX](#ux)
   * [User Stories](#user-stories)
   * [Design](#design)
@@ -42,12 +42,6 @@
   * [Tools Used](#tools-used)
   * [Libraries](#libraries)
 - [Testing](#testing)
-  * [Browser used in testing](#browser-used-in-testing)
-  * [Responsiveness](#responsiveness-test)
-  * [Lighthouse](#lighthouse)
-  * [Validators](#validators)
-  * [Users Testing](#users-testing)
-    + [Meeting the needs of the user stories (as described in the UX section of this README file)](#meeting-the-needs-of-the-user-stories--as-described-in-the-ux-section-of-this-readme-file-)
 - [Deployment](#deployment)
 - [Credits](#credits)
   * [Content](#content)
@@ -56,7 +50,7 @@
   * [Acknowledgements](#acknowledgements)
 
 ```diff
-- After first testing and testers feedback i changed and added some features to page and explanation of changes will be highlight futher in text.
+- After first testing and testers feedback i have changed and added some features to page and explanation of changes will be highlighted further in text.
 ``` 
 
 # UX
@@ -80,20 +74,22 @@
 - Be able to contact somebody about content, prise, critics, mistakes or any other topic.
 
 ## Design
-This project was developed with a focus on a mobile approach first. However, with full responsiveness on other screen sizes.
+
+ - This project was developed with a focus on a mobile approach first. However, with full responsiveness on other screen sizes.
 I used the jumbotron, grids, nav, cards, forms, table, carousel and bootstrap in this project.
 The main idea for the design of this project was to have a serious and professional appearance, transparent navbar, black background to highlight images of space objects, which convey sophistication and provide a pleasant user experience.
 ~~I used the two icons on the home page to clarify what the user should do when they first come to the page, I made them clicable so that the user is taken to the content by pressing~~.
 
-`For better clarifycation bouncing icons are replaced with **Scroll Down** text and three **Arrows** on bottom of landing page, **Explore** message/button is changed in color from white to orange. At the same time by hover over text **Explore** explore message transform to button, text and background changes color letting the user know that the action can achieve something.`
+- `For better clarifycation bouncing icons are replaced with **Scroll Down** text and three **Arrows** on bottom of landing page, **Explore** Message / Button color is changed. At the same time by hovering over text **Explore** explore message transforms to button and text and background changes color letting the user know that the action can achieve something.`
 
 ### Typography
-The main font used in this project is **Robotto**. I think that's a well designed and easy to read font. An extra reason for using this font is the excellent display on small screens.
+
+- The main font used in this project is **Robotto**. I think that's a well designed and easy to read font. An extra reason for using this font is the excellent display on small screens.
 In the main titles of the site and logo the font **Girassol** was used, which also has a good design and combines nicely with the main font.
 
 ### Colours
 
-- In the colour scheme, i used black, orange and white which combined together give me favoured the easy visualization of the information.
+- In the colour scheme, i used black, orange and white which combined together gave me favoured the easy visualization of the information.
 
 - Transparent rounded navbar with orange border and same style is used for footer to greater contrast and to get pleasant ux.
 
@@ -103,17 +99,17 @@ In the main titles of the site and logo the font **Girassol** was used, which al
 
 - The orange buttons continue and blend in with the black-and-orange design, changing the color on hover.
 
-
 #### Colors used on site can see [here.](/assets/images/readme/colors.png)
 
 ### Icons
 
-The icons used in this project are provided by [Font Awesome](https://fontawesome.com/).
+- The icons used in this project are provided by [Font Awesome](https://fontawesome.com/).
 They were used as social media icons in the footer and on contact page as address, comment and map.
 
 ## Wireframes
 
-Wireframes were designed with [Balsamiq Wireframes](https://balsamiq.com/wireframes/). These were the first version of scope and some things have changed, removed or leave for later development.
+- Wireframes were designed with [Balsamiq Wireframes](https://balsamiq.com/wireframes/). These were the first version of scope and some things have changed, removed or left for later development.
+
 * Mobile  [here](/assets/images/readme/wireframes/mobile.png)
 * Detskop home [here](/assets/images/readme/wireframes/index.png)
 * Detskop planets [here](/assets/images/readme/wireframes/planets.png)
@@ -125,23 +121,26 @@ Wireframes were designed with [Balsamiq Wireframes](https://balsamiq.com/wirefra
 # Features
 
 ### Layout
-This is a multi-page layout, but designed with simplicity in mind. The home page displays the navbar with dropdown menu and jumbotron in middle, below the header text is Explore message/button which allows the user to find information very quickly without the need to have to search for it.
+
+- This is a multi-page layout, but designed with simplicity in mind. The home page displays the navbar with dropdown menu and jumbotron in middle, below the header text is Explore message/button which allows the user to find information very quickly without the need to have to search for it.
 
 ### Buttons
-Buttons on this application are made with **Bootstrap**. Big, and easy to use.
+
+- Buttons on this application are made with **Bootstrap**. Big and easy to use.
 
 ### Font
-Two fonts used are a google fonts, called **Robotto** and **Girassol**.
 
-`**Smooth Scroll**`
+- Two fonts used are a google fonts called **Robotto** and **Girassol**.
 
-`On whole site is added **Smooth Scroll**. One of testers say that scroll is too strong when **Explore** message/button is pressed.`
+### `Smooth Scroll`
+
+- `On the whole site is added **Smooth Scroll**. One of testers says that scroll is too strong when **Explore** message / button is pressed.`
 
 ## Existing Features
 
 ### Responsiveness
-  The biggest feature of this site is the responsiveness across devices and screen sizes that we have achieved using [Bootstrap](https://getbootstrap.com/docs/4.4/layout/overview/) layout. 
-  So with small screens or mobile phones we have one planet per row, on medium screens as tablets we have two planets per row, while on desktop and larger screens we have four planets per row which led to better visibility, organization, readability and better visual presentation.
+- The biggest feature of this site is the responsiveness across devices and screen sizes that we have achieved using [Bootstrap](https://getbootstrap.com/docs/4.4/layout/overview/) layout. 
+  So with small screens or mobile phones there is one planet per row, on medium screens like  tablets there are two planets per row, while on desktop and larger screens there are four planets per row which led to better visibility, organization, readability and better visual presentation.
 
 * **Small screen, medium screen,large screen.**
 <div align="center">
@@ -150,21 +149,21 @@ Two fonts used are a google fonts, called **Robotto** and **Girassol**.
 </div>
 
 ### Navigation Bar 
-  Is on the top of all the pages on the site and is fixed, with rounded on edge and transparent to give user sense where is when scroll. The left hand side has the logo of the page being **Sp@ce F@cts**, and when clicked, will return the user to the home page. The rest of the navigation items are centred to middle of the Navigation bar and they are: **Home**, **About us** and **Planets** which is also a drop down menu and change shape to three lines called "Burger" for mobile screens `and tablets screens`. 
+- It is on the top of all the pages on the site and is fixed, slightly rounded on edges and transparent to give the user sense where is he positioned when scrolling. The left hand side has the logo of the page being **Sp@ce F@cts**, and when clicked, it returnes the user to the home page. The rest of the navigation items are centred to the middle of the Navigation bar and they are: **Home**, **About us** and **Planets** which is also a drop down menu and change shape to three lines called **Hamburger Button** for mobile screens `and tablets screens`. 
     
-`Navigation bar is now centered middle on mobile screens too, before was lined to left side when is in drop down shape.`
+- `Navigation bar is now centered on the middle of the mobile screens and it before was lined to left side when it is in drop down form.`
 
-  Navigation item **Planets** have orange down indicator and is drop down menu on larger screens.
-  Navigation bar have thick orange border on bottom side to separate navigation bar from rest of page because is rounded and only on bottom side give pleasant and interesant ux.
-  The Navigation bar gives the user information about where he is on the site by changing the color of the active page also change color on hover provide user information what action he can make.
+- Navigation item **Planets** have orange down indicator and it is a drop down menu.
+  Navigation bar has thick orange border on bottom side to separate navigation bar from rest of the page because it is rounded and only on the bottom side gives pleasant and interesant ux.
+  The Navigation bar gives the user information about where he is on the site by changing the color of the active page also change color on hover provides the user the information what action he can make.
 
-* **Navigation bar with active home page**
+* **Navigation bar with active Home Page**
 
 <div align="center">
 <img src="/assets/images/readme/features/navbar/navbar.jpg" target="_blank" rel="noopener" width="800" alt="Nav bar home">
 </div>
 
-* **Navigation bar with active about**
+* **Navigation bar with active About Page**
 
 <div align="center">
 <img src="/assets/images/readme/features/navbar/navbar_about.jpg" target="_blank" rel="noopener" width="800" alt="Nav bar about">
@@ -177,7 +176,7 @@ Two fonts used are a google fonts, called **Robotto** and **Girassol**.
 ![nav](/assets/images/readme/features/navbar/nav.gif)
 </div>
 
-* **Navigation bar with active planet mars and dropdown menu before and after update**
+* **Navigation bar with active planet Mars and dropdown menu before and after update**
 * `Navigation bar was changed with last update. The functionality remained the same only the style was changed to fit into whole design.`
 
 <div align="center">
@@ -185,7 +184,7 @@ Two fonts used are a google fonts, called **Robotto** and **Girassol**.
 ![nav](/assets/images/readme/features/navbar/dropdown_old.gif)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![nav](/assets/images/readme/features/navbar/new_dropdown.gif)
 </div>
 
-* **Navigation bar with active planet mars on small and medium screens before and after update**
+* **Navigation bar with active planet Mars on small and medium screens before and after update**
 
 <div align="center">
 <img src="/assets/images/readme/features/navbar/nav_mobile.jpg" target="_blank" rel="noopener" width="300" alt="Nav bar mobile">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -194,15 +193,15 @@ Two fonts used are a google fonts, called **Robotto** and **Girassol**.
 
 ### Landing page and jumbotron
 
-* Background for landing page i chosen dark black-blue image with orange center of galaxy and slightly transparent jumboton in middle give nice sight in that image.
+* For the background for landing page i have chosen dark black-blue image with orange center of galaxy and slightly transparent jumboton in middle to give a nice sight in that image.
 
-* **Jumbotron** contains a question that immediately catches the eye and prompts the user to ask for a second what the universe is, the second thing is ~~that distracts him are two bouncing icons around the message~~**Explore** message/button in orange colour to interest him and encourage him to explore the site the third thing is the `**Scroll Down** text and the three **Arrows** that point down and have an animation of disappearing and reappearing over a period of time.`
+* **Jumbotron** contains a question that immediately catches the eye and prompts the user to ask for a second what the universe is, the second thing is ~~that distracts him are two bouncing icons around the message~~ **Explore** message / button in orange colour to interest him and encourage him to explore the site,and the third thing is the `**Scroll Down** text and the three **Arrows** that point down and have an animation of disappearing and reappearing over a period of time.`
 
-* **Explore** is designed as call-to-action button and are clickable and on desktop screens when hover over it with mouse change colours giving user information that he can make action whit it.
+* **Explore** is designed as call-to-action button and it is clickable on desktop screens. When hover over it with the mouse it changes the colours, giving user information that he can make action whit it.
 
 * ~~**Bouncing icon** are designed to let the user know that he should scroll the page, but if he did not understand the first idea and clicks on the icon or on **Explore** the page will automatically move to the section with planets.~~
 
-* **Scroll down and Arrows** ``are one of changes that i make after first testing of application. They try to clarify what user need to do when land for first time on page. With first design **Bouncing icon** around text **Explore** testers had the impression that it was not clear enough what to do on the first visit to the site.`` 
+* **Scroll down and Arrows** ``are one of changes that i made after first testing of application. They try to clarify what user needs to do when landing for the first time on page. With first design **Bouncing icon** around text **Explore** testers had the impression that it was not clear enough what to do on the first visit to the site.`` 
 
 * **Jumbotron, Bouncing icons and Explore before update.**
 * `Jumbotron, Scroll Down Text and Explore after update.`
@@ -217,7 +216,7 @@ Two fonts used are a google fonts, called **Robotto** and **Girassol**.
 * **The Explore** section contains pictures of all the planets offered on the site and one fact about each planet, it also contains a button with the message **Read more** that changes color when hover over it and clicking on it leads the user to a page about the planet he is interested in.
 
 * **Buttons**
-with the **Read more** message are designed using a **[Bootstrap](https://getbootstrap.com/)**, are orange in color ~~and change slightly to a lighter shade of orange~~  when hover over it on detskop screens changes color providing user information that he can make action whit it.
+with the **Read more** message are designed using a **[Bootstrap](https://getbootstrap.com/)**, are orange in color and ~~change slightly to a lighter shade of orange~~  when hover over it on detskop screens changes color providing user information that he can make action whit it.
 
 * `The buttons are styled with an update for a better visual impression and to follow the design of the site.`
 
@@ -243,18 +242,18 @@ with the **Read more** message are designed using a **[Bootstrap](https://getboo
 
 ### Planets 
 
-* **Planet** page is designed with dark background image, carousal that rotate the images of the planet, table with information about the planet and a couple of interesting facts.
+* **Planet** page is designed with dark background image, carousal that rotates the images of the planet, table with informations about the planet and a couple of interesting facts.
 
-* **Responsiveness** of all planet pages can be seen on different screen sizes. **Table** and **Facts** sections on small and medium screen sizes will be stack verticly and on larger size screens will be next to each other. With this we get better readability of facts and tables.
+* **Responsiveness** of all planet pages can be seen on different screen sizes. **Table** and **Facts** sections on small and medium screen sizes will be stack verticly and on the larger size screens they will be next to each other. With this we get better readability of facts and tables.
 
 <div align="center">
 <img src="/assets/images/readme/features/responsiveness/planet_ress.png" target="_blank" rel="noopener" width="700" alt="Planet page ressposivnes">
 </div>
 
-* **Background** image is a dark photograph of the universe. Which serves as a space for the carousel and images of planets to "float" in that universe.
+* **Background** image is a dark photography of the universe, which serves as a space for the carousel and images of planets to "float" in that universe.
 
-* `** Buttons for small and medium screens ** are added with update because feedback from testers.`
-    - `On small and medium screens, after the facts and the read text, the user is offered quick navigation with three buttons. Return to the **Explore** section on the **Home** page which would happen by pressing the **Planets** button positioned in the middle or selecting the next / previous planet displayed through the planet name. The first and last planets have an activated page where we are letting us know that we are at the beginning or the end. When button with active planet is pressed page will scroll to te top of selected page.`
+* `** Buttons for small and medium screens ** are added with the update because of recived feedback from testers.`
+    - `On small and medium screens, after the facts and the read text, the user is offered quick navigation with three buttons. Return to the **Explore** section on the **Home** page which would happen by pressing the **Planets** button positioned in the middle or selecting the next / previous planet displayed through the planet name. The first and last planets have an activated page where we are letting us know that we are at the beginning or on the end. When button with active planet is pressed the page will scroll to the top of selected page.`
 
 * `Quick navigation when we are on planet ** Mercury **, planet ** Earth ** and planet ** Neptune **`
 
@@ -265,11 +264,11 @@ with the **Read more** message are designed using a **[Bootstrap](https://getboo
 * **Images of the planets** have a transparent background leaving only the planet visible to the user as the image of the universe is behind the planets we get the floating effect I mentioned earlier.
 
 * **[Carousel](https://getbootstrap.com/docs/4.5/components/carousel/)** is taken from **[Bootstrap](https://getbootstrap.com/)** and contain 4 image of each planet all images have transparent background for float effect.
-* `Carousel indicators are changed with update. Styled and positioned on bottom of carousel for easier navigation and visability`
+* `Carousel indicators are changed with update. Styled and positioned on bottom of carousel for easier navigation and visability.`
 
-* **[Table](https://getbootstrap.com/docs/4.5/content/tables/)** used in page are same from **[Bootstrap](https://getbootstrap.com/)** and they contain information about each **Planet** in some column comparing it to earth to be able to imagine their size, if that is even possible.. They are orange color to separate them from facts and to get pleasant visual effect.
+* **[Table](https://getbootstrap.com/docs/4.5/content/tables/)** used in page are from **[Bootstrap](https://getbootstrap.com/)** and they contain information about each **Planet** in some column comparing it to earth to be able to imagine their size, if that is even possible. They are orange color to separate them from facts and to get pleasant visual effect.
 
-* **Facts** are on each **Planet** page. Contain couple interesting facts about planet and they are in white color.
+* **Facts** are on each **Planet** page, containing couple interesting facts about the planet and they are in white color.
 
 * **Carousel with planet Uranus and float effect with indicators before and after**
 
@@ -281,12 +280,11 @@ with the **Read more** message are designed using a **[Bootstrap](https://getboo
 
 ### About
 
-* About page contains a short motivation message, information about the author, the page and information about the content. Each of the   sectors contains a link for further action. Such as the contact of the author, the font used on the page and the source of the information.
+* About page contains a short motivation message, information about the author, the site, and information about the content. Each of the sectors contains a link for further action. Such as the contact of the author, the font used on the page and the source of the information.
 
 ### Contact Us
 
-* **Contact us** is divided into two items. The first item gives the user contact information such as address, phone number and email address.
-While the second item allows the user to have direct contact with the author and requests from the user: name, email address and comment.
+* **Contact us** is divided into two items. The first item gives the user contact information such as address, phone number and email address, while the second item allows the user to have direct contact with the author and requests the following from the user: name, email address and comment.
 
 * **Contact us** page can be reached through the **About** page and through the **Footer**.
 * An **[Font Awesome](https://fontawesome.com/)** was used to mark the information given to the user.
@@ -301,11 +299,11 @@ While the second item allows the user to have direct contact with the author and
 ### Footer
 
 * **Footer** is located at the bottom of each page on this site.
-* It is the same on each page and uses the orange rounded edge that we also saw on the navigation bar only this time from the top to    separate it from the rest of the content.
+* It is the same on each page and it has the orange rounded edges that we also saw on the navigation bar, only this time from the top in order to separate it from the rest of the content.
 
 * **Footer** is divided into **About** i **Social**.
-* **About** contains links for **About** page and **Contact** page which at the hover on detskop screens get a horizontal orange line below the link. 
-* While **Social** contains social network icons that animate icons by zooming. Social icons used here are from **[Font Awesome](https://fontawesome.com/)**
+* **About** contains links for **About** page and **Contact** page. When they are hovered on detskop screens they get a horizontal orange line below the link. 
+* While **Social** contains social network icons that animate icons by zooming them. Social icons used here are from **[Font Awesome](https://fontawesome.com/)**
 
 * Animated Zoom used here are from **[w3schools.com](https://www.w3schools.com/howto/howto_css_zoom_hover.asp)**.
 
@@ -326,23 +324,23 @@ While the second item allows the user to have direct contact with the author and
 
 * The form on the **Contact** page as well as the submit button are currently not in function due to lack of skills to embed them in the code.
 
-* Footer **Social** network icons when clicked will take the user to the home page of the target platform Sp@ce F@cts does not currently have any profiles on the social network and they are there for visual appearance.
+* Footer **Social** network icons when clicked will take the user to the **Home Page** of the target platform. Sp@ce F@cts does not currently have any profiles on the social network and they are there for visual appearance.
 
 ### Features Left to Implement
 
- * More content to site such as Galaxys, Solar System, Comets etc. Can se some projections from scope [here](/assets/images/readme/wireframes/site_map.png).
+ * More content to the site such as Galaxys, Solar System, Comets etc. You can see some projections from scope [here](/assets/images/readme/wireframes/site_map.png).
 
- * Login feature to site with addition ideas such as disscusions about space.
+ * Login feature to the site with additional ideas such as disscusions about space.
 
  * News banner with latest news research or news about space general.
 
  * Subscribe feature.
 
- * Share button to share site or particular parts of site.  
+ * Share button to share the site or particular parts of the site.  
 
  * Comparation chart, diagrams or images to compare other objects in space with something more familiar to human.
 
- * Animation of planets, galaxies, comets etc.
+ * Animation of Planets, Galaxies, Comets etc.
 
  # Technologies Used
 
@@ -354,7 +352,7 @@ While the second item allows the user to have direct contact with the author and
 
 ### Cascading Style Sheets or CSS 
 * **[CSS](https://www.w3.org/Style/CSS/Overview.en.html)** is a style sheet language used for describing the presentation of a document written in a markup language like **HTML**.
-* In this project i used **CSS** to describes and style **HTML** document such as layout, colors, font and animation.
+* In this project i used **CSS** to describe and style **HTML** document such as layout, colors, font and animation.
 
 ## Tools Used
 
@@ -365,17 +363,17 @@ While the second item allows the user to have direct contact with the author and
 * **[GitHub](https://github.com/)**
     - Used to store and share all project code remotely.
 * **[Photoshop](https://www.adobe.com/ie/products/photoshop.html)**
-    - Used to edit all pictures on site and creating some presentation images for README.
+    - Used to edit all pictures on the site and creating some presentation images for this README.
 * **[Dev Tools](https://developers.google.com/web/tools/chrome-devtools)**
     - Used to keep track and test the code during the development.
 * **[Tinypng](https://tinypng.com/)**
-    - Used to compress the size of images.
+    - Used to compress the size of the images.
 * **[HTML Formatter](https://www.freeformatter.com/html-formatter.html)**
     - Used to formating code.
 * **[Autoprefixer](https://autoprefixer.github.io/)**
     - Used to valid code for all browsers.
 * **[Trello](https://trello.com/)**
-    - Used for organize user stories and determination of sprints.
+    - Used for organizing user stories and determination of sprints.
 * **[Favicon & App Icon Generator](https://www.favicon-generator.org/)**
     - Used for creating favicon for site.
 * **[HTML Color Codes](https://htmlcolorcodes.com/)**
@@ -383,20 +381,20 @@ While the second item allows the user to have direct contact with the author and
 * **[Adobe Color](https://color.adobe.com)**
     - Used for creating color.
 * **[ScreenToGif](https://www.screentogif.com/)**
-    - Used for creating gif for README.
+    - Used for creating gif for this README.
 * **[Paint 3D](https://www.microsoft.com/en-us/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab)**
     - Used for creating color patters presentation.
 
 ## Libraries
 
 * **[Bootstrap](https://www.bootstrapcdn.com/)**
-    - Is uses for better responsiveness and organization.
+    - Used for better responsiveness and organization.
 * **[FontAwesome](https://fontawesome.com/)**
-    - Is uses to provide icons.
+    - Used to provide icons.
 * **[Google Fonts](https://fonts.google.com/)**
-    - Is uses to provide 'Roboto' ans 'Girassol' font.
+    - Used to provide **Roboto** ans **Girassol** font.
 * **[JQuery](https://jquery.com)** 
-    - Is used to simplify DOM manipulation.
+    - Used to simplify DOM manipulation.
 
 # Testing
 
@@ -464,7 +462,7 @@ To clone this project from GitHub:
 
 * All people, including family, friends, and colleagues who have tested the application on their real devices, reporting to me about any usability issues and giving improvement tips to improve the usability.
 
-* To all of the Code Institute Slack community for the help in my issues and review to my project.
+* To all of the **Code Institute Slack** community for the help in my issues and review to my project.
 
 ### The content of this website is for educational purposes only. 
 ### Thank you.

@@ -13,7 +13,7 @@
 - [Users Testing](#users-testing)
   * [Meeting the needs of the user stories](#meeting-the-needs-of-the-user-stories--as-described-in-the-ux-section-of-this-readme-file-)
 
-During the development of this project, I had the experience of facing some problems. Browser used for testing application during development was **[Google Chrome](https://www.google.com/chrome/)** and **[Dev Tools](https://developers.google.com/web/tools/chrome-devtools)** from same browser. For audit the site i use **[Lighthouse](https://developers.google.com/web/tools/lighthouse/)** from **Chrome DevTools**. Exhaustively testing the functionality of each part of the application and managed to solve most of the problems that across before writing this document. However how process of testing is being expanding on different browsers and different devices some problems are found and noticed. Some I solved and corrected, some remained uncorrected until the end of the test, and as my skills and knowledge develop, so they will be eliminated.
+During the development of this project, I had the experience of facing some problems. Browser used for testing application during development was **[Google Chrome](https://www.google.com/chrome/)** and **[Dev Tools](https://developers.google.com/web/tools/chrome-devtools)** from same browser. For audit the site i have used **[Lighthouse](https://developers.google.com/web/tools/lighthouse/)** from **Chrome DevTools**. Exhaustively testing the functionality of each part of the application and managed to solve most of the problems that i have came across before writing this document. However how process of testing is being expanding on different browsers and different devices some problems are found and noticed. Some of them I have solved and corrected, some remained uncorrected until the end of the test, and as my skills and knowledge develop, hopefully i will be able to eliminate them.
 
 I received help from some family members and friends to do the tests on application.
 
@@ -24,13 +24,13 @@ This was the primary method of testing the application. People were asked to vis
 ## Browser used in testing 
 
 * **[Google Chrome 81.0.4044.138](https://www.google.com/chrome/)**
-    - Is uses for testing site through all developing process and DevTools for responsiveness and scaling issues on different screen sizes.
+    - Used for testing site through all developing process and DevTools for responsiveness and scaling issues on different screen sizes.
 * **[Mozilla Firefox 76.0.1](https://www.mozilla.org/en-US/exp/)**
-    - Is uses for testing site and responsiveness and scaling.
+    - Used for testing site and responsiveness and scaling.
 * **[Opera Web Browser 68.0.3618.104](https://www.opera.com)**
-    - Is uses for testing site and responsiveness and scaling.
+    - Used for testing site and responsiveness and scaling.
 * **[Microsoft Edge 44.18362.449.0](https://www.windowscentral.com/microsoft-edge)**
-    - Is uses for testing site and responsiveness and scaling.
+    - Used for testing site and responsiveness and scaling.
 
 
 * Testing was conducted on the browsers above on the first three browsers such as **Google Crome**, **Mozilla Firefox** and **Opera Web Browser** no problems or bugs were noticed. 
@@ -38,7 +38,7 @@ This was the primary method of testing the application. People were asked to vis
 - On Microsoft Edge we encounter a bug at the beginning of the site and that is the only bug noticed on that browser.
 
     - ~~Bug on **Microsoft Edge** web browser `before update`. ( bug was attempted to be corrected through the **Autoprefixer** but bug is still remained visible.)~~ Picture 1
-    - `After the update, the first bug was removed, but a new one appeared on navigation bar. Picture 2`
+    - `After the update, the first bug was removed but a new one appeared on navigation bar. Picture 2`
     - `**Bug Fix** Bug was fixed by overrides Bootstrap default !important display attribute from ** display: -ms-flexbox!important; ** to ** display: -ms-inline-grid !important; ** in css.style calling element by ID and giving element important rule. Picture 3`
     - Snip code from css.style
     ```
@@ -59,7 +59,7 @@ This was the primary method of testing the application. People were asked to vis
 <img src="/assets/images/readme/testing/scroll/scroll_bug_edge.gif" alt="microsoft edge scroll bug" width="200" height="250"/>&nbsp;&nbsp;&nbsp;<img src="/assets/images/readme/testing/scroll/scroll_crome.gif" alt="Chrome scroll feature" width="200" height="250"/>&nbsp;&nbsp;&nbsp;<img src="/assets/images/readme/testing/scroll/scroll_firefox.gif" alt="Firefox scroll feature" width="200" height="250"/>&nbsp;&nbsp;&nbsp;<img src="/assets/images/readme/testing/scroll/scroll_opera.gif" alt="Opera scroll feature" width="200" height="250"/>
 </div>
 
-## Testing functionality of site on varied browsers and devices.
+## Testing functionality of the site on varied browsers and devices.
 
 * **Navigation Bar functionality testing**
 
@@ -105,7 +105,7 @@ This was the primary method of testing the application. People were asked to vis
 |   Clicked **About** in footer on any page on site	|   Open **About** page	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|
 |   Clicked **Contact Us** in footer on any page on site	|   Open **Contact Us** page	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|
 |   Clicked any **Social** network icon in footer on any page on site	|   Open desired social network platform	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|
-    - forms on **Contact Us** page are not in function due to lack of skills and current position in the course.
+    - forms on **Contact Us** page are not in function due to the lack of skills and current position in the course.
     - on **About** page there are three links that lead to **Contact Us** page, **Google Fonts** and **NASA** page all three links have been tested and are operational.
 
 </center>
@@ -172,7 +172,7 @@ I also tested the responsiveness site through **[Troy](http://troy.labs.daum.net
 |   1920 px	|   1920 x 1080	|   1920 x 1080	|   1	|   NONE	|   NONE	|
 
     - I found some display issues with some smaller screens and some medium screens.
-    - After update all notible display issues for medium screens was resolved when on small mobile screens still some was visible.
+    - After update all notible display issues for medium screens where resolved when on small mobile screens still some where visible.
     
 </center>
 
@@ -198,14 +198,14 @@ I also tested the responsiveness site through **[Troy](http://troy.labs.daum.net
 
 * **[W3C HTML Validator](https://validator.w3.org/)** 
     * This is online HTML code validator
-    - all pages from site was tested and all ressults was come back with no error.
+    - all the pages from the site where tested and all the results came back with no error.
 <div align="center">
 <img src="/assets/images/readme/testing/html_validator.png" target="_blank" rel="noopener" width="800" alt="html validator results">
 </div>
 
 * **[W3C CSS Validator](https://jigsaw.w3.org/css-validator/)** 
     * This is online CSS code validator
-    - CSS was tested and come back with no error and 34 warnings all warnings was **an unknown vendor extension** as i try to site be compatibility and support various browser.
+    - CSS was tested and came back with no error and 34 warnings. All the warnings where **an unknown vendor extension**. The reason i recived the warnings was because i have tryed to achive  that the site supports various browsers.
 <div align="center">
 <img src="/assets/images/readme/testing/css_validator.png" target="_blank" rel="noopener" width="800" alt="css validator results">
 </div>
@@ -216,18 +216,18 @@ I also tested the responsiveness site through **[Troy](http://troy.labs.daum.net
 ## Users Testing 
 
 * Users who tested this site mostly came back with the same comments that were addressed to the design of the site. 
-* All links were rated to work and met their expectations as confirmed by my testing which can be viewed in table above.
+* All links were rated to work and met their expectations as confirmed by my testing which can be viewed in tables above.
 
 * Some useful feedbacks from mobile testers.
     - When you enter the planet and scroll all the way, the back button is missing.
     - On the carousel the icons for the next picture are not seen enough especially lost on some planets that are lighter in color.
     - There are three indicators and four pictures on the carousel.
     - Carousel indicators are not visible enough.
-    - The Call-to-action button with two arrows does not tell me what I should do I pressed explore.
-    - The images on the explore sections are not clickable I had to click on read more.
-    - When I click Explore "Jump" "is too strong it would be better to scroll it slightly.
+    - The Call-to-action button with two arrows does not tell me what should do so I pressed explore.
+    - The images on the explore sections are not clickable. I had to click on read more.
+    - When I click Explore "Jump" "is too strong. It would be better to scroll it slightly.
 
-    Feedbacks was very useful and point to some things that i missed during development or just forget to change.
+    Feedbacks was very useful and it pointed to some things that i missed during development or just forget to change.
 
 ### Meeting the needs of the user stories (as described in the UX section of this README file)
 
