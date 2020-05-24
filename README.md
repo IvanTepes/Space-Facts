@@ -136,6 +136,10 @@ They were used as social media icons in the footer and on contact page as addres
 
 - `On the whole site is added **Smooth Scroll**. One of testers says that scroll is too strong when **Explore** message / button is pressed.`
 
+### `Shadows`
+
+- `Black Shadows are added on **Navigation bar**, **Jumbotron** , **Explore** section and on all **Buttons**.` 
+
 ## Existing Features
 
 ### Responsiveness
