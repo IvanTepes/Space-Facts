@@ -425,59 +425,78 @@ This was the primary method of testing the application. People were asked to vis
 * Testing was conducted on the browsers above on the first three browsers such as **Google Crome**, **Mozilla Firefox** and **Opera Web Browser** no problems or bugs were noticed. 
 * But on the **Microsoft Edge** we encounter a bug at the beginning of the site and that is the only bug noticed on that browser.
 
-    - Bug on **Microsoft Edge** web browser. ( bug was attempted to be corrected through the **Autoprefixer** but bug is still remained visible.)
-
+    - Bug on **Microsoft Edge** web browser `before update`. ( bug was attempted to be corrected through the **Autoprefixer** but bug is still remained visible.)
+    - `After the update, the first bug was removed, but a new one appeared on navigation bar`
+    
 <div align="center">
-<img src="/assets/images/readme/testing/bug/edge_bug.png" target="_blank" rel="noopener" width="300" alt="microsoft edge bug">
+<img src="/assets/images/readme/testing/bug/edge_bug.png" target="_blank" rel="noopener" width="300" alt="microsoft edge bug">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/assets/images/readme/testing/bug/bug_edge_new.png" target="_blank" rel="noopener" width="300" alt="microsoft edge bug">
 </div>
 
+- `Also ** Smooth Scroll ** feature does not work on Microsoft Edge.`
 
-* Testing functionality of site on varied browsers and devices.
-    - Navigation Bar testing
+* `Smooth Scroll feature on **Microsoft Edge**, **Google Chrome**, **Mozilla Firefox** and **Opera**`
+<div align="center">
 
+<img src="/assets/images/readme/testing/scroll/scroll_bug_edge.gif" alt="microsoft edge scroll bug" width="200" height="250"/>&nbsp;&nbsp;&nbsp;<img src="/assets/images/readme/testing/scroll/scroll_crome.gif" alt="Chrome scroll feature" width="200" height="250"/>&nbsp;&nbsp;&nbsp;<img src="/assets/images/readme/testing/scroll/scroll_firefox.gif" alt="Firefox scroll feature" width="200" height="250"/>&nbsp;&nbsp;&nbsp;<img src="/assets/images/readme/testing/scroll/scroll_opera.gif" alt="Opera scroll feature" width="200" height="250"/>
+</div>
+
+## Testing functionality of site on varied browsers and devices.**
+
+* **Navigation Bar functionality testing**
 <center>
 
-|   Action	|   Expetation	|   Chrome	|   Firefox	|   Opera	|   Edge	|
-|---	|:-:	|:-:	|:-:	|:-:	|:-:	|
-|   Clicked **Logo** on Home page	|   Refresh **Home** page	|   PASS	|   PASS	|   PASS	|   PASS	|
-|   Clicked **Logo** on any other page on site	|   Return to **Home** page	|   PASS	|   PASS	|   PASS	|   PASS	|
-|   Clicked **Home** on Home page 	|   Refresh **Home** page	|   PASS	|   PASS	|   PASS	|   PASS	|
-|   Clicked **Home** on any other page on site	|   Return to **Home** page	|   PASS	|   PASS	|   PASS	|   PASS	|
-|   Clicked **About** on any page on site	|   Open **About** page	|   PASS	|   PASS	|  PASS 	|   PASS	|
-|   Clicked **Planets** on any page on site	|   Open drop-down menu	|   PASS	|   PASS	|   PASS	|   PASS	|
-|   Clicked Planet **Mercury** on any page on site	|   Open page with planet **Mercury**	|   PASS	|   PASS	|   PASS	|   PASS	|
-|   Clicked Planet **Venus** on any page on site	|   Open page with planet **Venus**	|   PASS	|   PASS	|   PASS	|  PASS 	|
-|   Clicked Planet **Earth** on any page on site	|   Open page with planet **Earth**	|   PASS	|   PASS	|   PASS	|   PASS	|
-|   Clicked Planet **Mars** on any page on site	|   Open page with planet **Mars**	|   PASS	|   PASS	|   PASS	|   PASS	|
-|   Clicked Planet **Jupiter** on any page on site	|   Open page with planet **Jupiter**	|   PASS	|  PASS 	|  PASS 	|   PASS	|
-|   Clicked Planet **Saturn** on any page on site	|   Open page with planet **Saturn**	|   PASS	|   PASS	|   PASS	|   PASS	|
-|   Clicked Planet **Uranus** on any page on site	|   Open page with planet **Uranus**	|   PASS	|   PASS	|   PASS	|   PASS	|
-|   Clicked Planet **Neptune** on any page on site	|   Open page with planet **Neptune**	|   PASS	|   PASS	|   PASS	|   PASS	|
+|   Action	|   Expetation	|   Chrome	|   Firefox	|   Opera	|   Edge	|   Mobile 	|   Tablets 	|
+|---	|:-:	|:-:	|:-:	|:-:	|:-:	|:-:	|:-:	|
+|   Clicked **Logo** on Home page	|   Refresh **Home** page	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|
+|   Clicked **Logo** on any other page on site	|   Return to **Home** page	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|
+|   Clicked **Hamburger button** on any page on site	|   Open **Menu** 	|   -	|   -	|  - 	|   -	|   PASS	|   PASS	|
+|   Clicked **Home** on Home page 	|   Refresh **Home** page	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|
+|   Clicked **Home** on any other page on site	|   Return to **Home** page	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|
+|   Clicked **About** on any page on site	|   Open **About** page	|   PASS	|   PASS	|  PASS 	|   PASS	|   PASS	|   PASS	|
+|   Clicked **Planets** on any page on site	|   Open drop-down menu	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|
+|   Clicked Planet **Mercury** from drop-down menu on any page on site	|   Open page with planet **Mercury**	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|
+|   Clicked Planet **Venus** from drop-down menu on any page on site	|   Open page with planet **Venus**	|   PASS	|   PASS	|   PASS	|  PASS 	|   PASS	|   PASS	|
+|   Clicked Planet **Earth** from drop-down menu on any page on site	|   Open page with planet **Earth**	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|
+|   Clicked Planet **Mars** from drop-down menu on any page on site	|   Open page with planet **Mars**	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|
+|   Clicked Planet **Jupiter** from drop-down menu on any page on site	|   Open page with planet **Jupiter**	|   PASS	|  PASS 	|  PASS 	|   PASS	|   PASS	|   PASS	|
+|   Clicked Planet **Saturn** from drop-down menu on any page on site	|   Open page with planet **Saturn**	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|
+|   Clicked Planet **Uranus** from drop-down menu on any page on site	|   Open page with planet **Uranus**	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|
+|   Clicked Planet **Neptune** from drop-down menu on any page on site	|   Open page with planet **Neptune**	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|
     -if user clicked on same page where he is page will be refreshed
     -Example: If user is on planet **Earth** and choose from drop-down menu planet **Earth** again page **Earth** will be refreshed.
 </center>
 
-- Testing **Call-to-action** button, **Explore section** and **Footer** 
+* Testing functionality of **Call-to-action** button, **Explore section** and **Footer** 
 
 <center>
 
-|   Action	|   Expetation	|   Chrome	|   Firefox	|   Opera	|   Edge	|
-|---	|:-:	|:-:	|:-:	|:-:	|:-:	|
-|   Clicked **Explore** on Home page	|   Slide to **Explore** section	|   PASS	|   PASS	|   PASS	|   PASS	|
-|   Clicked **Read More** button under planet **Mercury**	|   Open planet **Mercury** page	|   PASS	|   PASS	|   PASS	|   PASS	|
-|   Clicked **Read More** button under planet **Venus** 	|   Open planet **Venus** page	|   PASS	|   PASS	|   PASS	|   PASS	|
-|   Clicked **Read More** button under planet **Earth**	|   Open planet **Earth** page	|   PASS	|   PASS	|   PASS	|   PASS	|
-|   Clicked **Read More** button under planet **Mars**	|   Open planet **Mars** page	|   PASS	|   PASS	|  PASS 	|   PASS	|
-|   Clicked **Read More** button under planet **Jupiter**	|   Open planet **Jupiter** page	|   PASS	|   PASS	|   PASS	|   PASS	|
-|   Clicked **Read More** button under planet **Saturn**	|   Open planet **Saturn** page	|   PASS	|   PASS	|   PASS	|   PASS	|
-|   Clicked **Read More** button under planet **Uranus**	|   Open planet **Uranus** page	|   PASS	|   PASS	|   PASS	|  PASS 	|
-|   Clicked **Read More** button under planet **Neptune**	|   Open planet **Neptune** page	|   PASS	|   PASS	|   PASS	|   PASS	|
-|   Clicked **About** in footer on any page on site	|   Open **About** page	|   PASS	|   PASS	|   PASS	|   PASS	|
-|   Clicked **Contact Us** in footer on any page on site	|   Open **Contact Us** page	|   PASS	|   PASS	|   PASS	|   PASS	|
-|   Clicked any **Social** network icon in footer on any page on site	|   Open desired social network platform	|   PASS	|   PASS	|   PASS	|   PASS	|
+|   Action	|   Expetation	|   Chrome	|   Firefox	|   Opera	|   Edge	|   Mobile 	|   Tablets 	|
+|---	|:-:	|:-:	|:-:	|:-:	|:-:	|:-:	|:-:	|
+|   Clicked **Explore** on Home page	|   Smooth Scroll to **Explore** section	|   PASS	|   PASS	|   PASS	|   FAIL	|   PASS	|   PASS	|
+|   Clicked **Read More** button under planet **Mercury**	|   Open planet **Mercury** page	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|
+|   Clicked **Read More** button under planet **Venus** 	|   Open planet **Venus** page	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|
+|   Clicked **Read More** button under planet **Earth**	|   Open planet **Earth** page	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|
+|   Clicked **Read More** button under planet **Mars**	|   Open planet **Mars** page	|   PASS	|   PASS	|  PASS 	|   PASS	|   PASS	|   PASS	|
+|   Clicked **Read More** button under planet **Jupiter**	|   Open planet **Jupiter** page	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|
+|   Clicked **Read More** button under planet **Saturn**	|   Open planet **Saturn** page	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|
+|   Clicked **Read More** button under planet **Uranus**	|   Open planet **Uranus** page	|   PASS	|   PASS	|   PASS	|  PASS 	|   PASS	|   PASS	|
+|   Clicked **Read More** button under planet **Neptune**	|   Open planet **Neptune** page	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|
+|   Clicked **About** in footer on any page on site	|   Open **About** page	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|
+|   Clicked **Contact Us** in footer on any page on site	|   Open **Contact Us** page	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|
+|   Clicked any **Social** network icon in footer on any page on site	|   Open desired social network platform	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|   PASS	|
     - forms on **Contact Us** page are not in function due to lack of skills and current position in the course.
     - on **About** page there are three links that lead to **Contact Us** page, **Google Fonts** and **NASA** page all three links have been tested and are operational.
+</center>
 
+* Testing functionality of **Quick navigation** buttons for small (mobile) and medium screens (tablets).
+
+<center>
+
+|   Action	|   Expetation	|   Mobile 	|   Tablets 	|
+|---	|:-:	|:-:	|:-:	|
+|   Pressed **Active** page button (Marcury / Neptune)	|   Scroll to top of page	|   PASS	|   PASS	|
+|   Pressed **Planets** button on any page on site	|   Go to **Explore** section on **Home** page	|   PASS	|   PASS	|
+|   Pressed any **Next / Previous** button	|   Go to **Next / Previous** page	|   PASS	|   PASS	|
 </center>
 
 
