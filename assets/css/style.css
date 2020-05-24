@@ -96,6 +96,10 @@ h1, h2, h3, h5 {
     border-radius: 10px;
 }
 
+#navbarNavDropdown {
+    display: -ms-inline-grid !important;
+}
+
 /*  Navbar Brand  */
 
 .navbar--brand {
