@@ -26,6 +26,8 @@
     + [Layout](#layout)
     + [Buttons](#buttons)
     + [Font](#font)
+    + [Smooth Scroll](#smooth-scroll)
+    + [Shadows](#shadows)
   * [Existing Features](#existing-features)
     + [Responsiveness](#responsiveness)
     + [Navigation Bar](#navigation-bar)
