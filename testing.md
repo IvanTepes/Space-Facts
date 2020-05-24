@@ -4,6 +4,7 @@
 
 ## Table of Contents
 
+- [Development](#development)
 - [Browser used in testing](#browser-used-in-testing)
     * [Microsoft Edge Bug](#microsoft-edge-bug)
 - [Testing functionality of site on varied browsers and devices.](#testing-functionality-of-site-on-varied-browsers-and-devices)
@@ -13,7 +14,8 @@
 - [Users Testing](#users-testing)
   * [Meeting the needs of the user stories](#meeting-the-needs-of-the-user-stories--as-described-in-the-ux-section-of-this-readme-file-)
 
-During the development of this project, I had the experience of facing some problems. Browser used for testing application during development was **[Google Chrome](https://www.google.com/chrome/)** and **[Dev Tools](https://developers.google.com/web/tools/chrome-devtools)** from same browser. For audit the site i have used **[Lighthouse](https://developers.google.com/web/tools/lighthouse/)** from **Chrome DevTools**. Exhaustively testing the functionality of each part of the application and managed to solve most of the problems that i have came across before writing this document. However how process of testing is being expanding on different browsers and different devices some problems are found and noticed. Some of them I have solved and corrected, some remained uncorrected until the end of the test, and as my skills and knowledge develop, hopefully i will be able to eliminate them.
+## Development
+- During the development of this project, I had the experience of facing some problems. Browser used for testing application during development was **[Google Chrome](https://www.google.com/chrome/)** and **[Dev Tools](https://developers.google.com/web/tools/chrome-devtools)** from same browser. For audit the site i have used **[Lighthouse](https://developers.google.com/web/tools/lighthouse/)** from **Chrome DevTools**. Exhaustively testing the functionality of each part of the application and managed to solve most of the problems that i have came across before writing this document. However how process of testing is being expanding on different browsers and different devices some problems are found and noticed. Some of them I have solved and corrected, some remained uncorrected until the end of the test, and as my skills and knowledge develop, hopefully i will be able to eliminate them.
 
 I received help from some family members and friends to do the tests on application.
 
@@ -265,3 +267,5 @@ I also tested the responsiveness site through **[Troy](http://troy.labs.daum.net
  * **Laptops**
     - Hp Pavilion
     - Hp Ultrabook
+
+[Main README.md file](README.md)
