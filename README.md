@@ -443,6 +443,7 @@ This was the primary method of testing the application. People were asked to vis
 ## Testing functionality of site on varied browsers and devices.**
 
 * **Navigation Bar functionality testing**
+
 <center>
 
 |   Action	|   Expetation	|   Chrome	|   Firefox	|   Opera	|   Edge	|   Mobile 	|   Tablets 	|
@@ -497,6 +498,7 @@ This was the primary method of testing the application. People were asked to vis
 |   Pressed **Active** page button (Marcury / Neptune)	|   Scroll to top of page	|   PASS	|   PASS	|
 |   Pressed **Planets** button on any page on site	|   Go to **Explore** section on **Home** page	|   PASS	|   PASS	|
 |   Pressed any **Next / Previous** button	|   Go to **Next / Previous** page	|   PASS	|   PASS	|
+
 </center>
 
 
