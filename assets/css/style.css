@@ -117,10 +117,25 @@ h1, h2, h3, h5 {
     margin-top: 3px;
 }
 
-/* Drop down toggle indicator */
+/* Hamburger Button indicator */
+
+.navbar-toggler {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border-radius: 0.80rem;
+    padding: 3px 15px 3px 15px;
+}
 
 .navbar-toggler:focus {
     outline-color: #ffb325;
+    border: 1px solid orange;
+    outline: none;
+    box-shadow: 0px 0px 7px 1px #ffb325;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: .80rem;
 }
 
 .dropdown-toggle::after {
