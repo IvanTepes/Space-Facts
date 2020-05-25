@@ -1,4 +1,4 @@
-/* Html */
+/* Site scroll behavior */
 
 html {
     scroll-behavior: smooth;
@@ -17,32 +17,22 @@ h1, h2, h3, h5 {
     letter-spacing: 4px;
 }
 
-/* bg Colors */
+/* Bg color Brand */
 
 #bg-color--brand {
-    color: #FFB325;
+    color: #ffb325;
+    text-decoration: none;
 }
 
-.bg-color--navbar {
+/* Bg color Jumbotron and Navbar */
+
+.bg-color--transparent {
     background-color: rgba(0,0,0,0.7);
-}
-
-.bg-color--jumbotron {
-    background-color: rgba(0,0,0,0.7);
-}
-
-/* Colors */
-
-/* Social network icons */
-
-.fas,
-.fab,
-.fa {
-    color: #FFB325;
-    font-size: 25px;
 }
 
 /* Shadow */
+
+/* Navbar, Jumbotron, Explore section*/
 
 .around-shadow {
     box-shadow: 1px 0px 11px 3px #000;
@@ -63,11 +53,13 @@ h1, h2, h3, h5 {
     justify-content: space-evenly;
 }
 
+/* Bottom orange border */
+
 .navbar--menu {
     padding: 0 20px 0 20px;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
-    border-bottom: 1px solid #FFB325;
+    border-bottom: 1px solid #ffb325;
     font-size: 1rem;
 }
 
@@ -75,6 +67,8 @@ h1, h2, h3, h5 {
     padding-right: 10px;
     padding-left: 10px;
 }
+
+/* Navbar menu display */
 
 .navbar-nav {
     display: flex;
@@ -89,12 +83,61 @@ h1, h2, h3, h5 {
     float: none;
 }
 
+/*  Navbar Dropdown Menu  */
+
+/* Dropdown background color */
+
+.dropdown-menu {
+    background-color: #ffb325;
+    text-align: center;
+    border-radius: .80rem;
+    padding-right: 5px;
+    padding-left: 5px;
+    min-width: 8rem;
+    letter-spacing: 1.5px;
+}
+
+/* Drop down menu hovering color*/
+
 .dropdown-item:hover {
     color: #ffb325;
     text-decoration: none;
-    background-color: #000000;
+    background-color: #000;
     border-radius: 10px;
 }
+
+/* Drop down menu active page */
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #FFB325;
+    text-decoration: none;
+    background-color: #000;
+    border-radius: 10px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+/* Drop down toggle indicator */
+
+.navbar-toggler:focus {
+    outline-color: #ffb325;
+}
+
+.dropdown-toggle::after {
+    color: #ffb325;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}
+
+/* Microsoft Edge bug fix */
 
 #navbarNavDropdown {
     display: -ms-inline-grid !important;
@@ -110,58 +153,24 @@ h1, h2, h3, h5 {
     z-index: 1;
 }
 
-/*  Navbar Dropdown Menu  */
-
-.dropdown-menu {
-    background-color: #FFB325;
-    text-align: center;
-    border-radius: .80rem;
-    padding-right: 5px;
-    padding-left: 5px;
-    min-width: 8rem;
-    letter-spacing: 1.5px;
-}
-
-.dropdown-toggle::after {
-    display: inline-block;
-    width: 0;
-    height: 0;
-    margin-left: .255em;
-    vertical-align: .255em;
-    content: "";
-    color: #FFB325;
-    border-top: .3em solid;
-    border-right: .3em solid transparent;
-    border-bottom: 0;
-    border-left: .3em solid transparent;
-}
-
 /* Navbar Active page */
 
-.navbar-toggler:focus {
-    outline-color: #FFB325;
-}
+/* Active */
 
 .navbar-dark .navbar-nav .active>.nav-link {
-    color: #FFB325;
+    color: #ffb325;
 }
+
+/* Hover */
 
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: #F2D750;
+    color: #f2d750;
 }
 
-.dropdown-item.active, .dropdown-item:active {
-    color: #FFB325;
-    text-decoration: none;
-    background-color: #000;
-    border-radius: 10px;
-    margin-bottom: 3px;
-    margin-top: 3px;
-
-}
+/* After pressed */
 
 .navbar-dark .navbar-nav .show>.nav-link {
-    color: #F2D750;
+    color: #f2d750;
 }
 
 /* Buttons */
@@ -170,8 +179,10 @@ h1, h2, h3, h5 {
     border: none;
 }
 
+/* Orange buttons with insert shadows */
+
 .btn--orange {
-    background-color: #FFB325;
+    background-color: #ffb325;
     box-shadow: inset 1px 0px 13px 0px #000;
     border-radius: .80rem;
     width: -webkit-fit-content;
@@ -180,8 +191,10 @@ h1, h2, h3, h5 {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
-    color: #000000;
+    color: #000;
 }
+
+/* Buttons on hovering */
 
 .btn:hover {
     color: #ffb325;
@@ -190,17 +203,40 @@ h1, h2, h3, h5 {
     background: #000;
 }
 
-a:hover {
-    color: #000;
-    text-decoration: none;
-}
+/* Buttons on focus */
 
 .btn:focus {
     outline: 0;
     box-shadow: 1px 0px 11px 3px #ffb325;
 }
 
-/* Landing */
+/* Call to action  */
+
+/* Explore message */
+
+.call--button {
+    color:#FFB325;
+    font-family: 'Girassol', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 4px;
+    border-radius: 15px;
+    padding: 8px;
+}
+
+/* Explore message on hovering / pressing */
+
+.jumbotron a:hover {
+    color: #000000;
+    padding: 8px;
+    box-shadow: inset 0px 0px 10px 0px #000000;
+    border-radius: 15px;
+    background-color: #ffb325;
+    text-decoration: none;
+}
+
+/* Home page */
+
+/* Bg image */
 
 .landing { 
     height: 100vh;
@@ -213,25 +249,6 @@ a:hover {
     background-size: cover;
 }
 
-/* Call to action button */
-
-.call--button {
-    color:#FFB325;
-    font-family: 'Girassol', sans-serif;
-    font-size: 2rem;
-    letter-spacing: 4px;
-    border-radius: 15px;
-    padding: 8px;
-}
-
-.jumbotron a:hover {
-    color: #000000;
-    padding: 8px;
-    box-shadow: inset 0px 0px 10px 0px #000000;
-    border-radius: 15px;
-    background-color: #FFB325;
-}
-
 /* Jumbotron */
 
 .jumbotron--container {
@@ -239,6 +256,8 @@ a:hover {
     margin-bottom: 0px;
     padding-top: 15px;
 }
+
+/* Jumbotron border and text color */
 
 .jumbotron {
     margin-top: 15vh;
@@ -248,12 +267,16 @@ a:hover {
     color: #fff;
 }
 
-/* Scroll down arrow  */
+/* Scroll down icon animation  */
+
+/* Taken from CodePen Made by Thomas Nägele */
 
 .arrow--container {
     position: absolute;
     bottom: 10px;
 }
+
+/* For display icons horizontaly */
 
 .chevron {
   position: relative;
@@ -272,6 +295,8 @@ a:hover {
 .chevron:nth-child(2) {
   animation: move 3s ease-out 2s infinite;
 }
+
+/* Icons colour */
 
 .chevron:before,
 .chevron:after {
@@ -313,6 +338,8 @@ a:hover {
   }
 }
 
+/* Scroll down message */
+
 .text {
   display: block;
   font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
@@ -345,17 +372,28 @@ a:hover {
           transform: scale(2.0); 
 }
 
-/* Social icons */
+/* Social network icons */
+
+/* Colour */
+
+.fas,
+.fab,
+.fa {
+    color: #ffb325;
+    font-size: 25px;
+}
 
 .social-links {
     letter-spacing: 4px;
 }
 
-/* Section Headings */
+/* Section Headings container */
 
 .section-heading--container {
     margin-top: 0px;
 }
+
+/* Explore section heading */
 
 .section-heading {
     padding-bottom: 0px;
@@ -366,29 +404,37 @@ a:hover {
 /* Block Dividers */
 
 .blok--divider {
-    border-top: 3px solid #FFB325 ;
+    border-top: 3px solid #ffb325 ;
 }
 
 .blok--divider--short {
     width: 100px;
-    border-top: 3px solid #FFB325 ;
+    border-top: 3px solid #ffb325 ;
 }
 
 .blok--divider--medium {
     width: 200px;
-    border-top: 3px solid #FFB325 ;
+    border-top: 3px solid #ffb325 ;
 }
 
 /* Cards */
+
+/* Explore section planet holders */
+
+/* Short facts text colour */
+
+.card-body {
+    color: #fff;
+}
+
+/* Bg colour */
 
 .card {
     background-color: #000000;
     border: none; 
 }
 
-.card-body {
-    color: #fff;
-}
+/* Explore section name and planets pages facts and profile heading */
 
 .card-title {
     letter-spacing: 1.5px;
@@ -397,23 +443,31 @@ a:hover {
 
 /* Footer */
 
+/* Footer orange border */
+
 .footer--container {
     color: #fff;
-    border-top: 1px solid #FFB325;
+    border-top: 1px solid #ffb325;
     margin-top: 50px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
 
+/* Links colour */
+
 .list-inline-item a {
-    color: #FFB325;
+    color: #ffb325;
 }
+
+/* Undeline text decoration on hovering */
 
 .list-inline-item a:hover {
     text-decoration: underline;
 }
 
 /* Planets Section */
+
+/* Bg image */
 
 .planets--section {
     background: url("../images/planet_background.jpg") no-repeat top fixed;
@@ -432,9 +486,13 @@ a:hover {
 
 /* Carousel */
 
+/* Position of image indicators */
+
 .carousel-indicators {
     margin-bottom: 0px;
 }
+
+/* Stlye of image indicators */
 
 .carousel-indicators li {
     width: 40px;
@@ -444,10 +502,14 @@ a:hover {
     transition: none;
 }
 
+/* Active image of planet */
+
 .carousel-indicators .active {
     opacity: 1;
-    background-color: #FFB325;
+    background-color: #ffb325;
 }
+
+/* Position of next / previous indicators */
 
 .carousel-control-next, .carousel-control-prev {
     align-items: flex-end;
@@ -455,9 +517,13 @@ a:hover {
 
 /* Facts Section */
 
+/* Planet profile table colour */
+
 .table {
-    color: #FFB325;
+    color: #ffb325;
 }
+
+/* Planet Facts text */
 
 .facts--text {
     color: #fff;
@@ -473,15 +539,21 @@ a:hover {
     padding-top: 80px;
 }
 
+/* Text Colour */
+
 .about--text p {
     color: #fff;
     font-size: 22px;
 }
 
+/* Message colour */
+
 p strong {
-    color: #FFB325;
+    color: #ffb325;
     font-size: 1.875rem;
 }
+
+/* Links on hovering  */
 
 .about--section a:hover {
     color: #ffb325;
@@ -496,9 +568,11 @@ p strong {
     border-radius: 30px;
 }
 
-/* Pagination */
+/* Quick Navigation */
 
-.data-pagination {
+/* Font  */
+
+.quick--nav {
   font-size: 1rem;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -507,27 +581,34 @@ p strong {
   border-radius: 20px;
 }
 
-.data-pagination .col {
+.quick--nav .col {
     padding-left: 0px;
     padding-right: 0px;
 }
 
-.data-pagination a {
+/* Buttons style */
+
+.quick--nav a {
   color: #a7a7a7;
   border-radius: 20px;
   border-top: 1px solid #ffb325;
   border-bottom: 1px solid #ffb325;
   padding: 8px;
+  text-decoration: none;
 }
 
-.data-pagination a:focus,
-.data-pagination a:hover {
+/* Button when pressed / hover */
+
+.quick--nav a:focus,
+.quick--nav a:hover {
     color: #000;
     background-color: #ffb325;
     box-shadow: inset 1px 0px 13px 0px #000;
 }
 
-.data-pagination a.current {
+/* Active page */
+
+.quick--nav a.current {
     color: #000;
     padding-right: 0px;
     background: #ffb325;
