@@ -50,7 +50,7 @@ This was the primary method of testing the application. People were asked to vis
     ```
 
 <div align="center">
-<img src="/assets/images/readme/testing/bug/edge_bug.png" target="_blank" rel="noopener" width="200" alt="microsoft edge bug">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/assets/images/readme/testing/bug/bug_edge_new.png" target="_blank" rel="noopener" width="200" alt="microsoft edge bug">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/assets/images/readme/testing/bug/edge_bug_fix_display.png" target="_blank" rel="noopener" width="200" alt="microsoft edge bug fix">
+<img src="/testing/bug/edge_bug.png" target="_blank" rel="noopener" width="200" alt="microsoft edge bug">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/testing/bug/bug_edge_new.png" target="_blank" rel="noopener" width="200" alt="microsoft edge bug">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/testing/bug/edge_bug_fix_display.png" target="_blank" rel="noopener" width="200" alt="microsoft edge bug fix">
 </div>
 
 - `Also ** Smooth Scroll ** feature does not work on Microsoft Edge.`
@@ -58,7 +58,7 @@ This was the primary method of testing the application. People were asked to vis
 * `Smooth Scroll feature on **Microsoft Edge**, **Google Chrome**, **Mozilla Firefox** and **Opera**`
 <div align="center">
 
-<img src="/assets/images/readme/testing/scroll/scroll_bug_edge.gif" alt="microsoft edge scroll bug" width="200" height="250"/>&nbsp;&nbsp;&nbsp;<img src="/assets/images/readme/testing/scroll/scroll_crome.gif" alt="Chrome scroll feature" width="200" height="250"/>&nbsp;&nbsp;&nbsp;<img src="/assets/images/readme/testing/scroll/scroll_firefox.gif" alt="Firefox scroll feature" width="200" height="250"/>&nbsp;&nbsp;&nbsp;<img src="/assets/images/readme/testing/scroll/scroll_opera.gif" alt="Opera scroll feature" width="200" height="250"/>
+<img src="/testing/scroll/scroll_bug_edge.gif" alt="microsoft edge scroll bug" width="200" height="250"/>&nbsp;&nbsp;&nbsp;<img src="/testing/scroll/scroll_crome.gif" alt="Chrome scroll feature" width="200" height="250"/>&nbsp;&nbsp;&nbsp;<img src="/testing/scroll/scroll_firefox.gif" alt="Firefox scroll feature" width="200" height="250"/>&nbsp;&nbsp;&nbsp;<img src="/testing/scroll/scroll_opera.gif" alt="Opera scroll feature" width="200" height="250"/>
 </div>
 
 ## Testing functionality of the site on varied browsers and devices.
@@ -89,7 +89,7 @@ This was the primary method of testing the application. People were asked to vis
 
 </center>
 
-* Testing functionality of **Call-to-action** button, **Explore section** and **Footer** 
+* Testing functionality of **Call-to-action** button / message, **Explore section** and **Footer** 
 
 <center>
 
@@ -138,14 +138,14 @@ I also tested the responsiveness site through **[Troy](http://troy.labs.daum.net
 |   Galaxy S5, Note3	|   360 x 640	|   1080 x 1920	|   3	|   NONE	|   NONE	|
 |   Galaxy S3, Note2	|   360 x 640	|   720 x 1280	|   2	|   NONE	|   NONE	|
 |   Galaxy Note1	|   400 x 640	|   800 x 1280	|   2	|   NONE	|   NONE	|
-|   Galaxy S2, S1	|   320 x 533	|   480 x 800	|   1.5	|   <img src="/assets/images/readme/testing/display_issues/s2s1.png" target="_blank" rel="noopener" width="150" alt="Samsung Galaxy s2, s1 display issues">	|   NONE	|
+|   Galaxy S2, S1	|   320 x 533	|   480 x 800	|   1.5	|   <img src="/testing/display_issues/s2s1.png" target="_blank" rel="noopener" width="150" alt="Samsung Galaxy s2, s1 display issues">	|   NONE	|
 |   Galaxy Tab S	|   800 x 1280	|  1600 x 2560 	|   2	|   NONE	|   NONE	|
 |   **Apple**	|   	|   	|   	|   	|
 |   iPhone 6 (s), 7, 8,	|   375 x 667	|   750 x 1334	|   2	|   NONE	|   NONE	|
 |   iPhone 6 (s)+, 7+, 8+	|   414 x 736	|   1242 x 2208	|   3	|  NONE 	|   NONE	|
 |   iPhone 5, SE	|   320 x 568	|   640 x 1136	|   2	|   NONE	|   NONE	|
-|   iPhone 4	|   320 x 480	|   640 x 960	|   2	|   <img src="/assets/images/readme/testing/display_issues/iphone4.png" target="_blank" rel="noopener" width="150" alt="iphone 4 display issues">	|   <img src="/assets/images/readme/testing/display_issues/iphone4_display_issues.jpg" target="_blank" rel="noopener" width="150" alt="iphone 4 display issues">	|
-|   iPhone 3GS	|   320 x 480	|   320 x 480	|   1	|   <img src="/assets/images/readme/testing/display_issues/iphone3gs.png" target="_blank" rel="noopener" width="150" alt="iphone 3GS display issues">	|   <img src="/assets/images/readme/testing/display_issues/iphone_3gs_display_issues.jpg" target="_blank" rel="noopener" width="150" alt="iphone 4 display issues">	|
+|   iPhone 4	|   320 x 480	|   640 x 960	|   2	|   <img src="/testing/display_issues/iphone4.png" target="_blank" rel="noopener" width="150" alt="iphone 4 display issues">	|   <img src="/testing/display_issues/iphone4_display_issues.jpg" target="_blank" rel="noopener" width="150" alt="iphone 4 display issues">	|
+|   iPhone 3GS	|   320 x 480	|   320 x 480	|   1	|   <img src="/testing/display_issues/iphone3gs.png" target="_blank" rel="noopener" width="150" alt="iphone 3GS display issues">	|   <img src="/testing/display_issues/iphone_3gs_display_issues.jpg" target="_blank" rel="noopener" width="150" alt="iphone 4 display issues">	|
 |   iPad Retina 	|   768 x 1024	|   1536 x 2048	|   2	|   NONE	|   NONE	|
 |   **LG**	|   	|   	|   	|   	|
 |   G5	|   360 x 640	|   1440 x 2560	|   4	|   NONE	|   NONE	|
@@ -155,14 +155,14 @@ I also tested the responsiveness site through **[Troy](http://troy.labs.daum.net
 |   Optimus G Pro	|   360 x 640	|   1080 x 1920	|   3	|   NONE	|   NONE	|
 |   Optimus G 	|   384 x 640	|   768 x 1280	|   2	|   NONE	|   NONE	|
 |   Optimus View	|   384 x 512	|   768 x 1024	|   2	|   NONE	|   NONE	|
-|   G Pad 8.3	|   600 x 960	|   1200 x 1920	|   2	|   <img src="/assets/images/readme/testing/display_issues/g_pad8.3.png" target="_blank" rel="noopener" width="150" alt="G pad 8.3 display issues">	|   NONE	|
+|   G Pad 8.3	|   600 x 960	|   1200 x 1920	|   2	|   <img src="/testing/display_issues/g_pad8.3.png" target="_blank" rel="noopener" width="150" alt="G pad 8.3 display issues">	|   NONE	|
 |   **Google**	|   	|   	|   	|   	|
 |   Nexus 5	|  360 x 640 	|   1080 x 1920	|   3	|   NONE	|   NONE	|
 |   Nexus 4	|   384 x 640	|   768 x 1280	|   2	|   NONE	|   NONE	|
 |   Galaxy Nexus	|   360 x 640 	|   768 x 1280	|   2	|   NONE	|   NONE	|
-|   Nexus S	|   320 x 533	|   480 x 800	|    1.5	|  <img src="/assets/images/readme/testing/display_issues/nexus_s.png" target="_blank" rel="noopener" width="150" alt="Nexus S display issues">	|   NONE	|
+|   Nexus S	|   320 x 533	|   480 x 800	|    1.5	|  <img src="/testing/display_issues/nexus_s.png" target="_blank" rel="noopener" width="150" alt="Nexus S display issues">	|   NONE	|
 |   Nexus 10	|   800 x 1280	|  1600 x 2560	|   2	|   NONE	|   NONE	|
-|   Nexus 7 (2013)|  600 x 960 	|   1200 x 1920	|   2	|   <img src="/assets/images/readme/testing/display_issues/nexus7.png" target="_blank" rel="noopener" width="150" alt="Nexus 7 display issues">	|   NONE	|
+|   Nexus 7 (2013)|  600 x 960 	|   1200 x 1920	|   2	|   <img src="/testing/display_issues/nexus7.png" target="_blank" rel="noopener" width="150" alt="Nexus 7 display issues">	|   NONE	|
 |   **Pc Screens**	|   	|   	|   	|   	|
 |   800 px	|   800 x 600	|   800 x 600	|   1	|   NONE	|   NONE	|
 |   970 px	|   970 x 600	|   970 x 600	|   1	|   NONE	|   NONE	|
@@ -187,13 +187,13 @@ I also tested the responsiveness site through **[Troy](http://troy.labs.daum.net
     - Here are some of the results.  
 
 <div align="center">
-<img src="/assets/images/readme/testing/try1.png" target="_blank" rel="noopener" width="800" alt="crome lighthouse try 1">
+<img src="/testing/try1.png" target="_blank" rel="noopener" width="800" alt="crome lighthouse try 1">
 </div>
 <div align="center">
-<img src="/assets/images/readme/testing/try2.png" target="_blank" rel="noopener" width="800" alt="crome lighthouse try 2">
+<img src="/testing/try2.png" target="_blank" rel="noopener" width="800" alt="crome lighthouse try 2">
 </div>
 <div align="center">
-<img src="/assets/images/readme/testing/try3.png" target="_blank" rel="noopener" width="800" alt="crome lighthouse try 3">
+<img src="/testing/try3.png" target="_blank" rel="noopener" width="800" alt="crome lighthouse try 3">
 </div>
 
 ## Validators
@@ -204,7 +204,7 @@ I also tested the responsiveness site through **[Troy](http://troy.labs.daum.net
     - `After the update all the pages from the site where tested and all the results came back with no error.`
     
 <div align="center">
-<img src="/assets/images/readme/testing/html_validator.png" target="_blank" rel="noopener" width="800" alt="html validator results">
+<img src="/testing/html_validator.png" target="_blank" rel="noopener" width="800" alt="html validator results">
 </div>
 
 * **[W3C CSS Validator](https://jigsaw.w3.org/css-validator/)** 
@@ -213,10 +213,10 @@ I also tested the responsiveness site through **[Troy](http://troy.labs.daum.net
     - `After the update of site css is tested again and test are came back with no error and 19 warnings. All the warnings where **an unknown vendor extension**`
 
 <div align="center">
-<img src="/assets/images/readme/testing/css_validator.png" target="_blank" rel="noopener" width="800" alt="css validator results">
+<img src="/readme/testing/css_validator.png" target="_blank" rel="noopener" width="800" alt="css validator results">
 </div>
 <div align="center">
-<img src="/assets/images/readme/testing/css_validator1.png" target="_blank" rel="noopener" width="800" alt="css validator results">
+<img src="/testing/css_validator1.png" target="_blank" rel="noopener" width="800" alt="css validator results">
 </div>
 
 ## Users Testing 
