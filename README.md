@@ -259,12 +259,12 @@ with the **Read more** message are designed using a **[Bootstrap](https://getboo
 * **Background** image is a dark photography of the universe, which serves as a space for the carousel and images of planets to "float" in that universe.
 
 * `** Quick navigation ** are added with the update because of recived feedback from testers.`
-    - `On all screens, after the facts and the read text, the user is offered quick navigation with three buttons. Return to the **Explore** section on the **Home** page which would happen by pressing the **Planets** button positioned in the middle or selecting the next / previous planet displayed through the planet name. The first and last planets have an activated page where we are letting us know that we are at the beginning or on the end. When button with active planet is pressed the page will scroll to the top of selected page.`
+    - `On all screens, after the facts and the read text, the user is offered quick navigation with three buttons. Return to the **Explore** section on the **Home** page which would happen by pressing the **Planets** button positioned in the middle or selecting the next / previous planet displayed through the planet name. The first and last planets have an activated page where we are letting us know that we are at the beginning or on the end. When button with active planet is pressed the page will scroll to the top of active page.`
 
 * `Quick navigation when we are on planet ** Mercury **, planet ** Earth ** and planet ** Neptune **`
 
 <div align="center">
-<img src="/readme_files/features/navbar/quick_nav_first_active.jpg" target="_blank" rel="noopener" width="200" alt="Quick navigation with first page actived">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/readme_files/features/navbar/quick_nav.jpg" target="_blank" rel="noopener" width="200" alt="Quick navigation with three button">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/readme_files/features/navbar/quick_nav_last_active.jpg" target="_blank" rel="noopener" width="200" alt="Quick navigation with last page actived">
+<img src="/readme_files/features/navbar/quick_nav_first_active.png" target="_blank" rel="noopener" width="200" alt="Quick navigation with first page actived">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/readme_files/features/navbar/quick_nav.png" target="_blank" rel="noopener" width="200" alt="Quick navigation with three button">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/readme_files/features/navbar/quick_nav_last_active.png" target="_blank" rel="noopener" width="200" alt="Quick navigation with last page actived">
 </div>
 
 * **Images of the planets** have a transparent background leaving only the planet visible to the user as the image of the universe is behind the planets we get the floating effect I mentioned earlier.
