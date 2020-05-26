@@ -77,7 +77,7 @@
 
 ## Design
 
- This project was developed with a focus on a mobile approach first. However, with full responsiveness on other screen sizes.
+This project was developed with a focus on a mobile approach first. However, with full responsiveness on other screen sizes.
 I used the jumbotron, grids, nav, cards, forms, table, carousel and bootstrap in this project.
 The main idea for the design of this project was to have a serious and professional appearance, transparent navbar, black background to highlight images of space objects, which convey sophistication and provide a pleasant user experience.
 ~~I used the two icons on the home page to clarify what the user should do when they first come to the page, I made them clicable so that the user is taken to the content by pressing~~.
@@ -124,23 +124,23 @@ Wireframes were designed with [Balsamiq Wireframes](https://balsamiq.com/wirefra
 
 ### Layout
 
-- This is a multi-page layout, but designed with simplicity in mind. The home page displays the navbar with dropdown menu and jumbotron in middle, below the header text is Explore message/button which allows the user to find information very quickly without the need to have to search for it.
+This is a multi-page layout, but designed with simplicity in mind. The home page displays the navbar with dropdown menu and jumbotron in middle, below the header text is Explore message/button which allows the user to find information very quickly without the need to have to search for it.
 
 ### Buttons
 
-- Buttons on this application are made with **Bootstrap**. Big and easy to use.
+Buttons on this application are made with **Bootstrap**. Big and easy to use.
 
 ### Font
 
-- Two fonts used are a google fonts called **Robotto** and **Girassol**.
+Two fonts used are a google fonts called **Robotto** and **Girassol**.
 
 ### `Smooth Scroll`
 
-- `On the whole site is added **Smooth Scroll**. One of testers says that scroll is too strong when **Explore** message / button is pressed.`
+`On the whole site is added **Smooth Scroll**. One of testers says that scroll is too strong when **Explore** message / button is pressed.`
 
 ### `Shadows`
 
-- `Black Shadows are added on **Navigation bar**, **Jumbotron** , **Explore** section and on all **Buttons**.` 
+`Black Shadows are added on **Navigation bar**, **Jumbotron** , **Explore** section and on all **Buttons**.` 
 
 ## Existing Features
 
@@ -219,7 +219,7 @@ For the background for landing page i have chosen dark black-blue image with ora
 
 ###  Explore section and Buttons
 
-* **The Explore** section contains pictures of all the planets offered on the site and one fact about each planet, it also contains a button with the message **Read more** that changes color when hover over it and clicking on it leads the user to a page about the planet he is interested in.
+**The Explore** section contains pictures of all the planets offered on the site and one fact about each planet, it also contains a button with the message **Read more** that changes color when hover over it and clicking on it leads the user to a page about the planet he is interested in.
 
 * **Buttons**
 with the **Read more** message are designed using a **[Bootstrap](https://getbootstrap.com/)**, are orange in color and ~~change slightly to a lighter shade of orange~~  when hover over it on detskop screens changes color providing user information that he can make action whit it.
