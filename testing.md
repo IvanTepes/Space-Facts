@@ -15,7 +15,7 @@
   * [Meeting the needs of the user stories](#meeting-the-needs-of-the-user-stories--as-described-in-the-ux-section-of-this-readme-file-)
 
 ## Development
-- During the development of this project, I had the experience of facing some problems. Browser used for testing application during development was **[Google Chrome](https://www.google.com/chrome/)** and **[Dev Tools](https://developers.google.com/web/tools/chrome-devtools)** from same browser. For audit the site i have used **[Lighthouse](https://developers.google.com/web/tools/lighthouse/)** from **Chrome DevTools**. Exhaustively testing the functionality of each part of the application and managed to solve most of the problems that i have came across before writing this document. However how process of testing is being expanding on different browsers and different devices some problems are found and noticed. Some of them I have solved and corrected, some remained uncorrected until the end of the test, and as my skills and knowledge develop, hopefully i will be able to eliminate them.
+During the development of this project, I had the experience of facing some problems. Browser used for testing application during development was **[Google Chrome](https://www.google.com/chrome/)** and **[Dev Tools](https://developers.google.com/web/tools/chrome-devtools)** from same browser. For audit the site i have used **[Lighthouse](https://developers.google.com/web/tools/lighthouse/)** from **Chrome DevTools**. Exhaustively testing the functionality of each part of the application and managed to solve most of the problems that i have came across before writing this document. However how process of testing is being expanding on different browsers and different devices some problems are found and noticed. Some of them I have solved and corrected, some remained uncorrected until the end of the test, and as my skills and knowledge develop, hopefully i will be able to eliminate them.
 
 I received help from some family members and friends to do the tests on application.
 
@@ -63,7 +63,7 @@ This was the primary method of testing the application. People were asked to vis
 
 ## Testing functionality of the site on varied browsers and devices.
 
-* **Navigation Bar functionality testing**
+* **Navigation Bar** functionality testing
 
 <center>
 
@@ -89,7 +89,7 @@ This was the primary method of testing the application. People were asked to vis
 
 </center>
 
-* Testing functionality of **Call-to-action** button / message, **Explore section** and **Footer** 
+* Testing functionality of **Explore** button / message, **Explore section** and **Footer** 
 
 <center>
 
@@ -112,15 +112,15 @@ This was the primary method of testing the application. People were asked to vis
 
 </center>
 
-* Testing functionality of **Quick navigation** buttons for small (mobile) and medium screens (tablets).
+* Testing functionality of **Quick navigation** buttons.
 
 <center>
 
-|   Action	|   Expetation	|   Mobile 	|   Tablets 	|
-|---	|:-:	|:-:	|:-:	|
-|   Pressed **Active** page button (Marcury / Neptune)	|   Scroll to top of page	|   PASS	|   PASS	|
-|   Pressed **Planets** button on any page on site	|   Go to **Explore** section on **Home** page	|   PASS	|   PASS	|
-|   Pressed any **Next / Previous** button	|   Go to **Next / Previous** page	|   PASS	|   PASS	|
+|   Action	|   Expetation	|   Mobile 	|   Tablets 	|   Detskop 	|
+|---	|:-:	|:-:	|:-:	|:-:	|
+|   Pressed **Active** page button (Marcury / Neptune)	|   Scroll to top of page	|   PASS	|   PASS	|   PASS	|
+|   Pressed **Planets** button on any page on site	|   Go to **Explore** section on **Home** page	|   PASS	|   PASS	|   PASS	|
+|   Pressed any **Next / Previous** button	|   Go to **Next / Previous** page	|   PASS	|   PASS	|   PASS	|
 
 </center>
 
