@@ -484,18 +484,14 @@ h1, h2, h3, h5 {
 /* Bg image */
 
 .planets--section {
-    background: url("../images/planet_background.jpg") no-repeat top fixed;
+    height: 100vh;
+    padding-left: 0px;
+    padding-right: 0px;
+    background: url("../images/planet_background.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
-    position: relative;
 }
 
 /* Carousel */
